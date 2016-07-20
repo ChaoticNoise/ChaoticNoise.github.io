@@ -1,0 +1,347 @@
+body {
+  transition: .75s;
+  color: white;
+  margin: auto;
+  background: #000000;
+  background-image: url("../images/home.jpg");
+  background-position: 52% 0;
+  background-repeat: no-repeat;
+  background-size: auto 1290px;
+  font-family: 'Economica', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+body .photocredit {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  font-size: 18px;
+  color: white;
+  z-index: 88888888;
+}
+
+body .photocredit.espressobuzz {
+  display: none;
+}
+
+body.about {
+  background-image: url("../images/about.jpg");
+  background-position: 74% 9%;
+  background-repeat: no-repeat;
+  background-size: auto 2200px;
+}
+
+body.mission {
+  background-image: url("../images/home.jpg");
+  background-position: 29% 9%;
+  background-repeat: no-repeat;
+  background-size: auto 1290px;
+}
+
+body.events {
+  background-image: url("../images/events.jpg");
+  background-position: 51% 9%;
+  background-repeat: no-repeat;
+  background-size: auto 1290px;
+}
+
+body.events .photocredit.espressobuzz {
+  display: block;
+}
+
+body.events .photocredit.irdeep {
+  display: none;
+}
+
+body.booking {
+  background-image: url("../images/book.jpg");
+  background-position: 34% 22%;
+  background-repeat: no-repeat;
+  background-size: auto 1920px;
+}
+
+body.recruitment {
+  background-image: url("../images/home.jpg");
+  background-position: 29% 9%;
+  background-repeat: no-repeat;
+  background-size: auto 1290px;
+}
+
+.main {
+  width: 100%;
+  min-width: 100%x;
+  padding-top: 23px;
+}
+
+.menu {
+  display: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.smallmenu {
+  opacity: .8;
+  transition: .75s;
+  position: fixed;
+  bottom: -361px;
+  left: 0;
+  width: 360px;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2000999999;
+  height: 361px;
+}
+
+@media (min-width: 960px) {
+  .smallmenu {
+    bottom: 0;
+    width: 192px;
+  }
+}
+
+.smallmenu a {
+  text-decoration: none;
+  color: #FFF;
+  line-height: 80px;
+  padding-left: 20px;
+  padding-left: 56px;
+}
+
+@media (min-width: 960px) {
+  .smallmenu a {
+    padding-left: 20px;
+  }
+}
+
+.showSmallMenu .smallmenu {
+  bottom: 0;
+}
+
+.showSmallMenu .info {
+  opacity: 0 !important;
+}
+
+.smallMenuItem {
+  width: 100%;
+  height: 70px;
+  font-size: 58px;
+  cursor: pointer;
+}
+
+.smallMenuItem div {
+  display: inline-block;
+}
+
+.facebook, .twitter {
+  height: 50px;
+  width: 50px;
+}
+
+.twitter {
+  margin-left: 10px;
+}
+
+.info {
+  transition: .75s;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  right: 0;
+  top: 350px;
+  width: 75%;
+  text-align: center;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 3000;
+}
+
+.events .eventsInfo {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.about .aboutInfo {
+  opacity: 1;
+}
+
+.booking .bookingInfo {
+  opacity: 1;
+}
+
+.smalllogo {
+  width: 271px;
+  height: 298px;
+  margin: auto;
+  background: url("../images/logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.hamburger {
+  transition: .75s;
+  position: fixed;
+  bottom: 0px;
+  display: block;
+  /* mk */
+  left: 0px;
+  height: 50px;
+  width: 50px;
+  z-index: 2001;
+  opacity: .8;
+}
+
+@media (min-width: 960px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.underlay {
+  width: 100%;
+  background-position: initial;
+  background-repeat: no-repeat;
+}
+
+.h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+}
+
+.logo {
+  display: none;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background: url("../images/logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.top {
+  /* height:2000px; */
+  z-index: 2000;
+}
+
+.event {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.eventName {
+  font-size: 30px;
+}
+
+.location {
+  font-size: 24px;
+}
+
+.smash .location {
+  margin-bottom: 10px;
+}
+
+.time {
+  font-size: 24px;
+}
+
+.smash .time {
+  margin-bottom: 10px;
+}
+
+.main {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  min-width: 100%;
+}
+
+.menu {
+  display: none;
+  height: 322px;
+  width: 960px;
+  margin: auto;
+  padding-top: 20px;
+  position: relative;
+  font-size: 43px;
+}
+
+.menuInner {
+  margin: auto;
+}
+
+.leftMenu {
+  position: absolute;
+  left: 0;
+  top: 101px;
+}
+
+.rightMenu {
+  position: absolute;
+  right: 0px;
+  top: 101px;
+}
+
+.leftMenu .menuItem {
+  float: left;
+  margin-right: 20px;
+}
+
+.rightMenu .menuItem {
+  float: left;
+  margin-left: 20px;
+}
+
+.menuItem {
+  height: 100%;
+}
+
+.menuItem.right {
+  float: left;
+}
+
+.menuItem.left {
+  float: right;
+}
+
+.social {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.facebook {
+  display: inline-block;
+  background: url("../images/fb.png");
+  background-size: 100%;
+}
+
+.twitter {
+  display: inline-block;
+  background: url("../images/twitter.png");
+  background-size: 100%;
+}
+
+.facebook, .twitter {
+  width: 50px;
+  height: 50px;
+}
+
+a.twitterLink {
+  padding-left: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -19,10 +19,7 @@ body .photocredit {
   font-size: 18px;
   color: white;
   z-index: 88888888;
-}
-
-body .photocredit.espressobuzz {
-  display: none;
+  display: block;
 }
 
 body.about {
@@ -46,14 +43,6 @@ body.events {
   background-size: auto 1290px;
 }
 
-body.events .photocredit.espressobuzz {
-  display: block;
-}
-
-body.events .photocredit.irdeep {
-  display: none;
-}
-
 body.booking {
   background-image: url("../images/book.jpg");
   background-position: 34% 22%;
@@ -61,11 +50,11 @@ body.booking {
   background-size: auto 1920px;
 }
 
-body.recruitment {
-  background-image: url("../images/home.jpg");
-  background-position: 29% 9%;
+body.fundRaiser {
+  background-image: url("../images/fund_raiser.jpg");
+  background-position: 30% 40%;
   background-repeat: no-repeat;
-  background-size: auto 1290px;
+  background-size: auto 1920px;
 }
 
 .main {
@@ -170,6 +159,10 @@ a {
 }
 
 .booking .bookingInfo {
+  opacity: 1;
+}
+
+.fundRaiser .fundRaiserInfo {
   opacity: 1;
 }
 

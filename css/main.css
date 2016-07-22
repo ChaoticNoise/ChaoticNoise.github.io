@@ -164,7 +164,25 @@ a {
 
 .fundRaiser .fundRaiserInfo {
   opacity: 1;
+  pointer-events: all;
 }
+
+.fundRaiser .fundRaiserInfo p {
+  text-align: left;
+}
+
+.video-container {
+  margin: 0 auto;
+  max-width: 560px;
+  height: 315px;
+  overflow: hidden;
+}
+
+.video-container iframe{
+  width: 100%;
+  height: 100%;
+}
+
 
 .smalllogo {
   width: 271px;

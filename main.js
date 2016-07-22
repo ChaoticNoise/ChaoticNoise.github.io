@@ -27,28 +27,50 @@
       $(".photocredit a").text("Photo credit: " + credits[credit]['text']);
     };
 
-    $(".aboutMenuItem").click(function () {
-        removeAll();
-        $("body").addClass("about");
-        setPhotoCredit('irdeep');
-    });
-    $(".eventsMenuItem").click(function () {
-        removeAll();
-        $("body").addClass("events");
-        setPhotoCredit('espressobuzz');
-    });
-    $(".bookingMenuItem").click(function () {
-        removeAll();
-        $("body").addClass("booking");
-        setPhotoCredit('irdeep');
-    });
-    $(".fundRaiserMenuItem").click(function () {
-        removeAll();
-        $("body").addClass("fundRaiser");
-        setPhotoCredit('eschewed')
-    });
+    var openAboutPage = function () {
+      removeAll();
+      $("body").addClass("about");
+      setPhotoCredit('irdeep');
+    };
+
+    var openEventsPage = function () {
+      removeAll();
+      $("body").addClass("events");
+      setPhotoCredit('espressobuzz');
+    };
+
+    var openBookingPage = function () {
+      removeAll();
+      $("body").addClass("booking");
+      setPhotoCredit('irdeep');
+    };
+
+    var openFundRaiserPage = function () {
+      removeAll();
+      $("body").addClass("fundRaiser");
+      setPhotoCredit('eschewed')
+    };
+
+    $(".aboutMenuItem").click(openAboutPage);
+    $(".eventsMenuItem").click(openEventsPage);
+    $(".fundRaiserMenuItem").click(openFundRaiserPage);
+    $(".bookingMenuItem").click(openBookingPage);
     $(".smalllogo").click(function () {
         removeAll();
         setPhotoCredit('irdeep');
     });
+
+    // Handle url anchor and open page
+    var page = window.location.hash;
+    if (page == "#about"){
+      openAboutPage();
+    }else if (page == "#music"){
+      // TODO
+    }else if (page == "#events"){
+      openEventsPage();
+    }else if (page == "#bussy"){
+      openFundRaiserPage();
+    }else if (page == "#contact"){
+      openBookingPage();
+    }
 });

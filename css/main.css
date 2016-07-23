@@ -183,6 +183,41 @@ a {
   height: 100%;
 }
 
+.gift-item {
+  float: left;
+  position: relative;
+  width: 250px;
+  height: 530px;
+  padding: 10px;
+  border: thin solid white;
+  margin: 0 10px 10px 0;
+}
+
+.gift-item img {
+  width: 100%;
+}
+
+.gift-footer {
+  text-align: left;
+  position: absolute;
+  bottom: 10px;
+  left: 10;
+  width: 255px;
+}
+
+.gift-item form {
+  float: right;
+  display: inline-block;
+  height: 30px;
+}
+
+.gift-item h3 {
+  margin: 0 0 10px 0;
+}
+
+.gift-item p {
+  margin-bottom: 5px;
+}
 
 .smalllogo {
   width: 271px;

@@ -187,9 +187,9 @@ a {
   float: left;
   position: relative;
   width: 250px;
-  height: 530px;
+  height: 590px;
   padding: 10px;
-  border: thin solid white;
+  border: thin solid #333;
   margin: 0 10px 10px 0;
 }
 
@@ -205,18 +205,25 @@ a {
   width: 255px;
 }
 
-.gift-item form {
-  float: right;
-  display: inline-block;
+.gift-footer form {
+  margin: 0 auto;
+  width: 100px;
+  display: block;
   height: 30px;
 }
 
-.gift-item h3 {
-  margin: 0 0 10px 0;
+.gift-header {
+  text-align: right;
+}
+
+.gift-header h3 {
+  float: left;
+  display: block;
+  margin: 0 0;
 }
 
 .gift-item p {
-  margin-bottom: 5px;
+  margin: 0 0;
 }
 
 .smalllogo {

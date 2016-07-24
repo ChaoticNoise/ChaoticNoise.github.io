@@ -183,6 +183,13 @@ a {
   height: 100%;
 }
 
+.fundraiser-info {
+  margin-bottom: 20px;
+}
+#daysleft-num {
+  font-size: 3em;
+}
+
 .gift-item {
   float: left;
   position: relative;

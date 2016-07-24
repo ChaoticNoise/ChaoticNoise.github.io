@@ -73,4 +73,11 @@
     }else if (page == "#contact"){
       openBookingPage();
     }
+
+    // Bussy Fund Raiser Days left
+    var day = 24*60*60*1000;
+    var today = new Date();
+    var lastday = new Date(2016, 8, 1);
+    var daysleft = Math.round(Math.abs((lastday.getTime() - today.getTime())/(day)));
+    $("#daysleft-num").text("" + daysleft + " days left");
 });

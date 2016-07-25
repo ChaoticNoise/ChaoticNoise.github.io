@@ -183,11 +183,46 @@ a {
   height: 100%;
 }
 
-.fundraiser-info {
+.raised-daysleft-info {
+  position: relative;
   margin-bottom: 20px;
+  padding: 10px 10px 30px 10px;
+  border: thin solid #333;
+  width: 100%;
 }
-#daysleft-num {
-  font-size: 3em;
+.raised {
+  height: 60px;
+  display: inline-block;
+  min-width: 400px;
+}
+.daysleft {
+  display: inline-block;
+  font-size: 40px;
+  margin-right: 20px;
+  min-width: 250px;
+}
+.raised .begin {
+  position: absolute;
+  left: 0px;
+}
+.raised .end {
+  position: absolute;
+  left: 362px;
+}
+.raised .line {
+  position: absolute;
+  left: 50px;
+}
+.raised .bus {
+  position: absolute;
+  left: 50px;
+}
+
+.gift-container {
+  position: relative;
+  width: 100%;
+  min-height: 590px;
+  padding-top: 20px;
 }
 
 .gift-item {
@@ -271,6 +306,7 @@ a {
 
 .h1 {
   font-size: 50px;
+  line-height: 50px;
   margin-bottom: 30px;
 }
 

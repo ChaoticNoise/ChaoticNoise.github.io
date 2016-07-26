@@ -4,6 +4,7 @@ body {
   margin: auto;
   background: #000000;
   background-image: url("../images/home.jpg");
+  background-attachment: fixed;
   background-position: 52% 0;
   background-repeat: no-repeat;
   background-size: auto 1290px;
@@ -56,7 +57,6 @@ body.music {
   background-repeat: no-repeat;
   background-size: auto 1290px;
 }
-
 
 body.fundRaiser {
   background-image: url("../images/fund_raiser.jpg");

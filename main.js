@@ -8,6 +8,7 @@
     });
     var removeAll = function () {
         $("body").removeClass('about');
+        $("body").removeClass('music');
         $("body").removeClass('events');
         $("body").removeClass('booking');
         $("body").removeClass('fundRaiser');
@@ -33,6 +34,12 @@
       setPhotoCredit('irdeep');
     };
 
+    var openMusicPage = function () {
+      removeAll();
+      $("body").addClass("music");
+      setPhotoCredit('eschewed');
+    };
+
     var openEventsPage = function () {
       removeAll();
       $("body").addClass("events");
@@ -52,6 +59,7 @@
     };
 
     $(".aboutMenuItem").click(openAboutPage);
+    $(".musicMenuItem").click(openMusicPage);
     $(".eventsMenuItem").click(openEventsPage);
     $(".fundRaiserMenuItem").click(openFundRaiserPage);
     $(".bookingMenuItem").click(openBookingPage);
@@ -65,7 +73,7 @@
     if (page == "#about"){
       openAboutPage();
     }else if (page == "#music"){
-      // TODO
+      openMusicPage();
     }else if (page == "#events"){
       openEventsPage();
     }else if (page == "#bussy"){

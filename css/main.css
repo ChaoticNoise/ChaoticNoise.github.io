@@ -50,6 +50,14 @@ body.booking {
   background-size: auto 1920px;
 }
 
+body.music {
+  background-image: url("../images/music.jpg");
+  background-position: 69% 22%;
+  background-repeat: no-repeat;
+  background-size: auto 1290px;
+}
+
+
 body.fundRaiser {
   background-image: url("../images/fund_raiser.jpg");
   background-position: 30% 40%;
@@ -162,11 +170,16 @@ a {
   opacity: 1;
 }
 
+.music .musicInfo {
+  opacity: 1;
+}
+
 .fundRaiser .fundRaiserInfo {
   opacity: 1;
   pointer-events: all;
 }
 
+/** bussy fundraiser style **/
 .fundRaiser .fundRaiserInfo p {
   text-align: left;
 }
@@ -248,7 +261,28 @@ a {
 .gift-item p {
   margin: 0 0;
 }
+/** bussy fundraiser style end **/
 
+/** music style **/
+.album-container {
+  position: relative;
+  width: 100%;
+}
+
+.album-item {
+  display: block;
+  max-width: 350px;
+  margin: 0 5%;
+  float: left;
+}
+
+.album-item iframe {
+  width: 100%;
+  height: 470px;
+  border: 0;
+}
+
+/** music style end **/
 .smalllogo {
   width: 271px;
   height: 298px;

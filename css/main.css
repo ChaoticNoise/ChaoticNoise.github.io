@@ -76,12 +76,12 @@ a {
   opacity: .8;
   transition: .75s;
   position: fixed;
-  bottom: -361px;
+  bottom: -431px;
   left: 0;
   width: 360px;
   background: rgba(0, 0, 0, 0.7);
   z-index: 2000999999;
-  height: 361px;
+  height: 431px;
 }
 
 @media (min-width: 960px) {

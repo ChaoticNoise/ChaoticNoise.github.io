@@ -184,38 +184,19 @@ a {
 }
 
 .raised-daysleft-info {
-  position: relative;
   margin-bottom: 20px;
-  padding: 10px 10px 30px 10px;
+  padding: 10px 10px;
   border: thin solid #333;
-  width: 100%;
-}
-.raised {
-  height: 60px;
-  display: inline-block;
-  min-width: 400px;
 }
 .daysleft {
   display: inline-block;
   font-size: 40px;
+  line-height: 45px;
   margin-right: 20px;
   min-width: 250px;
 }
-.raised .begin {
-  position: absolute;
-  left: 0px;
-}
-.raised .end {
-  position: absolute;
-  left: 362px;
-}
-.raised .line {
-  position: absolute;
-  left: 50px;
-}
-.raised .bus {
-  position: absolute;
-  left: 50px;
+.raised img {
+  width: 80%;
 }
 
 .gift-container {

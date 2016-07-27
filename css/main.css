@@ -53,14 +53,14 @@ body.booking {
 
 body.music {
   background-image: url("../images/music.jpg");
-  background-position: 69% 22%;
+  background-position: 69% 45%;
   background-repeat: no-repeat;
   background-size: auto 1290px;
 }
 
 body.fundRaiser {
   background-image: url("../images/fund_raiser.jpg");
-  background-position: 30% 40%;
+  background-position: 15% 45%;
   background-repeat: no-repeat;
   background-size: auto 1920px;
 }

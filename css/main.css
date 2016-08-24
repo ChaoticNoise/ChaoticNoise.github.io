@@ -168,10 +168,12 @@ a {
 
 .booking .bookingInfo {
   opacity: 1;
+  pointer-events: all;
 }
 
 .music .musicInfo {
   opacity: 1;
+  pointer-events: all;
 }
 
 .fundRaiser .fundRaiserInfo {

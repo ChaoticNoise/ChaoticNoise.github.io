@@ -76,19 +76,15 @@
         setPhotoCredit('irdeep');
     });
 
-    // Handle url anchor and open page
-    var page = window.location.hash;
-    if (page == "#about"){
-      openAboutPage();
-    }else if (page == "#music"){
-      openMusicPage();
-    }else if (page == "#events"){
-      openEventsPage();
-    }else if (page == "#bussy"){
-      openFundRaiserPage();
-    }else if (page == "#shitshow"){
-      openShitShowPage();
-    }else if (page == "#contact"){
-      openBookingPage();
-    }
+
+    var routes = {
+      '/about' : openAboutPage,
+      '/music' : openMusicPage,
+      '/events' : openEventsPage,
+      '/bussy' : openFundRaiserPage,
+      '/shitshow' : openShitShowPage,
+      '/contact' : openBookingPage
+    };
+    var router = Router(routes);
+    router.init();
 });

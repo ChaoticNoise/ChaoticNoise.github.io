@@ -12,6 +12,7 @@
         $("body").removeClass('events');
         $("body").removeClass('booking');
         $("body").removeClass('fundRaiser');
+        $("body").removeClass('shitShow');
 
         $("body").removeClass("showSmallMenu");
         window.scrollTo(0,0);
@@ -58,10 +59,17 @@
       setPhotoCredit('eschewed')
     };
 
+    var openShitShowPage = function () {
+      removeAll();
+      $("body").addClass("shitShow");
+      setPhotoCredit('eschewed')
+    }
+
     $(".aboutMenuItem").click(openAboutPage);
     $(".musicMenuItem").click(openMusicPage);
     $(".eventsMenuItem").click(openEventsPage);
     $(".fundRaiserMenuItem").click(openFundRaiserPage);
+    $(".shitShowMenuItem").click(openShitShowPage);
     $(".bookingMenuItem").click(openBookingPage);
     $(".smalllogo").click(function () {
         removeAll();
@@ -78,14 +86,9 @@
       openEventsPage();
     }else if (page == "#bussy"){
       openFundRaiserPage();
+    }else if (page == "#shitshow"){
+      openShitShowPage();
     }else if (page == "#contact"){
       openBookingPage();
     }
-
-    // Bussy Fund Raiser Days left
-    var day = 24*60*60*1000;
-    var today = new Date();
-    var lastday = new Date(2016, 8, 1);
-    var daysleft = Math.round(Math.abs((lastday.getTime() - today.getTime())/(day)));
-    $("#daysleft-num").text("" + daysleft + " days left");
 });

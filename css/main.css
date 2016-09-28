@@ -58,6 +58,13 @@ body.music {
   background-size: auto 1290px;
 }
 
+body.shitShow {
+  background-image: url("../images/shitshow.jpg");
+  background-position: 51% 50%;
+  background-repeat: no-repeat;
+  background-size: auto 1290px;
+}
+
 body.fundRaiser {
   background-image: url("../images/fund_raiser.jpg");
   background-position: 15% 45%;
@@ -172,6 +179,11 @@ a {
 }
 
 .music .musicInfo {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.shitShow .shitShowInfo {
   opacity: 1;
   pointer-events: all;
 }

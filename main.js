@@ -13,6 +13,7 @@
         $("body").removeClass('booking');
         $("body").removeClass('fundRaiser');
         $("body").removeClass('shitShow');
+        $("body").removeClass('thankyou');
 
         $("body").removeClass("showSmallMenu");
         window.scrollTo(0,0);
@@ -65,6 +66,12 @@
       setPhotoCredit('eschewed')
     }
 
+    var openThankyouPage = function () {
+      removeAll();
+      $("body").addClass("thankyou");
+      setPhotoCredit('eschewed')
+    }
+
     $(".aboutMenuItem").click(openAboutPage);
     $(".musicMenuItem").click(openMusicPage);
     $(".eventsMenuItem").click(openEventsPage);
@@ -83,7 +90,8 @@
       '/events' : openEventsPage,
       '/bussy' : openFundRaiserPage,
       '/shitshow' : openShitShowPage,
-      '/contact' : openBookingPage
+      '/contact' : openBookingPage,
+      '/thankyou': openThankyouPage
     };
     var router = Router(routes);
     router.init();

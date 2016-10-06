@@ -58,7 +58,7 @@ body.music {
   background-size: auto 1290px;
 }
 
-body.shitShow {
+body.shitShow, body.thankyou {
   background-image: url("../images/shitshow.jpg");
   background-position: 51% 50%;
   background-repeat: no-repeat;
@@ -184,6 +184,11 @@ a {
 }
 
 .shitShow .shitShowInfo {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.thankyou .thankyouInfo {
   opacity: 1;
   pointer-events: all;
 }

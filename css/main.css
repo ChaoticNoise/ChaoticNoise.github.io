@@ -374,6 +374,10 @@ a {
   font-size: 30px;
 }
 
+.eventImage img {
+  width: 90%;
+}
+
 .location {
   font-size: 24px;
 }

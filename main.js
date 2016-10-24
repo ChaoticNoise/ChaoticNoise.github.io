@@ -12,8 +12,6 @@
         $("body").removeClass('events');
         $("body").removeClass('booking');
         $("body").removeClass('fundRaiser');
-        $("body").removeClass('shitShow');
-        $("body").removeClass('thankyou');
 
         $("body").removeClass("showSmallMenu");
         window.scrollTo(0,0);
@@ -60,23 +58,10 @@
       setPhotoCredit('eschewed')
     };
 
-    var openShitShowPage = function () {
-      removeAll();
-      $("body").addClass("shitShow");
-      setPhotoCredit('eschewed')
-    }
-
-    var openThankyouPage = function () {
-      removeAll();
-      $("body").addClass("thankyou");
-      setPhotoCredit('eschewed')
-    }
-
     $(".aboutMenuItem").click(openAboutPage);
     $(".musicMenuItem").click(openMusicPage);
     $(".eventsMenuItem").click(openEventsPage);
     $(".fundRaiserMenuItem").click(openFundRaiserPage);
-    $(".shitShowMenuItem").click(openShitShowPage);
     $(".bookingMenuItem").click(openBookingPage);
     $(".smalllogo").click(function () {
         removeAll();
@@ -89,9 +74,7 @@
       '/music' : openMusicPage,
       '/events' : openEventsPage,
       '/bussy' : openFundRaiserPage,
-      '/shitshow' : openShitShowPage,
-      '/contact' : openBookingPage,
-      '/thankyou': openThankyouPage
+      '/contact' : openBookingPage
     };
     var router = Router(routes);
     router.init();

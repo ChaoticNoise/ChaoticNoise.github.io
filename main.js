@@ -21,7 +21,8 @@
       credits = {
         eschewed: { text: 'eschewed', href: 'https://www.instagram.com/eschewed/'},
         irdeep: { text: 'IRDEEP', href: 'http://irdeep.com/' },
-        espressobuzz: { text: 'EspressoBuzz', href: 'https://www.facebook.com/EspressoBuzzPhotography'}
+        espressobuzz: { text: 'EspressoBuzz', href: 'https://www.facebook.com/EspressoBuzzPhotography'},
+        nattydagger: { text: 'Natália S.', href: 'https://www.instagram.com/nattydagger/'}
       };
 
       $(".photocredit a").attr("href", credits[credit]['href']);
@@ -37,7 +38,7 @@
     var openMusicPage = function () {
       removeAll();
       $("body").addClass("music");
-      setPhotoCredit('eschewed');
+      setPhotoCredit('nattydagger');
     };
 
     var openEventsPage = function () {

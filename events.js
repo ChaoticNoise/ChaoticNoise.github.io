@@ -40,7 +40,7 @@ $(document).ready(function () {
                         "<a href='" + events[i].locationUrl + "'>" + events[i].location + "</a>" +
                         "</div>" +
                         "<div class='time'>" + events[i].datetime + "</div>" +
-                    "</div>"
+                    "</div>";
         $(".eventsInfo").append(event);
     }
 });

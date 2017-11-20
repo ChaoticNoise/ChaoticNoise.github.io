@@ -7,7 +7,7 @@ body {
   background-attachment: fixed;
   background-position: 50% 20%;
   background-repeat: no-repeat;
-  background-size: auto 900px;
+  background-size: auto 100%;
   font-family: 'Economica', sans-serif;
   font-size: 20px;
   line-height: 30px;
@@ -27,42 +27,42 @@ body.about {
   background-image: url("../images/about.jpg");
   background-position: 50% 70%;
   background-repeat: no-repeat;
-  background-size: auto 1290px;
+  background-size: auto 100%;
 }
 
 body.mission {
   background-image: url("../images/home.jpg");
   background-position: 29% 9%;
   background-repeat: no-repeat;
-  background-size: auto 1290px;
+  background-size: auto 100%;
 }
 
 body.events {
   background-image: url("../images/events.jpg");
   background-position: 51% 9%;
   background-repeat: no-repeat;
-  background-size: auto 1290px;
+  background-size: auto 100%;
 }
 
 body.booking {
   background-image: url("../images/book.jpg");
   background-position: 34% 22%;
   background-repeat: no-repeat;
-  background-size: auto 1920px;
+  background-size: 100% auto;
 }
 
 body.music {
   background-image: url("../images/music.jpg");
   background-position: 69% 45%;
   background-repeat: no-repeat;
-  background-size: auto 1290px;
+  background-size: 100% auto;
 }
 
 body.fundRaiser {
   background-image: url("../images/fund_raiser.jpg");
   background-position: 15% 45%;
   background-repeat: no-repeat;
-  background-size: auto 1920px;
+  background-size: auto 100%;
 }
 
 .main {

@@ -5,9 +5,9 @@ body {
   background: #000000;
   background-image: url("../images/home.jpg");
   background-attachment: fixed;
-  background-position: 52% 0;
+  background-position: 50% 20%;
   background-repeat: no-repeat;
-  background-size: auto 1290px;
+  background-size: auto 900px;
   font-family: 'Economica', sans-serif;
   font-size: 20px;
   line-height: 30px;
@@ -25,9 +25,9 @@ body .photocredit {
 
 body.about {
   background-image: url("../images/about.jpg");
-  background-position: 74% 9%;
+  background-position: 50% 70%;
   background-repeat: no-repeat;
-  background-size: auto 2200px;
+  background-size: auto 1290px;
 }
 
 body.mission {

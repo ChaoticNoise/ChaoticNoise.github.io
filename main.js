@@ -22,35 +22,40 @@
         eschewed: { text: 'eschewed', href: 'https://www.instagram.com/eschewed/'},
         irdeep: { text: 'IRDEEP', href: 'http://irdeep.com/' },
         espressobuzz: { text: 'EspressoBuzz', href: 'https://www.facebook.com/EspressoBuzzPhotography'},
-        nattydagger: { text: 'Natália S.', href: 'https://www.instagram.com/nattydagger/'}
+        nattydagger: { text: 'Natália S.', href: 'https://www.instagram.com/nattydagger/'},
+        adamwaz: { text: 'adam waz', href: 'http://www.adamwaz.com/'},
+        hirata: { text: 'Mauricio Hirata', href: '#'},
+        huang: { text: 'Andrew Huang', href: '#'},
+        tiffany: { text: 'Tiffany Smith', href: 'http://www.creatiffity.me/'}
       };
 
       $(".photocredit a").attr("href", credits[credit]['href']);
       $(".photocredit a").text("Photo credit: " + credits[credit]['text']);
     };
+    setPhotoCredit('huang'); // Homepage default
 
     var openAboutPage = function () {
       removeAll();
       $("body").addClass("about");
-      setPhotoCredit('irdeep');
+      setPhotoCredit('adamwaz');
     };
 
     var openMusicPage = function () {
       removeAll();
       $("body").addClass("music");
-      setPhotoCredit('nattydagger');
+      setPhotoCredit('hirata');
     };
 
     var openEventsPage = function () {
       removeAll();
       $("body").addClass("events");
-      setPhotoCredit('espressobuzz');
+      //setPhotoCredit('');
     };
 
     var openBookingPage = function () {
       removeAll();
       $("body").addClass("booking");
-      setPhotoCredit('irdeep');
+      setPhotoCredit('eschewed');
     };
 
     var openFundRaiserPage = function () {

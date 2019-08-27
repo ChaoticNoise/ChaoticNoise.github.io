@@ -59,6 +59,12 @@ body.fundRaiser {
   background-repeat: no-repeat;
 }
 
+body.shitShow {	
+  background-image: url("../images/shitshow.jpg");	
+  background-position: 51% 50%;	
+  background-repeat: no-repeat;	
+  background-size: cover;	
+}
 .main {
   width: 100%;
   min-width: 100%x;
@@ -369,6 +375,26 @@ a {
 
 a.twitterLink {
   padding-left: 20px;
+}
+
+.shitShow .shitShowInfo {	
+  opacity: 1;	
+  pointer-events: all;	
+}
+
+.saleBtn a {
+  display: block;
+  background-color: green;
+  font-size: 2em;
+  font-weight: bold;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  line-height: 1em;
+  border-radius: 10px;
+}
+.saleBtn a:hover {
+  background-color: lightgreen;
 }
 
 /*# sourceMappingURL=main.css.map */

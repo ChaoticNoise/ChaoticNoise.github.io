@@ -12,6 +12,7 @@
         $("body").removeClass('events');
         $("body").removeClass('booking');
         $("body").removeClass('fundRaiser');
+        $("body").removeClass('shitShow');
 
         $("body").removeClass("showSmallMenu");
         window.scrollTo(0,0);
@@ -26,7 +27,8 @@
         adamwaz: { text: 'adam waz', href: 'http://www.adamwaz.com/'},
         hirata: { text: 'Mauricio Hirata', href: '#'},
         huang: { text: 'Andrew Huang', href: '#'},
-        tiffany: { text: 'Tiffany Smith', href: 'http://www.creatiffity.me/'}
+        tiffany: { text: 'Tiffany Smith', href: 'http://www.creatiffity.me/' },
+        dwight: { text: 'Dwight VanTuyl', href: 'https://github.com/breadbeard'}
       };
 
       $(".photocredit a").attr("href", credits[credit]['href']);
@@ -64,10 +66,17 @@
       setPhotoCredit('eschewed')
     };
 
+    var openShitShowPage = function () {
+      removeAll();
+      $("body").addClass("shitShow");
+      setPhotoCredit('dwight')
+    };
+
     $(".aboutMenuItem").click(openAboutPage);
     $(".musicMenuItem").click(openMusicPage);
     $(".eventsMenuItem").click(openEventsPage);
     $(".fundRaiserMenuItem").click(openFundRaiserPage);
+    $(".shitShowMenuItem").click(openShitShowPage);
     $(".bookingMenuItem").click(openBookingPage);
     $(".smalllogo").click(function () {
         removeAll();
@@ -80,7 +89,8 @@
       '/music' : openMusicPage,
       '/events' : openEventsPage,
       '/bussy' : openFundRaiserPage,
-      '/contact' : openBookingPage
+      '/contact': openBookingPage,
+      '/shitshow': openShitShowPage
     };
     var router = Router(routes);
     router.init();

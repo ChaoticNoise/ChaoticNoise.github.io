@@ -1,182 +1,192 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Chaotic Noise Marching Corps</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preload" href="images/media.jpg" as="image">
-	<link rel="preload" href="images/about.jpg" as="image">
-	<link rel="preload" href="images/music.jpg" as="image">
-	<link rel="preload" href="images/events.jpg" as="image">
-	<link rel="preload" href="images/contact.jpg" as="image">
-    <link href="https://fonts.googleapis.com/css?family=Economica:400,700" rel="stylesheet" type="text/css">
-    <script>
-      (function(){
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect != location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
-    </script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-60253572-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+  <title>Chaotic Noise Marching Corps</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 
-<body class="home">
-    <div class="photocredit"><a href="#" target="_blank"></a></div>
-    <div class="smalllogo"></div>
-    <div class="hamburger">
-        <img src="images/hamburger.svg">
+<body>
+
+
+
+
+
+
+
+
+
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Chaotic Noise Marching Corps</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#music">Music</a></li>
+        <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
     </div>
+  </nav>
 
 
 
 
 
-    <div class="smallmenu">
-        <div class="smallMenuItem aboutMenuItem">
-            <a href="#/about">About</a>
-        </div>
-        <div class="smallMenuItem musicMenuItem">
-            <a href="#/music">Music</a>
-        </div>
-		<div class="smallMenuItem mediaMenuItem">
-            <a href="#/media">Media</a>
-        </div>
-        <div class="smallMenuItem eventsMenuItem">
-            <a href="#/events">Events</a>
-        </div>
-        <div class="smallMenuItem bookingMenuItem">
-            <a href="#/contact">Contact</a>
-        </div>
 
 
-        <div class="smallMenuItem">
-            
-            <a class="facebookLink" href="https://www.facebook.com/ChaoticNoiseMarchingCorps">
-                <div class="facebook"></div>
-            </a>
-            
-            <a class="twitterLink" href="https://twitter.com/Chaotic_Noise_">
-                <div class="twitter"></div>
-            </a>
-            
-			<a class="instagramLink" href="https://www.instagram.com/chaoticnoisemarchingcorps/">
-                <div class="instagram"></div>
-            </a>
-            
-        </div>
+
+<!-- Chaotic About Section -->
+
+
+
+<section id="chaoticnoise" class="section chaoticnoise">
+    <div class="overlay"></div>
+    <div class="content text-center">
+<img src="http://v8media.com/bootstrap2/images/chaotic_logo.png" alt="Chaotic Noise Logo" class="logo-image">
+        <p>Chaotic Noise Marching Corps is a Seattle-based renegade marching band dedicated to keeping the tradition of music, performance, energy, havoc, discipline, and sheer fun alive in Seattle’s streets.</p>
+        <p>Founded by committee members and participants of HONK! Fest West as well as other Seattle groups such as Titanium Sporkestra and Sounders FC Soundwave Band, Chaotic Noise produces high-energy shows using various musical genres.</p>
+        <p>Heavily influenced by past projects, Chaotic Noise assures you’ll have lots of fun forgetting how to think, breathe, and act in your everyday lives.</p>
+<!-- Add the rest of the about text here -->
     </div>
+  </section>
 
 
 
 
 
 
-    <div class="info musicInfo">
-      <div class="h1">Music</div>
-      
-      <div class="album-container">
-        <div class="album-item">
-          <iframe src="https://bandcamp.com/EmbeddedPlayer/album=4063386231/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://chaoticnoise.bandcamp.com/album/smashed-at-smash-putt">Smashed at Smash Putt by Chaotic Noise Marching Corps</a></iframe>
-        </div>
-        <div class="album-item">
-          <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3484593177/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://chaoticnoise.bandcamp.com/album/zero-to-lizard-man">Zero to Lizard Man by Chaotic Noise Marching Corps</a></iframe>
-        </div>
-      </div>
-      
-    </div>
 
+<!-- Music Section -->
+<section id="music" class="section music">
+    <div class="overlay"></div>
+    <div class="content text-center">
+        <h2>Music</h2>
 
-
-    <div class="info mediaInfo">
-        <div class="h1">Media</div>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k8AC047aOS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y3dor8P-8bQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iwLNO_lTrjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
- <div class="gallery">
-            <!-- List of images from the gallery folder -->
-<img src="gallery/_DSC7007.jpg">
-
-            
+        <div class="music-item">
+            <div class="embed-wrapper">
+                <iframe src="https://bandcamp.com/EmbeddedPlayer/album=4063386231/size=large" width="100%" height="120px" seamless></iframe>
+            </div>
         </div>
 
-
-
-
-
-    <div class="info eventsInfo">
-        <div class="h1">Events</div>
-        <!-- Add events to the events.js file -->
-    </div>
-
-
-
-
-
-    <div class="info aboutInfo">
-        <div class="h1">About</div>
-        Chaotic Noise Marching Corps is a Seattle based renegade marching band that is dedicated to keeping the tradition of music, performance, energy, havok, discipline and sheer stupid fun alive in Seattle’s streets.
-        <p>
-            Founded by committee members and participants of HONK! Fest West as well as other Seattle groups such as Titanium Sporkestra, and Sounders FC Soundwave Band, Chaotic Noise looks to produce high energy shows using a wide variety of musical genres.
-        </p>
-        <p>
-            Heavily influenced by past projects as well as the likes of The Infernal Noise Brigade, Extra Action Marching Band, and HONK Bands from around the world, Chaotic Noise assures that you will have lots of fun forgetting how to think, breathe and act in
-your everyday lives.
-        </p>
-    </div>
-
-
-
-    <div class="info bookingInfo">
-        <div class="h1">Contact</div>
-        To contact us about booking, membership, collaboration, donations, bus rentals, dates, cheap labor, political advice, psychological help or limericks, please send an email to: band@chaoticnoise.com
+        <div class="music-item">
+            <div class="embed-wrapper">
+                <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3484593177/size=large" width="100%" height="120px" seamless></iframe>
+            </div>
+        </div>
 
     </div>
+</section>
 
 
-    <div class="info fundRaiserInfo">
-        <div class="h1">Fund Raise Bussy From the Dead!</div>
-        <p>
-          Dear Patrons of Chaotic Noise,
-        </p>
-        <p>
-          Our fund raiser has ended with a grand total of $1,544. Though we only raised 23% of our original goal, please know that we greatly appreciate the generosity and support we have received from you our fans and family! 
-        </p>
-        <p>
-          Along with other funds, loans, and the money provided from donors like you, we've managed to get Bussy a new beating heart. She is now back within our care, roaring louder than ever in the streets of Seattle. It's been a long summer without Bussy, but we're looking forward to loading her back up for our next adventure.
-        </p>
-        <p>
-          With love and respect from the entire band of Chaotic Noise Marching Corps,
-          <br/>
-          Thank You!
-        </p>
-        <p style="color: #3B27A1; background-color: #111111">
-          <b>Anna Bell</b> * Christina Sears * Dennis Crowley * Derek Wingfield * Evan Farnsworth * <b>Gen. Garth Donald</b> * Jacqui DuBois * Kai Strandskov
-           * Mary Ellen Bowers * Michael Black * Sonya Gabrielson * <b>Tom Bates</b> * ZVCS
-        </p>
+
+
+
+
+<!-- Media Section -->
+<section id="media" class="section media">
+    <div class="overlay"></div>
+    <div class="content text-center">
+        <h2>Media</h2>
+
+        <iframe src="https://www.youtube.com/embed/k8AC047aOS0" width="80%" height="45%" style="aspect-ratio: 16/9;" frameborder="0" allowfullscreen></iframe>
+
+        <iframe src="https://www.youtube.com/embed/Y3dor8P-8bQ" width="80%" height="45%" style="aspect-ratio: 16/9;" frameborder="0" allowfullscreen></iframe>
+
+        <iframe src="https://www.youtube.com/embed/iwLNO_lTrjI" width="80%" height="45%" style="aspect-ratio: 16/9;" frameborder="0" allowfullscreen></iframe>
+
     </div>
+</section>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-    <script src="director.min.js"></script>
-    <script src="main.js"></script>
-    <script src="events.js"></script>
+
+
+
+
+
+
+
+<!-- Events Section -->
+<section id="events" class="section events">
+    <div class="overlay"></div>
+    <div class="content text-center">
+        <h2>Events</h2>
+        <div class="eventsInfo"></div> <!-- This is where events will be added -->
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section id="contact" class="section contact">
+    <div class="overlay"></div>
+    <div class="content text-center">
+        <h2>Contact</h2>
+
+        <div class="contact-sections">
+            <!-- Reach Out Section (60%) -->
+            <div class="reach-out">
+                <h6>Reach out to Chaotic Noise</h6>
+                <p>To contact us about booking, membership, collaboration, donations, bus rentals, dates, cheap labor, political advice, psychological help, or limericks, please contact us below, or to the right on social media:</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="band@chaoticnoise.com">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <input type="submit" class="btn btn-secondary btn-block" value="Send">
+                </form>
+            </div>
+
+            <!-- Socials Section (30%) -->
+            <div class="socials">
+                <h6>Socials</h6>
+                <p>
+                    <a href="mailto:band@chaoticnoise.com">Email</a><br>
+                    <a href="https://www.instagram.com/chaoticnoisemarchingcorps/" target="_blank">Instagram</a><br>
+                    <a href="https://www.youtube.com/watch?v=PtqQTrtEqRA&list=PLani7PlzCG9SGMSGa8CWF277DCYzanS0u"target="_blank">YouTube</a><br>
+                    <a href="https://www.facebook.com/ChaoticNoiseMarchingCorps/" target="_blank">Facebook</a><br>
+                    <a href="https://twitter.com/chaotic_noise_" target="_blank">Twitter</a><br>
+                    <a href="https://patreon.com/ChaoticNoiseMC" target="_blank">Patreon</a><br>
+                    <a href="https://chaotic-noise-marching-corps.creator-spring.com" target="_blank">Merch</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Copyright Section (centered below) -->
+<div class="copyright">
+    ©<span id="current-year"></span> Chaotic Noise Marching Corps
+</div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+
 </body>
 
 </html>

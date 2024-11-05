@@ -9,6 +9,7 @@
     var removeAll = function () {
         $("body").removeClass('about');
         $("body").removeClass('music');
+        $("body").removeClass('media');
         $("body").removeClass('events');
         $("body").removeClass('booking');
         $("body").removeClass('fundRaiser');
@@ -28,7 +29,8 @@
         hirata: { text: 'Mauricio Hirata', href: '#'},
         huang: { text: 'Andrew Huang', href: '#'},
         tiffany: { text: 'Tiffany Smith', href: 'http://www.creatiffity.me/' },
-        dwight: { text: 'Dwight VanTuyl', href: 'https://github.com/breadbeard'}
+        dwight: { text: 'Dwight VanTuyl', href: 'https://github.com/breadbeard'},
+        pageechols: { text: 'Ian Page-Echols', href: 'https://v8media.com'}
       };
 
       $(".photocredit a").attr("href", credits[credit]['href']);
@@ -46,6 +48,19 @@
       removeAll();
       $("body").addClass("music");
       setPhotoCredit('hirata');
+    };
+    
+    var openMediaPage = function () {
+      removeAll();
+      $("body").addClass("media");
+      setPhotoCredit('pageechols');
+
+    // Re-trigger Instagram embeds
+   setTimeout(function() {
+        if (window.instgrm && window.instgrm.Embeds && typeof window.instgrm.Embeds.process === 'function') {
+            window.instgrm.Embeds.process(); // Process the embeds
+        }
+    }, 500);  // You can adjust the delay if needed
     };
 
     var openEventsPage = function () {
@@ -74,6 +89,7 @@
 
     $(".aboutMenuItem").click(openAboutPage);
     $(".musicMenuItem").click(openMusicPage);
+    $(".mediaMenuItem").click(openMediaPage);
     $(".eventsMenuItem").click(openEventsPage);
     $(".fundRaiserMenuItem").click(openFundRaiserPage);
     $(".shitShowMenuItem").click(openShitShowPage);
@@ -87,6 +103,7 @@
     var routes = {
       '/about' : openAboutPage,
       '/music' : openMusicPage,
+      '/media' : openMediaPage,
       '/events' : openEventsPage,
       '/bussy' : openFundRaiserPage,
       '/contact': openBookingPage,

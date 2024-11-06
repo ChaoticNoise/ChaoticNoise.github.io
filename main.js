@@ -32,11 +32,11 @@ $(document).ready(function () {
             time_display: "October 31, 2024, 6:30 PM"
         },
         {
-            title: "Great Pumpkin Beer Fest 2024",
-            url: "https://www.elysianbrewing.com/gpbf2024",
-            location_display: "Seattle Center",
-            location_url: "http://maps.google.com/?q=Seattle%20Center",
-            time_display: "October 05, 2024, 7:40 PM"
+            title: "Boulderfest competition",
+            url: "https://boulderingproject.com/seattle-boulderfest2024/",
+            location_display: "Seattle Bouldering Project",
+            location_url: "http://maps.google.com/?q=900%20Poplar%20Pl%20S%20Seattle,%20WA%2098144",
+            time_display: "October 12, 2024, 6:00 PM"
         },
         {
             title: "The LAST EVER Hoodstock",
@@ -46,11 +46,11 @@ $(document).ready(function () {
             time_display: "October 12, 2024, 3:30 PM"
         },
         {
-            title: "Boulderfest competition",
-            url: "https://boulderingproject.com/seattle-boulderfest2024/",
-            location_display: "Seattle Bouldering Project",
-            location_url: "http://maps.google.com/?q=900%20Poplar%20Pl%20S%20Seattle,%20WA%2098144",
-            time_display: "October 12, 2024, 3:30 PM"
+            title: "Great Pumpkin Beer Fest 2024",
+            url: "https://www.elysianbrewing.com/gpbf2024",
+            location_display: "Seattle Center",
+            location_url: "http://maps.google.com/?q=Seattle%20Center",
+            time_display: "October 05, 2024, 7:40 PM"
         },
         {
             title: "Wally's House of Booze",

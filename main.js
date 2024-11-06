@@ -64,23 +64,40 @@ $(document).ready(function () {
 
     var today = new Date();
 
-    $.each(events, function(id, event) {
-        var eventDate = new Date(event.time_display); // Converts event date from string
+    // Loop through each event and sort them into upcoming or past
+    $.each(events, function (id, event) {
+        var eventDate = new Date(event.time_display); // Convert event date from string
 
-        // Add 'past-event' class if event date is in the past
-        var eventClass = eventDate < today ? "past-event" : "";
+        // Check if event is in the past
+        if (eventDate < today) {
+            // Past event
+            var eventHtml = "<div class='event past-event'>" +
+                "<div class='eventName'>" +
+                "<a href='" + event.url + "' target='_blank'>" + event.title + "</a>" +
+                "</div>" +
+                "<div class='location'>" +
+                "<a href='" + event.location_url + "' target='_blank'>" + event.location_display + "</a>" +
+                "</div>" +
+                "<div class='time'>" + event.time_display + "</div>" +
+                "</div>";
 
-        var eventHtml = "<div class='event " + eventClass + "'>" +
-            "<div class='eventName'>" +
-            "<a href='" + event.url + "' target='_blank'>" + event.title + "</a>" +
-            "</div>" +
-            "<div class='location'>" +
-            "<a href='" + event.location_url + "' target='_blank'>" + event.location_display + "</a>" +
-            "</div>" +
-            "<div class='time'>" + event.time_display + "</div>" +
-            "</div>";
-        
-        $(".eventsInfo").append(eventHtml);
+            // Append to past events section
+            $("#past-events .eventsInfo").append(eventHtml);
+        } else {
+            // Upcoming event
+            var eventHtml = "<div class='event'>" +
+                "<div class='eventName'>" +
+                "<a href='" + event.url + "' target='_blank'>" + event.title + "</a>" +
+                "</div>" +
+                "<div class='location'>" +
+                "<a href='" + event.location_url + "' target='_blank'>" + event.location_display + "</a>" +
+                "</div>" +
+                "<div class='time'>" + event.time_display + "</div>" +
+                "</div>";
+
+            // Append to upcoming events section
+            $("#upcoming-events .eventsInfo").append(eventHtml);
+        }
     });
 });
 

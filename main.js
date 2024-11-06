@@ -17,7 +17,7 @@ imageSources.forEach(src => {
 $(document).ready(function () {
     var events = [
 
-{
+		{
             title: "The Bad Things Vaudeville Show",
             url: "https://millerscarnation.com/event/the-bad-things-vaudeville-show/",
             location_display: "Miller's Carnation",

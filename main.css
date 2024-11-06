@@ -69,33 +69,36 @@ body {
 
 
 
+
+
+
+
 /* Specific Section Backgrounds */
 #chaoticnoise {
     background-image: url('/images/about_bg_IMG_0310.jpg');
     padding-top: 0;
 }
 
-
 /* Position the content in #chaoticnoise to leave space for the navbar */
 #chaoticnoise .content {
-    width: 80%;             /* Set content width to 80% */
-    max-width: 1200px;      /* Optionally set a max width for larger screens */
-    margin: 0 auto;         /* Center the content */
-    padding-top: 80px;          /* Optional padding for better readability */
-    text-align: center;     /* Center-align text within the container */
+    width: 80%; /* Set content width to 80% */
+    max-width: 1200px; /* Optionally set a max width for larger screens */
+    margin: 0 auto; /* Center the content */
+    padding-top: 80px; /* Optional padding for better readability */
+    text-align: center; /* Center-align text within the container */
 }
 
 #events {
 background-image: url('/images/events_bg_IMG_8397.jpg');}
 
 #music {
-    background-image: url('/images/music_bg_SDIM7112.jpg');}
+background-image: url('/images/music_bg_SDIM7112.jpg');}
 
 #media {
-    background-image: url('/images/media_bg_IMG_1654.jpg');}
+background-image: url('/images/media_bg_IMG_1654.jpg');}
 
 #contact {
-    background-image: url('/images/contact_bg_IMG_0335.jpg');}
+background-image: url('/images/contact_bg_IMG_0335.jpg');}
 
 
 
@@ -116,9 +119,6 @@ background-image: url('/images/events_bg_IMG_8397.jpg');}
     outline: none;             /* Remove any default outline */
     box-shadow: none;          /* Remove any shadow effect */
 }
-
-
-
 
 .video-wrapper {
     width: 100%;              /* Container width */

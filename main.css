@@ -9,6 +9,8 @@ body {
 
 
 
+
+
 /* Navbar */
 
 .navbar {
@@ -31,6 +33,7 @@ body {
     width: 200px;
     margin: 20px 0;
 }
+
 
 
 
@@ -68,7 +71,7 @@ body {
 
 /* Specific Section Backgrounds */
 #chaoticnoise {
-    background-image: url('http://v8media.com/bootstrap3/images/about_bg_IMG_0310.jpg');
+    background-image: url('/images/about_bg_IMG_0310.jpg');
     padding-top: 0;
 }
 
@@ -83,16 +86,16 @@ body {
 }
 
 #events {
-background-image: url('http://v8media.com/bootstrap3/images/events_bg_IMG_8397.jpg');}
+background-image: url('/images/events_bg_IMG_8397.jpg');}
 
 #music {
-    background-image: url('http://v8media.com/bootstrap3/images/music_bg_SDIM7112.jpg');}
+    background-image: url('/images/music_bg_SDIM7112.jpg');}
 
 #media {
-    background-image: url('http://v8media.com/bootstrap3/images/media_bg_IMG_1654.jpg');}
+    background-image: url('/images/media_bg_IMG_1654.jpg');}
 
 #contact {
-    background-image: url('http://v8media.com/bootstrap3/images/contact_bg_IMG_0335.jpg');}
+    background-image: url('/images/contact_bg_IMG_0335.jpg');}
 
 
 

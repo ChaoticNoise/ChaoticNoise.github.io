@@ -24,6 +24,13 @@ $(document).ready(function () {
             location_url: "https://maps.app.goo.gl/ZA1E8ZcNFWpvpRc36",
             time_display: "December 14, 2024, 3:00 PM"
         },
+        {
+            title: "Pun Slam",
+            url: "https://www.eventbrite.com/e/all-stars-one-wild-card-fun-intended-punslam-comedy-wordplay-show-tickets-1045396056747?aff=erelexpmlt",
+            location_display: "Capitol Hill Comedy / Bar",
+            location_url: "https://maps.app.goo.gl/69YvGQpNynpnJqnTA",
+            time_display: "November 27, 2024, 7:00 PM"
+        },
 		{
             title: "The Bad Things Vaudeville Show",
             url: "https://millerscarnation.com/event/the-bad-things-vaudeville-show/",

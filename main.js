@@ -18,6 +18,13 @@ $(document).ready(function () {
     var events = [
 
         {
+            title: "Port Angeles Wintertide Festival of Lights",
+            url: "pafac.kindful.com/e/wintertide-2024",
+            location_display: "Capitol Hill Comedy / Bar",
+            location_url: "https://maps.app.goo.gl/2rAiAaNYwRL7ZNhB8",
+            time_display: "December 7, 2024, 4:00 PM"
+        },
+        {
             title: "Pun Slam",
             url: "https://www.eventbrite.com/e/all-stars-one-wild-card-fun-intended-punslam-comedy-wordplay-show-tickets-1045396056747?aff=erelexpmlt",
             location_display: "Capitol Hill Comedy / Bar",

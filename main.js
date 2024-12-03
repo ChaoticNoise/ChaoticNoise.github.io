@@ -36,7 +36,7 @@ $(document).ready(function () {
             url: "https://www.facebook.com/profile.php?id=100063803760373",
             location_display: "Equinox Studios",
             location_url: "https://maps.app.goo.gl/ZA1E8ZcNFWpvpRc36",
-            time_display: "December 14, 2024, 3:00 PM"
+            time_display: "December 14, 2024, 3:00 PM - 9:00 PM (and later)"
         },
 		{
             title: "The Bad Things Vaudeville Show",

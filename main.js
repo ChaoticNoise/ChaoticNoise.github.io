@@ -22,7 +22,7 @@ $(document).ready(function () {
             url: "pafac.kindful.com/e/wintertide-2024",
             location_display: "Port Angeles Fine Arts Center",
             location_url: "https://maps.app.goo.gl/2rAiAaNYwRL7ZNhB8",
-            time_display: "December 7, 2024, 4:00 PM"
+            time_display: "December 7, 2024, 4:00 PM - 8:00 PM"
         },
         {
             title: "Pun Slam",

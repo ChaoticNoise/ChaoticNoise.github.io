@@ -7,7 +7,6 @@ body {
 
 
 /* Navbar */
-
 .navbar {
     background-color: #000 !important; /* Explicit black background */
     position: fixed;
@@ -120,22 +119,6 @@ body {
 
 
 
-/* Form Styles */
-.form-control {
-    background: #444;
-    border: none;
-    color: #ebebeb;}
-
-.btn-secondary {
-    background-color: #185cc9;
-    border-color: #000;}
-
-.btn-secondary:hover {
-    background-color: #333;
-    border-color: #333;}
-
-
-
 /* Contact Styles */
 .contact-sections {
     display: flex;
@@ -156,9 +139,34 @@ body {
     padding-left: 10px;
     text-align: left; /* Left-align links */}
 
-/* Centered copyright text */
-.copyright {
-    margin-top: 20px;
-    text-align: center;
+/* Form Styles */
+.form-control {
+    background: #444;
+    border: none;
+    color: #ebebeb;}
+
+.btn-secondary {
+    background-color: #185cc9;
+    border-color: #000;}
+
+.btn-secondary:hover {
+    background-color: #333;
+    border-color: #333;}
+
+
+
+/* Footer / Copyright Styles */
+.footer {
+    position: relative;
     width: 100%;
-    color: #f5f5f5; /* Optional: adjust color */}
+    height: 200px; /* Adjust height as needed */
+    background-image: url('/images/footer_bg_IMG_5178.jpg'); /* Path to footer background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    color: #f5f5f5; /* Text color */
+    margin-top: 20px; /* Space above footer */
+    overflow: hidden;}

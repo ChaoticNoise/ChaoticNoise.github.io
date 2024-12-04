@@ -159,18 +159,8 @@ body {
 .footer {
     background-color: #000 !important; /* Explicit black background */
     position: fixed;
-    bottom: 0;
+    top: 0;
     width: 100%;
     z-index: 1000; /* Ensures it stays above overlays */
     background-image: url('/images/footer_bg_IMG_5178.jpg');
-    color: #f5f5f5; /* Text color */
-    
-	background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Horizontally center content */
-
-    margin: 0; /* Ensure no extra margin around the footer */}
-	}
+    color: #f5f5f5; /* Text color */}

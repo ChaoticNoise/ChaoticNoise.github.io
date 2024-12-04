@@ -167,6 +167,4 @@ body {
     display: flex;
     align-items: center; /* Vertically center content */
     justify-content: center; /* Horizontally center content */
-    color: #f5f5f5; /* Text color */
-    margin-top: 20px; /* Space above footer */
-    overflow: hidden;}
+    color: #f5f5f5; /* Text color */}

@@ -167,4 +167,5 @@ body {
     display: flex;
     align-items: center; /* Vertically center content */
     justify-content: center; /* Horizontally center content */
-    color: #f5f5f5; /* Text color */}
+    color: #f5f5f5; /* Text color */
+    margin: 0; /* Ensure no extra margin around the footer */}

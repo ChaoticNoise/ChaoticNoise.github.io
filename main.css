@@ -157,10 +157,17 @@ body {
 
 /* Footer / Copyright Styles */
 .footer {
-    background-color: #000 !important; /* Explicit black background */
-    position: fixed;
-    top: 0;
     width: 100%;
-    z-index: 1000; /* Ensures it stays above overlays */
+    height: 60px; /* Adjust height as needed */
+    background-color: #000; /* Explicit black background */
     background-image: url('/images/footer_bg_IMG_5178.jpg');
-    color: #f5f5f5; /* Text color */}
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    color: #f5f5f5; /* Text color */
+    z-index: 1000; /* Stays above overlays */
+    margin: 0; /* Ensure no extra margin */
+    padding: 0; /* Reset padding if present */}

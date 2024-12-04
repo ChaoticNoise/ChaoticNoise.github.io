@@ -167,5 +167,4 @@ body {
     align-items: center; /* Vertically center content */
     justify-content: center; /* Horizontally center content */
     color: #f5f5f5; /* Text color */
-    margin: 0; /* Ensure no extra margin around the footer */
-    line-height: 60px; /* Match line height to height for additional alignment help */}
+    margin: 0; /* Ensure no extra margin around the footer */}

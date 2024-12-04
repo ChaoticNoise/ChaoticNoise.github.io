@@ -159,7 +159,7 @@ body {
 .footer {
     background-color: #000 !important; /* Explicit black background */
     position: fixed;
-    top: 0;
+    bottom: 0;
     width: 100%;
     z-index: 1000; /* Ensures it stays above overlays */
     background-image: url('/images/footer_bg_IMG_5178.jpg');

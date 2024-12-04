@@ -13,7 +13,9 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000; /* Ensures it stays above overlays */}
+    z-index: 1000; /* Ensures it stays above overlays */
+    background-image: url('/images/navbar_bg_IMG_5178.jpg');
+}
 
 .navbar-brand, .nav-link {
     color: #296bd6 !important;}

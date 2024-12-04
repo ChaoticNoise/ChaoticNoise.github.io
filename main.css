@@ -161,7 +161,7 @@ body {
 .footer {
     width: 100%;              /* Container width */
     max-width: 1400px;        /* Maximum width */
-    margin: 20px auto;       /* Center video with spacing */
+    margin: 0px auto;       /* Center video with spacing */
 	height: 60px; /* Adjust height as needed */
     background-image: url('/images/footer_bg_IMG_5178.jpg');
     background-size: cover;

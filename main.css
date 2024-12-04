@@ -167,7 +167,4 @@ body {
     display: flex; /* Enables Flexbox */
     align-items: center; /* Vertical alignment */
     justify-content: center; /* Horizontal alignment */
-    color: #f5f5f5; /* Text color */
-    z-index: 1000; /* Stays above overlays */
-    margin: 0; /* Ensure no extra margin */
-    padding: 0; /* Reset padding if present */}
+    color: #f5f5f5; /* Text color */}

@@ -157,7 +157,6 @@ body {
 
 /* Footer / Copyright Styles */
 .footer {
-    position: relative;
     width: 100%;
     height: 60px; /* Adjust height as needed */
     background-image: url('/images/footer_bg_IMG_5178.jpg'); /* Path to footer background image */

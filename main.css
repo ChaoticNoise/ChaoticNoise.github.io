@@ -167,6 +167,4 @@ body {
     background-repeat: no-repeat;
     align-items: center;		/* Vertical alignment */
     justify-content: center;	/* Horizontal alignment */
-    color: #f5f5f5;				/* Text color */
-    margin: 0;					/* Remove any outer margin */
-    padding: 0;					/* Remove any inner padding */}
+    color: #f5f5f5;				/* Text color */}

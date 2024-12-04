@@ -59,11 +59,11 @@ body {
     padding-top: 0;}
 
 #chaoticnoise .content {
-    width: 80%; /* Set content width to 80% */
-    max-width: 1200px; /* Set a max width for larger screens */
-    margin: 0 auto; /* Center the content */
-    padding-top: 80px; /* Padding for better readability */
-    text-align: center; /* Center-align text within the container */}
+    width: 80%;					/* Set content width to 80% */
+    max-width: 1200px;			/* Set a max width for larger screens */
+    margin: 0 auto;				/* Center the content */
+    padding-top: 80px;			/* Padding for better readability */
+    text-align: center;			/* Center-align text within the container */}
 
 #events {background-image: url('/images/events_bg_IMG_8397.jpg');}
 #music {background-image: url('/images/music_bg_SDIM7112.jpg');}
@@ -75,14 +75,14 @@ body {
 /* Event Section Styles */
 #events .content, 
 #contact .content {
-    width: 80%;        /* Set content width to 80% of the full page */
-    max-width: 1200px; /* Optionally set a max width for larger screens */
-    margin: 0 auto;    /* Center the content */
-    padding: 20px;     /* Optional padding for spacing */
-    text-align: center; /* Center-align text within the container */}
+    width: 80%;					/* Set content width to 80% of the full page */
+    max-width: 1200px;			/* Optionally set a max width for larger screens */
+    margin: 0 auto;				/* Center the content */
+    padding: 20px;				/* Optional padding for spacing */
+    text-align: center; 		/* Center-align text within the container */}
 
 .event {
-    margin-bottom: 30px; /* Adjust spacing as needed */}
+    margin-bottom: 30px; 		/* Adjust spacing as needed */}
 
 .past-event {
 /*    color: #999; /* Light grey text color */
@@ -107,14 +107,14 @@ body {
     
 /* Media Section Styles */
 .video-wrapper {
-    width: 100%;              /* Container width */
-    max-width: 1400px;        /* Maximum width */
-    margin: 20px auto;       /* Center video with spacing */}
+    width: 100%;				/* Container width */
+    max-width: 1400px;			/* Maximum width */
+    margin: 20px auto;			/* Center video with spacing */}
 
 .video-wrapper iframe {
-    width: 100%;              /* Full width of container */
-    aspect-ratio: 16 / 9;     /* Enforce 16:9 aspect ratio */
-    height: auto;             /* Automatically adjust height */
+    width: 100%;				/* Full width of container */
+    aspect-ratio: 16 / 9;		/* Enforce 16:9 aspect ratio */
+    height: auto;				/* Automatically adjust height */
     border: none;}
 
 
@@ -130,14 +130,14 @@ body {
     padding: 20px 0;}
 
 .reach-out {
-    flex: 0 0 75%; /* 60% width */
+    flex: 0 0 75%;				/* 60% width */
     padding-right: 10px;
-    text-align: left; /* Left-align text */}
+    text-align: left;			/* Left-align text */}
 
 .socials {
-    flex: 0 0 20%; /* 30% width */
+    flex: 0 0 20%;				/* 30% width */
     padding-left: 10px;
-    text-align: left; /* Left-align links */}
+    text-align: left;			/* Left-align links */}
 
 /* Form Styles */
 .form-control {
@@ -157,14 +157,16 @@ body {
 
 /* Footer Section Styles */
 .footer {
-    width: 100%;              /* Container width */
-    max-width: 1400px;        /* Maximum width */
-    margin: 0px auto;       /* Center video with spacing */
-	height: 60px; /* Adjust height as needed */
+    width: 100%;				/* Container width */
+    max-width: 1400px;			/* Maximum width */
+    margin: 0px auto;			/* Center video with spacing */
+	height: 60px;				/* Adjust height as needed */
     background-image: url('/images/footer_bg_IMG_5178.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    align-items: center; /* Vertical alignment */
-    justify-content: center; /* Horizontal alignment */
-    color: #f5f5f5; /* Text color */}
+    align-items: center;		/* Vertical alignment */
+    justify-content: center;	/* Horizontal alignment */
+    color: #f5f5f5;				/* Text color */
+    margin: 0;					/* Remove any outer margin */
+    padding: 0;					/* Remove any inner padding */}

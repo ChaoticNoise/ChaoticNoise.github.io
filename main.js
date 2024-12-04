@@ -11,7 +11,6 @@ imageSources.forEach(src => {
 
 
 
-
 // Separate new gigs with a comma between each
 
 $(document).ready(function () {
@@ -121,8 +120,6 @@ $(document).ready(function () {
         }
     });
 });
-
-
 
 
 

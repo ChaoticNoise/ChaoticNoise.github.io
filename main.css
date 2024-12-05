@@ -152,19 +152,3 @@ body {
 .btn-secondary:hover {
     background-color: #333;
     border-color: #333;}
-
-
-
-/* Footer Section Styles */
-.footer {
-    width: 100%;				/* Container width */
-    max-width: 1400px;			/* Maximum width */
-    margin: 0px auto;
-	height: 60px;				/* Adjust height as needed */
-    background-image: url('/images/footer_bg_IMG_5178.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-items: center;		/* Vertical alignment */
-    justify-content: center;	/* Horizontal alignment */
-    color: #f5f5f5;				/* Text color */}

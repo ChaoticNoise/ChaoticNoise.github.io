@@ -21,7 +21,7 @@ $(document).ready(function () {
             url: "https://www.tixr.com/groups/nectarlounge/events/big-brass-extravaganza-11-feat-this-much-brass-chaotic-noise-marching-corps-vamol-agab-analog-brass-124702",
             location_display: "Nectar Lounge",
             location_url: "https://maps.app.goo.gl/HVsYnea9D6iVrdDz9",
-            time_display: "Jan 16, 2025, 7:00 PM - 11:00 PM"
+            time_display: "January 16, 2025, 7:00 PM - 11:00 PM"
         },
 		{
             title: "Equinox Very Open House",

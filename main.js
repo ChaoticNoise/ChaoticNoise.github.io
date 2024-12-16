@@ -21,21 +21,21 @@ $(document).ready(function () {
             url: "https://www.tixr.com/groups/nectarlounge/events/big-brass-extravaganza-11-feat-this-much-brass-chaotic-noise-marching-corps-vamol-agab-analog-brass-124702",
             location_display: "Nectar Lounge",
             location_url: "https://maps.app.goo.gl/HVsYnea9D6iVrdDz9",
-            time_display: "January 16, 2025, 7:00 PM - 11:00 PM"
+            time_display: "January 16, 2025, 7:00 PM"
         },
 		{
             title: "Equinox Very Open House",
             url: "https://www.facebook.com/profile.php?id=100063803760373",
             location_display: "Equinox Studios",
             location_url: "https://maps.app.goo.gl/ZA1E8ZcNFWpvpRc36",
-            time_display: "December 14, 2024, 3:00 PM - 9:00 PM (and later)"
+            time_display: "December 14, 2024, 3:00 PM"
         },
         {
             title: "Port Angeles Wintertide Festival of Lights",
             url: "pafac.kindful.com/e/wintertide-2024",
             location_display: "Port Angeles Fine Arts Center",
             location_url: "https://maps.app.goo.gl/2rAiAaNYwRL7ZNhB8",
-            time_display: "December 7, 2024, 4:00 PM - 8:00 PM"
+            time_display: "December 7, 2024, 4:00 PM"
         },
         {
             title: "Pun Slam",

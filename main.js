@@ -16,6 +16,21 @@ imageSources.forEach(src => {
 $(document).ready(function () {
     var events = [
 
+https://www.tixr.com/groups/nectarlounge/events/big-brass-extravaganza-11-feat-this-much-brass-chaotic-noise-marching-corps-vamol-agab-analog-brass-124702?_gl=1*tdr9qu*_gcl_au*MTgzNjYwMDIzMS4xNzM0MzY5MTAz*_ga*NjUwNjg2MjgyLjE3MzQzNjkxMDM.*_ga_C56GQHRY5N*MTczNDM2OTEwMi4xLjAuMTczNDM2OTEwMi42MC4wLjA.
+        {
+            title: "Big Brass Extravaganza #11 feat: This Much Brass, Chaotic Noise Marching Corps, VamoLá, AGAB, Analog Brass",
+            url: "https://www.tixr.com/groups/nectarlounge/events/big-brass-extravaganza-11-feat-this-much-brass-chaotic-noise-marching-corps-vamol-agab-analog-brass-124702?_gl=1*tdr9qu*_gcl_au*MTgzNjYwMDIzMS4xNzM0MzY5MTAz*_ga*NjUwNjg2MjgyLjE3MzQzNjkxMDM.*_ga_C56GQHRY5N*MTczNDM2OTEwMi4xLjAuMTczNDM2OTEwMi42MC4wLjA.",
+            location_display: "Nectar Lounge",
+            location_url: "https://maps.app.goo.gl/HVsYnea9D6iVrdDz9",
+            time_display: "December 7, 2024, 7:00 PM - 11:00 PM"
+        },
+		{
+            title: "Equinox Very Open House",
+            url: "https://www.facebook.com/profile.php?id=100063803760373",
+            location_display: "Equinox Studios",
+            location_url: "https://maps.app.goo.gl/ZA1E8ZcNFWpvpRc36",
+            time_display: "December 14, 2024, 3:00 PM - 9:00 PM (and later)"
+        },
         {
             title: "Port Angeles Wintertide Festival of Lights",
             url: "pafac.kindful.com/e/wintertide-2024",
@@ -29,13 +44,6 @@ $(document).ready(function () {
             location_display: "Capitol Hill Comedy / Bar",
             location_url: "https://maps.app.goo.gl/69YvGQpNynpnJqnTA",
             time_display: "November 27, 2024, 7:00 PM"
-        },
-		{
-            title: "Equinox Very Open House",
-            url: "https://www.facebook.com/profile.php?id=100063803760373",
-            location_display: "Equinox Studios",
-            location_url: "https://maps.app.goo.gl/ZA1E8ZcNFWpvpRc36",
-            time_display: "December 14, 2024, 3:00 PM - 9:00 PM (and later)"
         },
 		{
             title: "The Bad Things Vaudeville Show",

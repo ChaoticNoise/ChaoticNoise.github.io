@@ -23,6 +23,13 @@ $(document).ready(function () {
             location_url: "https://maps.app.goo.gl/HVsYnea9D6iVrdDz9",
             time_display: "January 16, 2025, 7:00 PM"
         },
+        {
+            title: "Breakfast Club",
+            url: "https://www.facebook.com/share/p/15KfXeY5cn/",
+            location_display: "Monkey Loft",
+            location_url: "https://maps.app.goo.gl/As4qEJ64C7HnXFiT6",
+            time_display: "January 1, 2025, 10:00 AM"
+        },
 		{
             title: "Equinox Very Open House",
             url: "https://www.facebook.com/profile.php?id=100063803760373",

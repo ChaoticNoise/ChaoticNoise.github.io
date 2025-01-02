@@ -13,7 +13,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000; /* Ensures it stays above overlays */
-    background-image: url('/images/navbar_bg_IMG_5178.jpg');
+    background-image: url('images/bg_navbar_IMG_5178.jpg');
 }
 
 .navbar-brand, .nav-link {
@@ -55,7 +55,7 @@ body {
 
 
 /* Section Backgrounds */
-#chaoticnoise {background-image: url('/images/about_bg_IMG_0310.jpg');
+#chaoticnoise {background-image: url('images/bg_about_IMG_0310.jpg');
     padding-top: 0;}
 
 #chaoticnoise .content {
@@ -65,10 +65,11 @@ body {
     padding-top: 80px;			/* Padding for better readability */
     text-align: center;			/* Center-align text within the container */}
 
-#events {background-image: url('/images/events_bg_IMG_8397.jpg');}
-#music {background-image: url('/images/music_bg_SDIM7112.jpg');}
-#media {background-image: url('/images/media_bg_IMG_1654.jpg');}
-#contact {background-image: url('/images/contact_bg_IMG_0335.jpg');}
+#events {background-image: url('images/bg_events_IMG_8397.jpg');}
+#music {background-image: url('images/bg_music_SDIM7112.jpg');}
+#media {background-image: url('images/bg_media_IMG_1654.jpg');}
+#shop {background-image: url('images/bg_shop_IMG_6362.jpg');}
+#contact {background-image: url('images/bg_contact_IMG_0335.jpg');}
 
 
 

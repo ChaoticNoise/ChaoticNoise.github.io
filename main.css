@@ -119,6 +119,21 @@ body {
 
 
 
+/* Shop Section Styles */
+.shop-item {
+    width: 90%;                /* Set close to full width of container */
+    max-width: 600px;          /* Limit the width for larger displays */
+    margin: 20px auto;         /* Center the music items */}
+
+.shop-item iframe {
+    width: 100%;               /* Full width of music item container */
+    height: auto;              /* Adjust height to maintain aspect ratio */
+    border: none;              /* Remove border */
+    outline: none;             /* Remove any default outline */
+    box-shadow: none;          /* Remove any shadow effect */}
+
+
+
 /* Contact Section Styles */
 .contact-sections {
     display: flex;

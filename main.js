@@ -17,7 +17,7 @@ $(document).ready(function () {
     var events = [
 
         {
-            title: "Book Chaotic Noise! / Hire Us For Your Event!",
+            title: "Book Chaotic Noise! / Hire Chaotic Noise For Your Event!",
             url: "http://chaoticnoise.com",
             location_display: "Seattle, WA and Surrounding Areas",
             location_url: "https://maps.app.goo.gl/4jQ9iAgeSvdH6PDu8",

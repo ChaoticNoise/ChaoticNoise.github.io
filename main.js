@@ -17,6 +17,13 @@ $(document).ready(function () {
     var events = [
 
         {
+            title: "Book Chaotic Noise! / Hire Us For Your Event!",
+            url: "http://chaoticnoise.com",
+            location_display: "WA or Generally Surrounding Areas",
+            location_url: "https://maps.app.goo.gl/4jQ9iAgeSvdH6PDu8",
+            time_display: "March 1, 2025, 8:00 PM"
+        },
+        {
             title: "Big Brass Extravaganza #11 feat: This Much Brass, Chaotic Noise Marching Corps, VamoLá, AGAB, Analog Brass",
             url: "https://www.tixr.com/groups/nectarlounge/events/big-brass-extravaganza-11-feat-this-much-brass-chaotic-noise-marching-corps-vamol-agab-analog-brass-124702",
             location_display: "Nectar Lounge",

@@ -46,7 +46,7 @@ $(document).ready(function () {
         },
         {
             title: "Port Angeles Wintertide Festival of Lights",
-            url: "pafac.kindful.com/e/wintertide-2024",
+            url: "http://pafac.kindful.com/e/wintertide-2024",
             location_display: "Port Angeles Fine Arts Center",
             location_url: "https://maps.app.goo.gl/2rAiAaNYwRL7ZNhB8",
             time_display: "December 7, 2024, 4:00 PM"

@@ -17,11 +17,11 @@ $(document).ready(function () {
     var events = [
 
         {
-            title: "Book Chaotic Noise! / Hire Chaotic Noise For Your Event!",
+            title: "Book Chaotic Noise!",
             url: "http://chaoticnoise.com",
             location_display: "Seattle, WA and Surrounding Areas",
             location_url: "https://maps.app.goo.gl/4jQ9iAgeSvdH6PDu8",
-            time_display: "March 1, 2025, 8:00 PM"
+            time_display: "March 10, 2025, 8:00 PM"
         },
         {
             title: "HONK! Showcase at Northwest Folklife Festival at Seattle Center!",

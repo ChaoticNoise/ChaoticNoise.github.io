@@ -24,6 +24,20 @@ $(document).ready(function () {
             time_display: "March 1, 2025, 8:00 PM"
         },
         {
+            title: "Honk! Fest West",
+            url: "https://honkfestwest.org",
+            location_display: "Seattle, WA",
+            location_url: "https://maps.app.goo.gl/jsgyvvhs4BimrKVD8",
+            time_display: "May 30, 2025, 6:00 PM"
+        },
+        {
+            title: "HONK! Showcase at Northwest Folklife Festival at Seattle Center!",
+            url: "https://nwfolklife.org/festival/home.html",
+            location_display: "Seattle Center, Seattle, WA",
+            location_url: "https://maps.app.goo.gl/zo1pWFZREFasRGKC9",
+            time_display: "May 25, 2025, 2:00 PM"
+        },
+        {
             title: "Big Brass Extravaganza #11 feat: This Much Brass, Chaotic Noise Marching Corps, VamoLá, AGAB, Analog Brass",
             url: "https://www.tixr.com/groups/nectarlounge/events/big-brass-extravaganza-11-feat-this-much-brass-chaotic-noise-marching-corps-vamol-agab-analog-brass-124702",
             location_display: "Nectar Lounge",

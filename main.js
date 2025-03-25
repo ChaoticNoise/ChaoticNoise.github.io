@@ -24,6 +24,20 @@ $(document).ready(function () {
             time_display: "March 10, 2025, 8:00 PM"
         },
         {
+            title: "Goodbye Lucille House",
+            url: "https://www.seattle.gov/dpd/AppDocs/GroupMeetings/DRProposal3039114AgendaID15528.pdf",
+            location_display: "Lucille House",
+            location_url: "https://maps.app.goo.gl/cJUBW4vvp5N1VHKm9",
+            time_display: "April 11, 2025, 7:00 PM"
+        },
+        {
+            title: "University District Street Fair",
+            url: "https://udistrictseattle.com/streetfair",
+            location_display: "University District",
+            location_url: "https://maps.app.goo.gl/ffyJQFUAttbPiRmNA",
+            time_display: "May 17, 2025, 1:30 PM"
+        },
+        {
             title: "HONK! Showcase at Northwest Folklife Festival at Seattle Center!",
             url: "https://nwfolklife.org/festival/home.html",
             location_display: "Seattle Center, Seattle, WA",
@@ -43,6 +57,13 @@ $(document).ready(function () {
             location_display: "Clock-Out Lounge",
             location_url: "https://maps.app.goo.gl/5bgBVNwpA4sqRcrx8",
             time_display: "June 14, 2025, 7:00 PM"
+        },
+        {
+            title: "Miller's Carnation with the Bad Things",
+            url: "https://www.instagram.com/millerscarnation/",
+            location_display: "Miller's Carnation",
+            location_url: "https://maps.app.goo.gl/anFTVTWjN1QLY6Lg7",
+            time_display: "September 06, 2025, 7:30 PM"
         },
         {
             title: "Big Brass Extravaganza #11 feat: This Much Brass, Chaotic Noise Marching Corps, VamoLá, AGAB, Analog Brass",

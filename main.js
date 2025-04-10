@@ -21,7 +21,7 @@ $(document).ready(function () {
             url: "https://www.seattle.gov/dpd/AppDocs/GroupMeetings/DRProposal3039114AgendaID15528.pdf",
             location_display: "Lucille House",
             location_url: "https://maps.app.goo.gl/cJUBW4vvp5N1VHKm9",
-            time_display: "April 11, 2025, 7:00 PM"
+            time_display: "April 11, 2025, 6:30 PM"
         },
         {
             title: "University District Street Fair",

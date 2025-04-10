@@ -17,13 +17,6 @@ $(document).ready(function () {
     var events = [
 
         {
-            title: "Book Chaotic Noise!",
-            url: "http://chaoticnoise.com",
-            location_display: "Seattle, WA and Surrounding Areas",
-            location_url: "https://maps.app.goo.gl/4jQ9iAgeSvdH6PDu8",
-            time_display: "March 10, 2025, 8:00 PM"
-        },
-        {
             title: "Goodbye Lucille House",
             url: "https://www.seattle.gov/dpd/AppDocs/GroupMeetings/DRProposal3039114AgendaID15528.pdf",
             location_display: "Lucille House",

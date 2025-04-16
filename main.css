@@ -28,6 +28,32 @@ body {
 
 
 
+
+/* Caret */
+.caret {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.caret.expanded {
+  transform: rotate(90deg);
+}
+
+
+
+
+
+#toggle-past-events:hover {
+  color: #296bd6; /* Blue hover color */
+}
+
+#toggle-past-events:hover .caret {
+  color: #296bd6; /* Match caret color on hover */
+}
+
+
+
+
 /* Section Styles */
 .section {
     position: relative;

@@ -24,41 +24,6 @@ $(document).ready(function () {
             time_display: "April 11, 2025, 6:30 PM"
         },
         {
-            title: "University District Street Fair",
-            url: "https://udistrictseattle.com/streetfair",
-            location_display: "University District",
-            location_url: "https://maps.app.goo.gl/ffyJQFUAttbPiRmNA",
-            time_display: "May 17, 2025, 1:30 PM"
-        },
-        {
-            title: "HONK! Showcase at Northwest Folklife Festival at Seattle Center!",
-            url: "https://nwfolklife.org/festival/home.html",
-            location_display: "Seattle Center, Seattle, WA",
-            location_url: "https://maps.app.goo.gl/zo1pWFZREFasRGKC9",
-            time_display: "May 25, 2025, 2:00 PM"
-        },
-        {
-            title: "Honk! Fest West",
-            url: "https://honkfestwest.org",
-            location_display: "Seattle, WA",
-            location_url: "https://maps.app.goo.gl/jsgyvvhs4BimrKVD8",
-            time_display: "May 30, 2025, 6:00 PM"
-        },
-        {
-            title: "Clock-Out Lounge with the Bad Things",
-            url: "https://clockoutlounge.com",
-            location_display: "Clock-Out Lounge",
-            location_url: "https://maps.app.goo.gl/5bgBVNwpA4sqRcrx8",
-            time_display: "June 14, 2025, 7:00 PM"
-        },
-        {
-            title: "Miller's Carnation with the Bad Things",
-            url: "https://www.instagram.com/millerscarnation/",
-            location_display: "Miller's Carnation",
-            location_url: "https://maps.app.goo.gl/anFTVTWjN1QLY6Lg7",
-            time_display: "September 06, 2025, 7:30 PM"
-        },
-        {
             title: "Big Brass Extravaganza #11 feat: This Much Brass, Chaotic Noise Marching Corps, VamoLá, AGAB, Analog Brass",
             url: "https://www.tixr.com/groups/nectarlounge/events/big-brass-extravaganza-11-feat-this-much-brass-chaotic-noise-marching-corps-vamol-agab-analog-brass-124702",
             location_display: "Nectar Lounge",
@@ -134,6 +99,41 @@ $(document).ready(function () {
             location_display: "Miller's Carnation",
             location_url: "https://maps.app.goo.gl/EGMf7qbZAK9Nem1r9",
             time_display: "August 30, 2024, 11:00 PM"
+        },
+        {
+            title: "University District Street Fair",
+            url: "https://udistrictseattle.com/streetfair",
+            location_display: "University District",
+            location_url: "https://maps.app.goo.gl/ffyJQFUAttbPiRmNA",
+            time_display: "May 17, 2025, 1:30 PM"
+        },
+        {
+            title: "HONK! Showcase at Northwest Folklife Festival at Seattle Center!",
+            url: "https://nwfolklife.org/festival/home.html",
+            location_display: "Seattle Center, Seattle, WA",
+            location_url: "https://maps.app.goo.gl/zo1pWFZREFasRGKC9",
+            time_display: "May 25, 2025, 2:00 PM"
+        },
+        {
+            title: "Honk! Fest West",
+            url: "https://honkfestwest.org",
+            location_display: "Seattle, WA",
+            location_url: "https://maps.app.goo.gl/jsgyvvhs4BimrKVD8",
+            time_display: "May 30, 2025, 6:00 PM"
+        },
+        {
+            title: "Clock-Out Lounge with the Bad Things",
+            url: "https://clockoutlounge.com",
+            location_display: "Clock-Out Lounge",
+            location_url: "https://maps.app.goo.gl/5bgBVNwpA4sqRcrx8",
+            time_display: "June 14, 2025, 7:00 PM"
+        },
+        {
+            title: "Miller's Carnation with the Bad Things",
+            url: "https://www.instagram.com/millerscarnation/",
+            location_display: "Miller's Carnation",
+            location_url: "https://maps.app.goo.gl/anFTVTWjN1QLY6Lg7",
+            time_display: "September 06, 2025, 7:30 PM"
         }
         
     ];
@@ -185,4 +185,17 @@ $(document).ready(function () {
 document.addEventListener("DOMContentLoaded", function() {
     // Set the current year in the copyright section
     document.getElementById("current-year").textContent = new Date().getFullYear();
+});
+
+// Toggle Past Events Section
+document.addEventListener("DOMContentLoaded", function () {
+    const toggle = document.getElementById("toggle-past-events");
+    const container = document.getElementById("past-events-container");
+    const caret = toggle.querySelector(".caret");
+
+    toggle.addEventListener("click", function () {
+        const isVisible = container.style.display === "block";
+        container.style.display = isVisible ? "none" : "block";
+        caret.classList.toggle("expanded", !isVisible);
+    });
 });

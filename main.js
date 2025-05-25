@@ -115,7 +115,7 @@ $(document).ready(function () {
             time_display: "May 25, 2025, 1:15 PM"
         },
         {
-            title: "Honk! Fest West 12-6:30pm - Chaotic Noise Plays at the South Field Stage in Pratt Park at 7pm",
+            title: "Honk! Fest West 12-6:30pm - Chaotic Noise Plays at the South Field Stage in Pratt Park at 4:30pm",
             url: "https://honkfestwest.org",
             location_display: "Pratt Park in Seattle, WA",
             location_url: "https://maps.app.goo.gl/HFvStXRwm8soYQJD7",

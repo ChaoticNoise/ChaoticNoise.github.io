@@ -155,6 +155,13 @@ $(document).ready(function () {
             location_display: "Miller's Carnation",
             location_url: "https://maps.app.goo.gl/anFTVTWjN1QLY6Lg7",
             time_display: "September 06, 2025, 7:30 PM"
+        },
+        {
+            title: "Mardi Gras in New Orleans",
+            url: "https://www.mardigrasneworleans.com",
+            location_display: "New Orleans",
+            location_url: "http://maps.google.com/?q=New%20Orleans",
+            time_display: "February 13, 2026, 12:00 PM"
         }
         
     ];

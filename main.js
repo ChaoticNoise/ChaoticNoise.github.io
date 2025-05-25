@@ -108,8 +108,7 @@ $(document).ready(function () {
             time_display: "May 17, 2025, 1:30 PM"
         },
         {
-            title: "HONK! Showcase at Northwest Folklife Festival at Seattle Center!
-            (4 Bands! Neon Brass Party, Filthy Femcorps, Chaotic Noise, and This Much Brass)",
+            title: "HONK! Showcase at Northwest Folklife Festival at Seattle Center! (4 Bands! Neon Brass Party, Filthy Femcorps, Chaotic Noise, and This Much Brass)",
             url: "https://nwfolklife.org/festival/home.html",
             location_display: "Seattle Center, Seattle, WA",
             location_url: "https://maps.app.goo.gl/zo1pWFZREFasRGKC9",

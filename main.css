@@ -108,8 +108,46 @@ body {
     padding: 20px;				/* Optional padding for spacing */
     text-align: center; 		/* Center-align text within the container */}
 
+.event img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.event-image {
+    cursor: zoom-in;
+}
+
+.event-image:hover {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    transition: box-shadow 0.2s ease;
+}
+
 .event {
     margin-bottom: 30px; 		/* Adjust spacing as needed */}
+
+/* Lightbox styles */
+#lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  box-shadow: 0 0 20px black;
+  cursor: zoom-out;
+}
+
 
 .past-event {
 /*    color: #999; /* Light grey text color */

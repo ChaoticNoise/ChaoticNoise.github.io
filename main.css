@@ -28,7 +28,6 @@ body {
 
 
 
-
 /* Caret */
 .caret {
   display: inline-block;
@@ -38,8 +37,6 @@ body {
 .caret.expanded {
   transform: rotate(90deg);
 }
-
-
 
 
 
@@ -124,6 +121,43 @@ body {
     transition: box-shadow 0.2s ease;
 }
 
+.event-text {
+    text-align: left;
+}
+
+
+
+.event-content {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.event-image {
+    width: 33%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.event-text {
+    flex: 1; /* takes up the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eventName, .location, .time {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+
+
+
+
 .event {
     margin-bottom: 30px; 		/* Adjust spacing as needed */}
 
@@ -197,6 +231,10 @@ body {
     outline: none;             /* Remove any default outline */
     box-shadow: none;          /* Remove any shadow effect */}
 
+#upcoming-events > h1,
+#past-events > h1 {
+  margin-bottom: 1em;
+}
 
 
 /* Contact Section Styles */

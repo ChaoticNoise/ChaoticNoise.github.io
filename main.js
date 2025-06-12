@@ -227,16 +227,17 @@ time_display: "February 13, 2026, 12:00 PM"
 
 var imageUrl = event.image || "http://chaoticnoise.com/images/chaotic_logo.png";
 
-var eventHtml = "<div class='event past-event'>" +
-    "<img src='" + imageUrl + "' class='event-image' alt='Event flier'>" +
-    "<div class='eventName'>" +
-    "<a href='" + event.url + "' target='_blank'>" + event.title + "</a>" +
+var eventHtml = "<div class='event'>" +
+    "<div class='event-content'>" +
+        "<img src='" + imageUrl + "' class='event-image' alt='Event flier'>" +
+        "<div class='event-text'>" +
+            "<div class='eventName'><a href='" + event.url + "' target='_blank'>" + event.title + "</a></div>" +
+            "<div class='location'><a href='" + event.location_url + "' target='_blank'>" + event.location_display + "</a></div>" +
+            "<div class='time'>" + event.time_display + "</div>" +
+        "</div>" +
     "</div>" +
-    "<div class='location'>" +
-    "<a href='" + event.location_url + "' target='_blank'>" + event.location_display + "</a>" +
-    "</div>" +
-    "<div class='time'>" + event.time_display + "</div>" +
-    "</div>";
+"</div>";
+
 
 // Append to past events section
 $("#past-events .eventsInfo").append(eventHtml);
@@ -246,15 +247,16 @@ $("#past-events .eventsInfo").append(eventHtml);
 var imageUrl = event.image || "http://chaoticnoise.com/images/chaotic_logo.png";
 
 var eventHtml = "<div class='event'>" +
-    "<img src='" + imageUrl + "' class='event-image' alt='Event flier'>" +
-    "<div class='eventName'>" +
-    "<a href='" + event.url + "' target='_blank'>" + event.title + "</a>" +
+    "<div class='event-content'>" +
+        "<img src='" + imageUrl + "' class='event-image' alt='Event flier'>" +
+        "<div class='event-text'>" +
+            "<div class='eventName'><a href='" + event.url + "' target='_blank'>" + event.title + "</a></div>" +
+            "<div class='location'><a href='" + event.location_url + "' target='_blank'>" + event.location_display + "</a></div>" +
+            "<div class='time'>" + event.time_display + "</div>" +
+        "</div>" +
     "</div>" +
-    "<div class='location'>" +
-    "<a href='" + event.location_url + "' target='_blank'>" + event.location_display + "</a>" +
-    "</div>" +
-    "<div class='time'>" + event.time_display + "</div>" +
-    "</div>";
+"</div>";
+
 
 // Append to upcoming events section
 $("#upcoming-events .eventsInfo").append(eventHtml);

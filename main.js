@@ -176,6 +176,13 @@ location_display: "Clock-Out Lounge",
 location_url: "https://maps.app.goo.gl/5bgBVNwpA4sqRcrx8",
 time_display: "June 14, 2025, 7:00 PM"
 
+},{
+
+title: "Death by Brass at The High Water Mark with Brassless Chaps, Couch Brass, and Chaotic Noise Marching Corps",
+url: "https://maps.app.goo.gl/AP9kQP8VkCbQmKfE9",
+location_display: "Clock-Out Lounge",
+location_url: "https://maps.app.goo.gl/AP9kQP8VkCbQmKfE9",
+time_display: "June 19, 2025, 8:30 PM"
 
 },{
 

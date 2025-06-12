@@ -225,7 +225,7 @@ time_display: "February 13, 2026, 12:00 PM"
         if (eventDate < today) {
 // Past event
 
-var imageUrl = event.image || "http://chaoticnoise.com/event_fliers/placeholder_event_image.png";
+var imageUrl = event.image || "http://chaoticnoise.com/images/chaotic_logo.png";
 
 var eventHtml = "<div class='event past-event'>" +
     "<img src='" + imageUrl + "' class='event-image' alt='Event flier'>" +
@@ -243,7 +243,7 @@ $("#past-events .eventsInfo").append(eventHtml);
         } else {
 // Upcoming event
 
-var imageUrl = event.image || "http://chaoticnoise.com/event_fliers/placeholder_event_image.png";
+var imageUrl = event.image || "http://chaoticnoise.com/images/chaotic_logo.png";
 
 var eventHtml = "<div class='event'>" +
     "<img src='" + imageUrl + "' class='event-image' alt='Event flier'>" +

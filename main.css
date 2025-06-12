@@ -95,6 +95,20 @@ body {
 #contact {background-image: url('images/bg_contact_IMG_0335.jpg');}
 
 
+/* Header css for promo image */
+
+.promo-quote {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.promo-quote img {
+  max-width: 90%;
+  height: auto;
+  border: none;
+}
+
+
 
 /* Event Section Styles */
 #events .content, 

@@ -179,7 +179,7 @@ image: "http://chaoticnoise.com/event_fliers/GT-Carnival-2025-Postcard-Front-683
 
 },{
 
-title: "Clock-Out Lounge with the Bad Things",
+title: "The Bad Things Vaudeville Show, Feat: The Bad Things, Chaotic Noise Marching Corps, Blackhearts Society, Leslie Rosen, J9 Fierce",
 url: "https://clockoutlounge.com",
 location_display: "Clock-Out Lounge",
 location_url: "https://maps.app.goo.gl/5bgBVNwpA4sqRcrx8",
@@ -190,7 +190,7 @@ image: "http://chaoticnoise.com/event_fliers/20250614_The_Bad_Things_Vaudeville_
 
 title: "Death by Brass at The High Water Mark with Brassless Chaps, Couch Brass, and Chaotic Noise Marching Corps",
 url: "https://maps.app.goo.gl/AP9kQP8VkCbQmKfE9",
-location_display: "Clock-Out Lounge",
+location_display: "The High Water Mark",
 location_url: "https://maps.app.goo.gl/AP9kQP8VkCbQmKfE9",
 time_display: "June 19, 2025, 8:30 PM",
 image: "http://chaoticnoise.com/event_fliers/20250619_Death_by_Brass_with_Brassless_Chaps,_Couch_Brass,_and_Chaotic_Noise_at_The_High_Water_Mark_in_Portland.jpg"

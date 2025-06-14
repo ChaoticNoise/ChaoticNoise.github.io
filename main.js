@@ -183,7 +183,7 @@ title: "The Bad Things Vaudeville Show, Feat: The Bad Things, Chaotic Noise Marc
 url: "https://clockoutlounge.com",
 location_display: "Clock-Out Lounge",
 location_url: "https://maps.app.goo.gl/5bgBVNwpA4sqRcrx8",
-time_display: "June 14, 2025, 7:00 PM",
+time_display: "June 14, 2025, 8:00 PM",
 image: "http://chaoticnoise.com/event_fliers/20250614_The_Bad_Things_Vaudeville_Show.jpg"
 
 },{

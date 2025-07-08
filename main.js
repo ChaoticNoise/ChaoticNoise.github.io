@@ -197,6 +197,14 @@ image: "http://chaoticnoise.com/event_fliers/20250619_Death_by_Brass_with_Brassl
 
 },{
 
+title: "Equinox Very Open House",
+url: "https://www.instagram.com/p/DLiiOgJB5-E/?hl=en",
+location_display: "Equinox Studios",
+location_url: "https://maps.app.goo.gl/WduHy3G4Sszd141g7",
+time_display: "August 09, 2025, 6:00 PM"
+
+},{
+
 title: "Miller's Carnation with the Bad Things",
 url: "https://www.instagram.com/millerscarnation/",
 location_display: "Miller's Carnation",

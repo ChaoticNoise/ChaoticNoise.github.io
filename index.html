@@ -93,7 +93,36 @@
 
 <h1>Media</h1>
 
-<img src="images/787A9332.jpg" width="80%" style="margin-bottom: 10px;">
+<style>
+  .credit-container {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .credit-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .photo-credit {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    font-size: 1.1rem;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* soft black shadow */
+    font-family: sans-serif;
+  }
+</style>
+
+<div class="credit-container">
+  <img src="images/787A9332.jpg" alt="Chaotic Noise performing" title="Chaotic Noise performing">
+  <div class="photo-credit">Photo by Yona Appletree</div>
+</div>
+
+
 
 <style>
   .hover-container {

@@ -197,6 +197,15 @@ image: "http://chaoticnoise.com/event_fliers/20250619_Death_by_Brass_with_Brassl
 
 },{
 
+title: "All-City Band Jam",
+url: "https://www.allcityband.org/bandjam",
+location_display: "Nino Cantu Southwest Athletic Complex",
+location_url: "https://maps.app.goo.gl/S5gaMThRVdWqrbTQA",
+time_display: "July 25, 2025, 6:00 PM",
+image: "event_fliers/all-city_band.png"
+
+},{
+
 title: "Equinox Very Open House",
 url: "https://www.instagram.com/p/DLiiOgJB5-E/?hl=en",
 location_display: "Equinox Studios",

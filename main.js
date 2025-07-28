@@ -206,6 +206,15 @@ image: "event_fliers/all-city_band.png"
 
 },{
 
+title: "Dead Baby Downhill",
+url: "https://www.facebook.com/events/3446831982123572",
+location_display: "Flight Path",
+location_url: "https://www.facebook.com/events/3446831982123572",
+time_display: "August 02, 2025, 6:00 PM",
+image: "http://chaoticnoise.com/event_fliers/20250802_Dead_Baby_Downhill.jpg"
+
+},{
+
 title: "Equinox Very Open House",
 url: "https://www.instagram.com/p/DLiiOgJB5-E",
 location_display: "Equinox Studios",

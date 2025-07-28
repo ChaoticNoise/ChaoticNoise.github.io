@@ -237,7 +237,8 @@ title: "Mardi Gras in New Orleans",
 url: "https://www.mardigrasneworleans.com",
 location_display: "New Orleans",
 location_url: "http://maps.google.com/?q=New%20Orleans",
-time_display: "February 13, 2026, 12:00 PM"
+time_display: "February 13, 2026, 12:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20250213_mardi_gras.jpg"
 
 }
         

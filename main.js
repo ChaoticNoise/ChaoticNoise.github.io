@@ -225,10 +225,11 @@ image:"http://chaoticnoise.com/event_fliers/20250814_Nectar_Big_Brass_Extravagan
 },{
 
 title: "Miller's Carnation with the Bad Things",
-url: "https://www.instagram.com/millerscarnation/",
+url: "https://millerscarnation.com/event/the-bad-things-vaudeville-show-with-chaotic-noise-marching-corps-eva-jinx-rue-thaday-jenny-penny-mc-j9-fierce-outdoor-stage/",
 location_display: "Miller's Carnation",
 location_url: "https://maps.app.goo.gl/anFTVTWjN1QLY6Lg7",
-time_display: "September 06, 2025, 7:30 PM"
+time_display: "September 06, 2025, 7:30 PM",
+image:"http://chaoticnoise.com/event_fliers/20250906_bad-things-millers-vaudville-poster-090625.jpg"
 
 },{
 

@@ -233,7 +233,7 @@ image:"http://chaoticnoise.com/event_fliers/20250814_Nectar_Big_Brass_Extravagan
 
 },{
 
-title: "Miller's Carnation with the Bad Things",
+title: "Miller's Carnation with the Bad Things, Eva Jinx, Rue Thaday, Jenny Penny, and MC J9 Fierce",
 url: "https://millerscarnation.com/event/the-bad-things-vaudeville-show-with-chaotic-noise-marching-corps-eva-jinx-rue-thaday-jenny-penny-mc-j9-fierce-outdoor-stage/",
 location_display: "Miller's Carnation",
 location_url: "https://maps.app.goo.gl/anFTVTWjN1QLY6Lg7",

@@ -207,11 +207,20 @@ image: "event_fliers/all-city_band.png"
 },{
 
 title: "Equinox Very Open House",
-url: "https://www.instagram.com/p/DLiiOgJB5-E/?hl=en",
+url: "https://www.instagram.com/p/DLiiOgJB5-E",
 location_display: "Equinox Studios",
 location_url: "https://maps.app.goo.gl/WduHy3G4Sszd141g7",
 time_display: "August 09, 2025, 6:00 PM",
 image: "http://chaoticnoise.com/event_fliers/20250809_Equinox_Open_House.jpg"
+
+},{
+
+title: "Nectar Big Brass Extravaganza with @vamolaseattle @thismuchbrass @filthyfemcorps and @8bitbrassband!",
+url: "https://www.tixr.com/e/150210",
+location_display: "Nectar Lounge",
+location_url: "https://maps.app.goo.gl/oQAM7oJXoYzM3ZhRA",
+time_display: "August 14, 2025, 7:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20250814_Nectar_Big_Brass_Extravaganza.jpg"
 
 },{
 

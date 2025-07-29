@@ -48,6 +48,59 @@ body {
   color: #296bd6; /* Match caret color on hover */
 }
 
+.booking-page .content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: left;
+}
+
+.booking-page iframe {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.booking-page section {
+  background-image: none !important;
+}
+
+.booking-page {
+  background-color: #fff;
+  color: #000;
+}
+
+.booking-page a {
+  color: #0055cc;
+}
+
+.booking-page a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Optional: override headings if you want to keep contrast bold */
+.booking-page h1,
+.booking-page h2,
+.booking-page h3 {
+  color: #111;
+}
+
+/* Optional: remove shadows or weird styles that look odd on white */
+.booking-page img,
+.booking-page iframe {
+  box-shadow: none;
+}
+
+.booking-page .logo-image.booking-logo {
+  display: block;
+  margin: 40px auto 20px auto;
+  max-width: 200px;
+}
+
+
 
 
 
@@ -74,6 +127,34 @@ body {
     z-index: 2;
     max-width: 1200px;
     margin: 0 auto;}
+
+
+.media-grid > * {
+  margin-bottom: 20px;
+}
+
+.booking-page #promo-media .media-grid > * {
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 
 

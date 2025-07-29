@@ -1,16 +1,27 @@
-<section id="band-header">
-  <h1>Chaotic Noise Marching Corps</h1>
-  <p>Seattle-based renegade marching band bringing thunderous energy, punk attitude, and joyful chaos to streets and stages alike.</p>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chaotic Noise Booking</title>
+  <link rel="stylesheet" href="main.css"> <!-- or your actual stylesheet -->
+</head>
+<body class="booking-page">
+
+<img src="images/chaotic_logo.png" alt="Chaotic Noise Logo" class="logo-image booking-logo">
+
+
+  <div class="content">
+  
+  <!-- START of your existing content -->
+  <section id="band-header">
+    <h1>Chaotic Noise Marching Corps</h1>
+    <p>Seattle-based renegade marching band bringing thunderous energy, punk attitude, and joyful chaos to streets and stages alike.</p>
+  </section>
 
 <section id="promo-media">
   <h2>Media</h2>
   <div class="media-grid">
 
-<div class="credit-container">
-  <img src="images/2025_Chaotic_Noise.jpg" alt="Chaotic Noise performing" title="Chaotic Noise performing">
-  <div class="photo-credit">Photo by Yona Appletree</div>
-</div>
     <!-- Embedded YouTube videos -->
 <iframe src="https://www.youtube.com/embed/iwLNO_lTrjI" width="80%" height="45%" style="aspect-ratio: 16/9;" frameborder="0" allowfullscreen title="Chaotic Noise @ Equinox Studios Xmas Open House 2022"></iframe>
 
@@ -55,17 +66,55 @@
 <section id="photos">
   <h2>Photos</h2>
   <div class="photo-grid">
-<img src="images/bg_about_IMG_0310.jpg" alt="Chaotic Noise at Honk Fest in Georgetown in Seattle, WA">
-<img src="images/2025_Chaotic_Noise.jpg" alt="Chaotic Lit Up">
-<img src="images/bg_media_IMG_1654.jpg" alt="Chaotic in Portland">
-<img src="images/bg_shop_IMG_6362.jpg" alt="">
-<img src="images/" alt="Chaotic at Nectar in Fremont for a Big Brass Extravaganza event">
-<img src="images/IMG_7120.jpg" alt="Chaotic Dying During a Honk Fest West Set">
-<img src="images/IMG_8749.jpg" alt="Chaotic and Bussy">
-<img src="images/IMG_5262.jpg" alt="Chaotic Preparing for a Club Gig">
+
+    <a href="images/bg_about_IMG_0310.jpg" class="lightbox">
+      <img src="images/bg_about_IMG_0310.jpg" alt="Chaotic Noise at Honk Fest in Georgetown in Seattle, WA">
+    </a>
+    <a href="images/2025_Chaotic_Noise_with_credit_1800.jpg" class="lightbox">
+      <img src="images/2025_Chaotic_Noise_with_credit_1800.jpg" alt="Chaotic Lit Up">
+    </a>
+    <a href="images/bg_media_IMG_1654.jpg" class="lightbox">
+      <img src="images/bg_media_IMG_1654.jpg" alt="Chaotic in Portland">
+    </a>
+    <a href="images/bg_shop_IMG_6362.jpg" class="lightbox">
+      <img src="images/bg_shop_IMG_6362.jpg" alt="Chaotic at Nectar in Fremont for a Big Brass Extravaganza event">
+    </a>
+    <a href="images/IMG_7198.jpg" class="lightbox">
+      <img src="images/IMG_7198.jpg" alt="Chaotic Combined with Another Band at Honk Fest West">
+    </a>
+    <a href="images/IMG_7120.jpg" class="lightbox">
+      <img src="images/IMG_7120.jpg" alt="Chaotic Dying During a Honk Fest West Set">
+    </a>
+    <a href="images/IMG_8749.jpg" class="lightbox">
+      <img src="images/IMG_8749.jpg" alt="Chaotic and Bussy">
+    </a>
+    <a href="images/IMG_5262.jpg" class="lightbox">
+      <img src="images/IMG_5262.jpg" alt="Chaotic Preparing for a Club Gig">
+    </a>
 
   </div>
 </section>
+
+  <!-- Lightbox Overlay -->
+  <div id="lightbox-overlay">
+    <img id="lightbox-image" src="" alt="">
+  </div>
+
+  <script>
+    document.querySelectorAll('.lightbox').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const overlay = document.getElementById('lightbox-overlay');
+        const img = document.getElementById('lightbox-image');
+        img.src = this.href;
+        overlay.style.display = 'flex';
+      });
+    });
+
+    document.getElementById('lightbox-overlay').addEventListener('click', function() {
+      this.style.display = 'none';
+    });
+  </script>
 
 <section id="tech">
 <h2>Tech & Setup</h2>
@@ -77,3 +126,8 @@
 <p>Email: <a href="mailto:band@chaoticnoise.com">band@chaoticnoise.com</a></p>
 <p>Instagram: <a href="https://www.instagram.com/chaoticnoisemarchingcorps/">@chaoticnoisemarchingcorps</a></p>
 </section>
+
+  </div> <!-- END .content -->
+
+</body>
+</html>

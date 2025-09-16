@@ -242,6 +242,15 @@ image:"http://chaoticnoise.com/event_fliers/20250906_bad-things-millers-vaudvill
 
 },{
 
+title: "Tacoma Honk Fest",
+url: "https://tacomahonk.org",
+location_display: "Tacoma, WA",
+location_url: "https://maps.app.goo.gl/1ApWVrbNCeXHfRVP9",
+time_display: "September 20, 2025, 12:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20250920_Tacoma_Honk_Schedule.jpg"
+
+},{
+
 title: "Mardi Gras in New Orleans",
 url: "https://www.mardigrasneworleans.com",
 location_display: "New Orleans",

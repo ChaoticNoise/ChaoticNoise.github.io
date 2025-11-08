@@ -267,6 +267,15 @@ time_display: "November 7, 2025, 9:00 PM"
 
 },{
 
+title: "Seacompression",
+url: "https://www.seacompression.org",
+location_display: "Seattle Design Center",
+location_url: "https://maps.app.goo.gl/EhqEN3viVmZmPpZW8",
+time_display: "November 8, 2025, 9:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20251108_Seacompression.jpg"
+
+},{
+
 title: "Mardi Gras in New Orleans",
 url: "https://www.mardigrasneworleans.com",
 location_display: "New Orleans",

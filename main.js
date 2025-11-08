@@ -251,6 +251,14 @@ image:"http://chaoticnoise.com/event_fliers/20250920_Tacoma_Honk_Schedule.jpg"
 
 },{
 
+title: "Capitol Hill Busking",
+url: "https://chaoticnoise.com",
+location_display: "Seattle, WA",
+location_url: "https://maps.app.goo.gl/FXNuVP96twHfhBW48",
+time_display: "November 7, 2025, 9:00 PM"
+
+},{
+
 title: "Mardi Gras in New Orleans",
 url: "https://www.mardigrasneworleans.com",
 location_display: "New Orleans",

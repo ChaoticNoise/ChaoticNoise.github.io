@@ -251,6 +251,14 @@ image:"http://chaoticnoise.com/event_fliers/20250920_Tacoma_Honk_Schedule.jpg"
 
 },{
 
+title: "Georgetown Halloween Parade",
+url: "https://www.georgetown-arts-culture.org/halloween-parade-2025/",
+location_display: "Mini Mart City Park, Seattle, WA",
+location_url: "https://maps.app.goo.gl/kXgjxeTM7upHVTM28",
+time_display: "October 31, 2025, 8:00 PM"
+
+},{
+
 title: "Capitol Hill Busking",
 url: "https://chaoticnoise.com",
 location_display: "Seattle, WA",

@@ -285,6 +285,15 @@ image:"http://chaoticnoise.com/event_fliers/20251128_BlackFridayLocalMarket-Tims
 
 },{
 
+title: "Equinox Very Open House (Buy Your Xmas Presents Here & Now!)",
+url: "https://equinoxstudios.org/event/very-open-house-2025/",
+location_display: "Equinox Studios",
+location_url: "https://maps.app.goo.gl/d3jrnMuv8WcicJQz7",
+time_display: "December 13, 2025, 3:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20251213_EquinoxOpenHouse.jpg"
+
+},{
+
 title: "Big Brass Extravaganza feat: Filthy Femcorps, Chaotic Noise Marching Corps, This Much Brass, VamoLá, 8-Bit Brass Band",
 url: "https://facebook.com/events/s/big-brass-extravaganza-ft-filt/1913034029598386/",
 location_display: "Nectar Lounge",

@@ -276,6 +276,24 @@ image:"http://chaoticnoise.com/event_fliers/20251108_Seacompression.jpg"
 
 },{
 
+title: "Black Friday Local Market at Tim's Tavern (Noon-6 Market with Live Music, and Live Music Afterwards Inside)",
+url: "https://dice.fm/event/92xx5o-black-friday-local-market-28th-nov-tims-tavern-seattle-tickets",
+location_display: "Tim's Tavern",
+location_url: "https://maps.app.goo.gl/TbSk3riGtV2FcdNo8",
+time_display: "November 28, 2025, 8:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20251128_BlackFridayLocalMarket-TimsTavern.jpg"
+
+},{
+
+title: "Big Brass Extravaganza feat: Filthy Femcorps, Chaotic Noise Marching Corps, This Much Brass, VamoLá, 8-Bit Brass Band",
+url: "https://facebook.com/events/s/big-brass-extravaganza-ft-filt/1913034029598386/",
+location_display: "Nectar Lounge",
+location_url: "https://maps.app.goo.gl/jY9h5vfo7GJZ25xQ7",
+time_display: "January 29, 2026, 7:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20260129_Nectar_Big_Brass_Extravaganza.jpg"
+
+},{
+
 title: "Mardi Gras in New Orleans",
 url: "https://www.mardigrasneworleans.com",
 location_display: "New Orleans",

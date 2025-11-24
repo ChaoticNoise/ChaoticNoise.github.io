@@ -170,10 +170,14 @@ body {
     text-align: center;			/* Center-align text within the container */}
 
 #events {background-image: url('images/bg_events_IMG_8397.jpg');}
+#live {background-image: url('images/bg_live_IMG_1654.jpg');}
+#video {background-image: url('images/bg_video_20250914_TectonicLoinsVideoShoot.jpg');}
 #music {background-image: url('images/bg_music_SDIM7112.jpg');}
-#media {background-image: url('images/bg_media_IMG_1654.jpg');}
 #shop {background-image: url('images/bg_shop_IMG_6362.jpg');}
 #contact {background-image: url('images/bg_contact_IMG_0335.jpg');}
+
+
+
 
 
 /* Header css for promo image */

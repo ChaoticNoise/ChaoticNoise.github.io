@@ -157,6 +157,38 @@ body {
 }
 
 
+.link-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 30px;
+}
+
+.link-tile {
+  width: 20%;
+  min-width: 120px;
+  aspect-ratio: 1 / 0.5; /* half-height tiles */
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: none;
+  border: none;
+  transition: transform 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.link-tile:hover {
+  background-color: rgb(245, 245, 245);
+  color: #296bd6;
+}
+
+
 
 /* Section Backgrounds */
 #chaoticnoise {background-image: url('images/bg_about_IMG_6009.jpg');
@@ -174,7 +206,7 @@ body {
 #video {background-image: url('images/bg_video_20250914_TectonicLoinsVideoShoot.jpg');}
 #music {background-image: url('images/bg_music_SDIM7112.jpg');}
 #shop {background-image: url('images/bg_shop_IMG_6362.jpg');}
-#contact {background-image: url('images/bg_contact_IMG_0335.jpg');}
+#booking {background-image: url('images/bg_booking_IMG_0335.jpg');}
 
 
 

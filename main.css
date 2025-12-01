@@ -391,6 +391,34 @@ body {
     outline: none;             /* Remove any default outline */
     box-shadow: none;          /* Remove any shadow effect */}
 
+
+
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  padding-top: 1rem;
+}
+
+.shop-grid a {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1 / 1;
+}
+
+.shop-grid a img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+
+
+
 #upcoming-events > h1,
 #past-events > h1 {
   margin-bottom: 1em;

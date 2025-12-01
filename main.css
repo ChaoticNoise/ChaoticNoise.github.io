@@ -173,9 +173,9 @@ body {
   margin-top: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .link-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

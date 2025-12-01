@@ -157,20 +157,27 @@ body {
 }
 
 
+
+
+
+
+
+
+
 .link-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 across by default */
+  grid-template-columns: repeat(4, 1fr);
   gap: 6px;
-  max-width: 800px;
-  margin: 30px auto 0 auto;
-  padding: 0 10px;
+  margin-top: 30px;
 }
 
+@media (max-width: 768px) {
+  .link-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 .link-tile {
-  width: 20%;
-  min-width: 120px;
-  aspect-ratio: 1 / 0.5; /* half-height tiles */
   background-color: white;
   color: black;
   font-size: 1.2rem;
@@ -182,7 +189,11 @@ body {
   text-decoration: none;
   box-shadow: none;
   border: none;
-  transition: transform 0.2s, background-color 0.2s, color 0.2s;
+  height: 60px; /* or use aspect-ratio: 1 / 0.5; */
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .link-tile:hover {
@@ -190,11 +201,10 @@ body {
   color: #296bd6;
 }
 
-@media (max-width: 767px) {
-  .link-grid {
-    grid-template-columns: repeat(3, 1fr); /* 3 across on mobile */
-  }
-}
+
+
+
+
 
 
 

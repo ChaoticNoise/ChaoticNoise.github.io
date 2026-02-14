@@ -264,6 +264,51 @@ body {
 
 
 
+/* Event typography hierarchy */
+.eventName a {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1.15;
+  text-decoration: none;
+  color: #e6f7ff; /* matches your site text */
+  display: inline-block;
+}
+
+.eventName a:hover {
+  text-decoration: underline;
+}
+
+.location a {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #e6f7ff;
+  text-decoration: none;
+}
+
+.location a:hover {
+  text-decoration: underline;
+}
+
+.time {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* Optional: tighten spacing */
+.eventName { margin-bottom: 6px; }
+.location { margin-bottom: 4px; }
+
+/* Mobile: keep the title strong but not giant */
+@media (max-width: 600px) {
+  .eventName a { font-size: 1.2rem; }
+  .location a { font-size: 1rem; }
+  .time { font-size: 0.9rem; }
+}
+
+
+
+
+
 .event {
     margin-bottom: 30px; 		/* Adjust spacing as needed */}
 

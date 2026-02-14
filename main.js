@@ -334,7 +334,7 @@ title: "Lundi Gras: Busking - Marigny at St Claude & St Roche with MM, FYO, CNMC
 url: "https://www.mardigrasneworleans.com",
 location_display: "Marigny, New Orleans",
 location_url: "https://maps.app.goo.gl/Je87To9Hkrj7Z1U47",
-time_display: "February 16, 2026, 12:00 pM",
+time_display: "February 16, 2026, 12:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20250213_mardi_gras.jpg"
 
 }

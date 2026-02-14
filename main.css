@@ -340,24 +340,19 @@ body {
 
 
 /* Music Section Styles */
-.music-item {
-    width: 90%;                /* Set close to full width of container */
-    max-width: 600px;          /* Limit the width for larger displays */
-    margin: 20px auto;         /* Center the music items */}
-
-.music-item iframe {
-    width: 100%;               /* Full width of music item container */
-    height: auto;              /* Adjust height to maintain aspect ratio */
-    border: none;              /* Remove border */
-    outline: none;             /* Remove any default outline */
-    box-shadow: none;          /* Remove any shadow effect */}
-
-/* Bandcamp embeds: responsive + centered */
 .bandcamp-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
   justify-items: center;
   margin-top: 20px;
+}
+
+.bandcamp-grid iframe {
+  width: 100%;
+  max-width: 400px;
+  border: 0;
+  display: block;
 }
 
 .bandcamp-embed {

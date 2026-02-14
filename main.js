@@ -310,6 +310,33 @@ location_url: "http://maps.google.com/?q=New%20Orleans",
 time_display: "February 13, 2026, 12:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20250213_mardi_gras.jpg"
 
+},{
+
+title: "Mardi Gras: Bacchus, Starting at Second Line Brewing",
+url: "https://www.mardigrasneworleans.com",
+location_display: "Second Line Brewing, New Orleans",
+location_url: "https://maps.app.goo.gl/L4tkizJd2WDGxBsq5",
+time_display: "February 15, 2026, 4:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20250213_mardi_gras.jpg"
+
+},{
+
+title: "Mardi Gras: No Dice - Marigny with PABB, MM, CNMC, FYO",
+url: "https://www.mardigrasneworleans.com",
+location_display: "No Dice, New Orleans",
+location_url: "https://maps.app.goo.gl/iCW86aoRkSExcQcS8",
+time_display: "February 15, 2026, 12:00 AM",
+image:"http://chaoticnoise.com/event_fliers/20250213_mardi_gras.jpg"
+
+},{
+
+title: "Lundi Gras: Busking - Marigny at St Claude & St Roche with MM, FYO, CNMC",
+url: "https://www.mardigrasneworleans.com",
+location_display: "Marigny, New Orleans",
+location_url: "https://maps.app.goo.gl/Je87To9Hkrj7Z1U47",
+time_display: "February 16, 2026, 12:00 pM",
+image:"http://chaoticnoise.com/event_fliers/20250213_mardi_gras.jpg"
+
 }
         
     ];

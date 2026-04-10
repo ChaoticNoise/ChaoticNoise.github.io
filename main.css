@@ -558,11 +558,6 @@ body {
     margin: 0 auto;
     padding: 20px 0;}
 
-.reach-out {
-    flex: 0 0 75%;				/* 60% width */
-    padding-right: 10px;
-    text-align: left;			/* Left-align text */}
-
 .socials {
     flex: 0 0 20%;				/* 30% width */
     padding-left: 10px;

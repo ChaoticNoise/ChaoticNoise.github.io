@@ -337,8 +337,17 @@ location_url: "https://maps.app.goo.gl/Je87To9Hkrj7Z1U47",
 time_display: "February 16, 2026, 12:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20250213_mardi_gras.jpg"
 
+},{
+
+title: "University District Street Fair",
+url: "https://udistrictseattle.com/streetfair",
+location_display: "University District, Seattle",
+location_url: "https://maps.app.goo.gl/CiAjuxYY3HesDKeX8",
+time_display: "May 17, 2026, 2:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20260516_UDistrictStreetFair.jpg"
+
 }
-        
+
     ];
 
     var today = new Date();

@@ -217,7 +217,7 @@ image: "http://chaoticnoise.com/event_fliers/20250802_Dead_Baby_Downhill.jpg"
 
 title: "Equinox Very Open House",
 url: "https://www.instagram.com/p/DLiiOgJB5-E",
-location_display: "Equinox Studios",
+location_display: "Equinox Studios, Georgetown, Seattle, WA",
 location_url: "https://maps.app.goo.gl/WduHy3G4Sszd141g7",
 time_display: "August 09, 2025, 6:00 PM",
 image: "http://chaoticnoise.com/event_fliers/20250809_Equinox_Open_House.jpg"
@@ -226,7 +226,7 @@ image: "http://chaoticnoise.com/event_fliers/20250809_Equinox_Open_House.jpg"
 
 title: "Nectar Big Brass Extravaganza with @vamolaseattle @thismuchbrass @filthyfemcorps and @8bitbrassband!",
 url: "https://www.tixr.com/e/150210",
-location_display: "Nectar Lounge",
+location_display: "Nectar Lounge, Fremont, Seattle, WA",
 location_url: "https://maps.app.goo.gl/oQAM7oJXoYzM3ZhRA",
 time_display: "August 14, 2025, 7:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20250814_Nectar_Big_Brass_Extravaganza.jpg"
@@ -253,7 +253,7 @@ image:"http://chaoticnoise.com/event_fliers/20250920_Tacoma_Honk_Schedule.jpg"
 
 title: "Georgetown Halloween Parade",
 url: "https://www.georgetown-arts-culture.org/halloween-parade-2025/",
-location_display: "Mini Mart City Park, Seattle, WA",
+location_display: "Mini Mart City Park, Georgetown, Seattle, WA",
 location_url: "https://maps.app.goo.gl/kXgjxeTM7upHVTM28",
 time_display: "October 31, 2025, 8:00 PM"
 
@@ -278,7 +278,7 @@ image:"http://chaoticnoise.com/event_fliers/20251108_Seacompression.jpg"
 
 title: "Black Friday Local Market at Tim's Tavern (Noon-6 Market with Live Music, and Live Music Afterwards Inside)",
 url: "https://dice.fm/event/92xx5o-black-friday-local-market-28th-nov-tims-tavern-seattle-tickets",
-location_display: "Tim's Tavern",
+location_display: "Tim's Tavern, White Center, Seattle, WA",
 location_url: "https://maps.app.goo.gl/TbSk3riGtV2FcdNo8",
 time_display: "November 28, 2025, 8:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20251128_BlackFridayLocalMarket-TimsTavern.jpg"
@@ -287,7 +287,7 @@ image:"http://chaoticnoise.com/event_fliers/20251128_BlackFridayLocalMarket-Tims
 
 title: "Equinox Very Open House (Buy Your Xmas Presents Here & Now!)",
 url: "https://equinoxstudios.org/event/very-open-house-2025/",
-location_display: "Equinox Studios",
+location_display: "Equinox Studios, Georgetown, Seattle, WA",
 location_url: "https://maps.app.goo.gl/d3jrnMuv8WcicJQz7",
 time_display: "December 13, 2025, 3:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20251213_EquinoxOpenHouse.jpg"
@@ -341,7 +341,7 @@ image:"http://chaoticnoise.com/event_fliers/20250213_mardi_gras.jpg"
 
 title: "University District Street Fair",
 url: "https://udistrictseattle.com/streetfair",
-location_display: "University District, Seattle",
+location_display: "University District, Seattle, WA",
 location_url: "https://maps.app.goo.gl/CiAjuxYY3HesDKeX8",
 time_display: "May 17, 2026, 2:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20260516_UDistrictStreetFair.jpg"

@@ -398,7 +398,7 @@ url: "https://honkpdx.org",
 location_display: "Alberta and Montavilla Neighborhoods, Portland, OR",
 location_url: "https://maps.app.goo.gl/ijSDZ67PFKQThF6x8",
 time_display: "Jul 25, 2026, 12:00 PM",
-image:"HonkPDX.png"
+image:"http://chaoticnoise.com/event_fliers/HonkPDX.png"
 
 },{
 
@@ -407,7 +407,7 @@ url: "https://realmsunknown.com/",
 location_display: "Woodland, WA",
 location_url: "https://maps.app.goo.gl/7h5FmeCyCtwXVqT87",
 time_display: "Sep 18, 2026, 12:00 PM",
-image:"RealmsUnknown.png"
+image:"http://chaoticnoise.com/event_fliers/RealmsUnknown.png"
 
 }
 

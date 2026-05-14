@@ -375,12 +375,39 @@ image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"
 
 },{
 
+title: "HonkFest West - Natty Dagger Memorial",
+url: "https://honkfestwest.org",
+location_display: "Columbia City, Seattle, WA",
+location_url: "https://maps.app.goo.gl/iHifgyB4grEVT79J8",
+time_display: "May 30, 2026, 7:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"
+
+},{
+
 title: "HonkFest West",
 url: "https://honkfestwest.org",
 location_display: "Pratt Park, Seattle, WA",
 location_url: "https://maps.app.goo.gl/d8Y9mhRDBTYC28jv6",
 time_display: "May 31, 2026, 1:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"
+
+},{
+
+title: "Honk PDX, July 25 & 26",
+url: "https://honkpdx.org",
+location_display: "Alberta and Montavilla Neighborhoods, Portland, OR",
+location_url: "https://maps.app.goo.gl/ijSDZ67PFKQThF6x8",
+time_display: "Jul 25, 2026, 12:00 PM",
+image:"HonkPDX.png"
+
+},{
+
+title: "Realms Unknown",
+url: "https://realmsunknown.com/",
+location_display: "Woodland, WA",
+location_url: "https://maps.app.goo.gl/7h5FmeCyCtwXVqT87",
+time_display: "Sep 18, 2026, 12:00 PM",
+image:"RealmsUnknown.png"
 
 }
 

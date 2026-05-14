@@ -348,7 +348,7 @@ image:"http://chaoticnoise.com/event_fliers/20260516_UDistrictStreetFair.jpg"
 
 },{
 
-title: "HonkFest West - Friday in Seattle's Georgetown Neighborhood",
+title: "HonkFest West - Friday in Georgetown",
 url: "https://honkfestwest.org",
 location_display: "Georgetown, Seattle, WA",
 location_url: "https://maps.app.goo.gl/9JVUeLCf4DFrHvvA7",
@@ -357,7 +357,7 @@ image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"
 
 },{
 
-title: "HonkFest West - Saturday in Seattle's Columbia Park",
+title: "HonkFest West - Saturday in Columbia Park",
 url: "https://honkfestwest.org",
 location_display: "Columbia City, Seattle, WA",
 location_url: "https://maps.app.goo.gl/iHifgyB4grEVT79J8",
@@ -366,7 +366,7 @@ image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"
 
 },{
 
-title: "HonkFest West - Sunday at Pratt Park in Seattle's Central District",
+title: "HonkFest West - Sunday at Pratt Park",
 url: "https://honkfestwest.org",
 location_display: "Pratt Park, Seattle, WA",
 location_url: "https://maps.app.goo.gl/d8Y9mhRDBTYC28jv6",

@@ -348,25 +348,34 @@ image:"http://chaoticnoise.com/event_fliers/20260516_UDistrictStreetFair.jpg"
 
 },{
 
-title: "HonkFest West - Friday in Georgetown",
+title: "HonkFest West",
 url: "https://honkfestwest.org",
-location_display: "Georgetown, Seattle, WA",
+location_display: "Underpas Stage - Georgetown, Seattle, WA",
 location_url: "https://maps.app.goo.gl/9JVUeLCf4DFrHvvA7",
 time_display: "May 29, 2026, 9:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"
 
 },{
 
-title: "HonkFest West - Saturday in Columbia Park",
+title: "HonkFest West",
 url: "https://honkfestwest.org",
-location_display: "Columbia City, Seattle, WA",
+location_display: "37th Ave Stage - Columbia City, Seattle, WA",
 location_url: "https://maps.app.goo.gl/iHifgyB4grEVT79J8",
 time_display: "May 30, 2026, 3:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"
 
 },{
 
-title: "HonkFest West - Sunday at Pratt Park",
+title: "HonkFest West",
+url: "https://honkfestwest.org",
+location_display: "North Park Stage - Columbia City, Seattle, WA",
+location_url: "https://maps.app.goo.gl/iHifgyB4grEVT79J8",
+time_display: "May 30, 2026, 5:30 PM",
+image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"
+
+},{
+
+title: "HonkFest West",
 url: "https://honkfestwest.org",
 location_display: "Pratt Park, Seattle, WA",
 location_url: "https://maps.app.goo.gl/d8Y9mhRDBTYC28jv6",

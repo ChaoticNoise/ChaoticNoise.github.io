@@ -350,7 +350,7 @@ image:"http://chaoticnoise.com/event_fliers/20260516_UDistrictStreetFair.jpg"
 
 title: "HonkFest West",
 url: "https://honkfestwest.org",
-location_display: "Underpas Stage - Georgetown, Seattle, WA",
+location_display: "Underpass Stage - Georgetown, Seattle, WA",
 location_url: "https://maps.app.goo.gl/9JVUeLCf4DFrHvvA7",
 time_display: "May 29, 2026, 9:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"

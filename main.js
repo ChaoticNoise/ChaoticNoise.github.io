@@ -393,6 +393,15 @@ image:"http://chaoticnoise.com/event_fliers/20260529_HonkFestWest.webp"
 
 },{
 
+title: "Georgetown Carnival",
+url: "https://www.instagram.com/georgetowncarnival/",
+location_display: "Georgetown, Seattle, WA",
+location_url: "https://maps.app.goo.gl/CHz9WGvkcYV8Qf256",
+time_display: "Jun 13, 2026, 1:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20260613_Georgetown_Carnival.jpg"
+
+},{
+
 title: "Honk PDX, July 25 & 26",
 url: "https://honkpdx.org",
 location_display: "Alberta and Montavilla Neighborhoods, Portland, OR",
@@ -408,15 +417,6 @@ location_display: "Woodland, WA",
 location_url: "https://maps.app.goo.gl/7h5FmeCyCtwXVqT87",
 time_display: "Sep 18, 2026, 12:00 PM",
 image:"http://chaoticnoise.com/event_fliers/RealmsUnknown.png"
-
-},{
-
-title: "Georgetown Carnival",
-url: "https://www.instagram.com/georgetowncarnival/",
-location_display: "Georgetown, Seattle, WA",
-location_url: "https://maps.app.goo.gl/CHz9WGvkcYV8Qf256",
-time_display: "Jun 13, 2026, 1:00 PM",
-image:"http://chaoticnoise.com/event_fliers/20260613_Georgetown_Carnival.jpg"
 
 }
 

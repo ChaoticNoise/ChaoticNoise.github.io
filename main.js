@@ -402,12 +402,30 @@ image:"http://chaoticnoise.com/event_fliers/20260613_Georgetown_Carnival.jpg"
 
 },{
 
+title: "Fremont Fridays",
+url: "https://www.fremontfridaysseattle.com/",
+location_display: "Fremont, Seattle, WA",
+location_url: "https://maps.app.goo.gl/tkX1MAXeFT2tJfAeA",
+time_display: "Jul 3, 2026, 8:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20260703_Fremont_Fridays.jpg"
+
+},{
+
 title: "Honk PDX, July 25 & 26",
 url: "https://honkpdx.org",
 location_display: "Alberta and Montavilla Neighborhoods, Portland, OR",
 location_url: "https://maps.app.goo.gl/ijSDZ67PFKQThF6x8",
 time_display: "Jul 25, 2026, 12:00 PM",
 image:"http://chaoticnoise.com/event_fliers/HonkPDX.png"
+
+},{
+
+title: "UHeights Park Pop Up",
+url: "https://www.uheightscenter.org/sppu",
+location_display: "UHeights Plaza",
+location_url: "https://maps.app.goo.gl/mp9pDepn5F2sp7vs8",
+time_display: "Sep 12, 2026, 10:30 AM",
+image:"http://chaoticnoise.com/event_fliers/20260912_UHeights_Plaza.webp"
 
 },{
 

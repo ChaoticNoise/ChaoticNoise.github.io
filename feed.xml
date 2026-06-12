@@ -7,6 +7,11 @@
     <description>Upcoming and past shows from Chaotic Noise Marching Corps, Seattle's renegade brass band.</description>
     <language>en-us</language>
     <atom:link href="https://chaoticnoise.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://chaoticnoise.com/images/chaotic_logo.png</url>
+      <title>Chaotic Noise Marching Corps</title>
+      <link>https://chaoticnoise.com</link>
+    </image>
 
     <item>
       <title>Realms Unknown</title>

@@ -402,6 +402,15 @@ image:"http://chaoticnoise.com/event_fliers/20260613_Georgetown_Carnival.jpg"
 
 },{
 
+title: "Busking: Pride & Egypt vs Iran",
+url: "https://seattlepride.org",
+location_display: "Baba Yaga / Occidental Square Park, Seattle, WA",
+location_url: "https://maps.app.goo.gl/4XgxLgiHVRLyPQkf8",
+time_display: "Jun 26, 2026, 5:30 PM",
+image:"http://chaoticnoise.com/event_fliers/20260626_Pride&Iran_vs_Egypt.jpg"
+
+},{
+
 title: "Fremont Fridays",
 url: "https://www.fremontfridaysseattle.com/",
 location_display: "Fremont, Seattle, WA",

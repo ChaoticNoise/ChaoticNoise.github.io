@@ -443,7 +443,7 @@ url: "https://do206.com/events/2026/7/30/big-brass-extravaganza-14-feat-this-muc
 location_display: "Nectar Lounge, Seattle, WA",
 location_url: "https://maps.app.goo.gl/eoHiotEfkTCACq3F7",
 time_display: "Jul 30, 2026, 7:00 PM",
-image:"20260730_Nectar_Big_Brass_Extravaganza.jpg"
+image:"http://chaoticnoise.com/event_fliers/20260730_Nectar_Big_Brass_Extravaganza.jpg"
 
 },{
 

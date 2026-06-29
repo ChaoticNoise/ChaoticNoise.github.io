@@ -420,7 +420,7 @@ image:"http://chaoticnoise.com/event_fliers/20260703_Fremont_Fridays.jpg"
 
 },{
 
-title: "Waterland Festival Parade (Part of Seafair)",
+title: "Waterland Festival and Parade (Part of Seafair)",
 url: "https://www.waterlandfestival.org",
 location_display: "Des Moines, WA",
 location_url: "https://maps.app.goo.gl/L2YrYvBPGKhDCCkU7",

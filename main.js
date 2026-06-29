@@ -438,6 +438,15 @@ image:"http://chaoticnoise.com/event_fliers/HonkPDX.png"
 
 },{
 
+title: "Big Brass Extravaganza #14 Feat: This Much Brass, Chaotic Noise Marching Corps, AGAB, 8-Bit Brass Band",
+url: "https://do206.com/events/2026/7/30/big-brass-extravaganza-14-feat-this-much-brass-chaotic-noise-marching-corps-agab-8-bit-brass-band-tickets",
+location_display: "Nectar Lounge, Seattle, WA",
+location_url: "https://maps.app.goo.gl/eoHiotEfkTCACq3F7",
+time_display: "Jul 30, 2026, 7:00 PM",
+image:"20260730_Nectar_Big_Brass_Extravaganza.jpg"
+
+},{
+
 title: "UHeights Park Pop Up",
 url: "https://www.uheightscenter.org/sppu",
 location_display: "UHeights Plaza",

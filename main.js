@@ -31,7 +31,7 @@ url: "https://www.elysianbrewing.com/gpbf2024",
 location_display: "Seattle Center",
 location_url: "https://maps.google.com/?q=Seattle%20Center",
 time_display: "October 05, 2024, 7:40 PM",
-image: "http://chaoticnoise.com/event_fliers/elysian-pumpkin-fest-2024.jpg"
+image: "http://chaoticnoise.com/event_fliers/20240612_Elysian-Pumpkin-Beer-Fest.jpg"
 
 },{
 
@@ -175,7 +175,7 @@ url: "https://georgetownseattle.org/georgetown-carnival-2025/",
 location_display: "Georgetown, Seattle, WA",
 location_url: "https://maps.app.goo.gl/RVrS9C7Aeb4AtgxY9",
 time_display: "June 14, 2025, 12:00 PM",
-image: "http://chaoticnoise.com/event_fliers/GT-Carnival-2025-Postcard-Front-683x1024.jpg"
+image: "http://chaoticnoise.com/event_fliers/20250614_Georgetown-Carnival.jpg"
 
 },{
 
@@ -420,6 +420,15 @@ image:"http://chaoticnoise.com/event_fliers/20260703_Fremont_Fridays.jpg"
 
 },{
 
+title: "Waterland Festival Parade (Part of Seafair)",
+url: "https://www.waterlandfestival.org",
+location_display: "Des Moines, WA",
+location_url: "https://maps.app.goo.gl/L2YrYvBPGKhDCCkU7",
+time_display: "Jul 18, 2026, 6:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20260718_Waterland_Festival_and_Parade.jpg"
+
+},{
+
 title: "Honk PDX, July 25 & 26",
 url: "https://honkpdx.org",
 location_display: "Alberta and Montavilla Neighborhoods, Portland, OR",
@@ -443,7 +452,7 @@ url: "https://realmsunknown.com/",
 location_display: "Woodland, WA",
 location_url: "https://maps.app.goo.gl/7h5FmeCyCtwXVqT87",
 time_display: "Sep 18, 2026, 12:00 PM",
-image:"http://chaoticnoise.com/event_fliers/RealmsUnknown.png"
+image:"http://chaoticnoise.com/event_fliers/20260918_RealmsUnknown.png"
 
 }
 

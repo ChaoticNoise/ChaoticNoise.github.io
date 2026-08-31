@@ -454,15 +454,6 @@ location_url: "https://maps.app.goo.gl/mp9pDepn5F2sp7vs8",
 time_display: "Sep 12, 2026, 10:30 AM",
 image:"http://chaoticnoise.com/event_fliers/20260912_UHeights_Plaza.webp"
 
-},{
-
-title: "Realms Unknown",
-url: "https://realmsunknown.com/",
-location_display: "Woodland, WA",
-location_url: "https://maps.app.goo.gl/7h5FmeCyCtwXVqT87",
-time_display: "Sep 18, 2026, 12:00 PM",
-image:"http://chaoticnoise.com/event_fliers/20260918_RealmsUnknown.png"
-
 }
 
     ];

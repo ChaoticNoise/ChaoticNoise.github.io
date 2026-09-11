@@ -451,8 +451,18 @@ title: "UHeights Park Pop Up",
 url: "https://www.uheightscenter.org/sppu",
 location_display: "UHeights Plaza",
 location_url: "https://maps.app.goo.gl/mp9pDepn5F2sp7vs8",
-time_display: "Sep 12, 2026, 10:30 AM",
+time_display: "Sep 12, 2026, 12:00 PM",
 image:"http://chaoticnoise.com/event_fliers/20260912_UHeights_Plaza.webp"
+
+
+},{
+
+title: "Burien ArtsA-Glow - Illuminated Art Festival",
+url: "https://www.burienwa.gov/news_events/featured_events/arts-a-_glow_2026",
+location_display: "Burien",
+location_url: "https://maps.app.goo.gl/Uv3XT2S9jH95BB8r8",
+time_display: "Sep 12, 2026, 8:00 PM",
+image:"http://chaoticnoise.com/event_fliers/20260912-Burien-Arts-A-Glow.png"
 
 }
 

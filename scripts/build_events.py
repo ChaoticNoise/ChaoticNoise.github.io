@@ -9,6 +9,7 @@ events.yml is the only file you should edit by hand. Run this script
 """
 
 import datetime as dt
+import difflib
 import json
 import sys
 from email.utils import format_datetime, parsedate_to_datetime
@@ -106,7 +107,10 @@ def load_events():
         flier = item.get("flier")
         if flier and not str(flier).startswith(("http://", "https://")):
             if not (FLIERS_DIR / flier).is_file():
-                raise EventError(f"{where}: flier '{flier}' not found in event_fliers/")
+                names = [p.name for p in FLIERS_DIR.iterdir()]
+                close = difflib.get_close_matches(flier, names, n=1)
+                hint = f" Did you mean '{close[0]}'?" if close else ""
+                raise EventError(f"{where}: flier '{flier}' not found in event_fliers/.{hint}")
             flier = f"event_fliers/{flier}"
 
         events.append({

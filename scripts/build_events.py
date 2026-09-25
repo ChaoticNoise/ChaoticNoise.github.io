@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build events.json (used by main.js) and feed.xml (RSS) from events.yml.
+"""Build events.json (used by site.js) and feed.xml (RSS) from events.yml.
 
 events.yml is the only file you should edit by hand. Run this script
 (or let the GitHub Action run it) to regenerate the other two:

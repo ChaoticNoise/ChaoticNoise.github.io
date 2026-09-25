@@ -139,8 +139,58 @@ function setUpLightbox() {
   });
 }
 
+// Videos show a thumbnail; the YouTube player only loads (and starts) when tapped
+function setUpVideos() {
+  document.querySelectorAll(".yt").forEach(thumb => {
+    thumb.addEventListener("click", e => {
+      e.preventDefault();
+      const player = document.createElement("iframe");
+      player.src = `https://www.youtube.com/embed/${thumb.dataset.id}?autoplay=1&rel=0`;
+      player.title = thumb.querySelector(".yt-title").textContent;
+      player.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+      player.allowFullscreen = true;
+      thumb.replaceWith(player);
+    });
+  });
+}
+
+// Parallax: each section's background photo moves a bit slower than the page.
+// Skipped for visitors whose device asks for reduced motion.
+function setUpParallax() {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const SPEED = 0.18;
+  const MAX_SHIFT = 120; // matches the extra 120px on each end in site.css
+  const sections = [...document.querySelectorAll(".section")];
+  let queued = false;
+
+  function update() {
+    queued = false;
+    const middle = window.innerHeight / 2;
+    sections.forEach(section => {
+      const box = section.getBoundingClientRect();
+      if (box.bottom < -MAX_SHIFT || box.top > window.innerHeight + MAX_SHIFT) return;
+      const offset = box.top + box.height / 2 - middle;
+      const shift = Math.max(-MAX_SHIFT, Math.min(MAX_SHIFT, -offset * SPEED));
+      section.style.setProperty("--shift", `${shift.toFixed(1)}px`);
+    });
+  }
+
+  function queue() {
+    if (!queued) {
+      queued = true;
+      requestAnimationFrame(update);
+    }
+  }
+
+  window.addEventListener("scroll", queue, { passive: true });
+  window.addEventListener("resize", queue);
+  update();
+}
+
 document.getElementById("current-year").textContent = new Date().getFullYear();
 setUpNav();
+setUpVideos();
+setUpParallax();
 setUpLightbox();
 fetch("events.json")
   .then(response => response.json())

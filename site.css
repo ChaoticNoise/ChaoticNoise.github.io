@@ -40,6 +40,9 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* Anything marked hidden stays hidden, even if a rule below gives it a display */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; }
 
 body {
@@ -100,9 +103,6 @@ h2::after {
 }
 
 .nav-brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   color: var(--text);
   text-decoration: none;
   font-family: var(--display);
@@ -208,16 +208,33 @@ h2::after {
 /* Sections with photo backgrounds */
 .section {
   position: relative;
+  isolation: isolate;
+  overflow: hidden;
   padding: 100px 20px;
-  background-size: cover;
-  background-position: center;
   scroll-margin-top: calc(var(--nav-h) - 1px);
 }
 
+/* Background photo layer. site.js slides it (--shift) a little slower than
+   the page scrolls for a parallax effect; it's 120px taller at each end so
+   no edge ever shows. */
 .section::before {
   content: "";
   position: absolute;
+  inset: -120px 0;
+  z-index: -2;
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center;
+  transform: translate3d(0, var(--shift, 0px), 0);
+  will-change: transform;
+}
+
+/* Dark gradient over the photo so text stays readable */
+.section::after {
+  content: "";
+  position: absolute;
   inset: 0;
+  z-index: -1;
   background: linear-gradient(180deg, rgba(7, 7, 12, 0.72) 0%, rgba(7, 7, 12, 0.55) 45%, rgba(7, 7, 12, 0.8) 100%);
 }
 
@@ -228,18 +245,13 @@ h2::after {
   text-align: center;
 }
 
-.bg-about   { background-image: url("images/bg_about_IMG_6009.jpg"); }
-.bg-events  { background-image: url("images/bg_events_IMG_8397.jpg"); }
-.bg-live    { background-image: url("images/bg_live_IMG_1654.jpg"); }
-.bg-video   { background-image: url("images/bg_video_20250914_TectonicLoinsVideoShoot.jpg"); }
-.bg-music   { background-image: url("images/bg_music_SDIM7112.jpg"); }
-.bg-shop    { background-image: url("images/bg_shop_IMG_6362.jpg"); }
-.bg-booking { background-image: url("images/bg_booking_IMG_0335.jpg"); }
-
-/* Parallax: photos stay put while the page scrolls (desktop only; phones handle this badly) */
-@media (min-width: 900px) and (hover: hover) and (prefers-reduced-motion: no-preference) {
-  .section { background-attachment: fixed; }
-}
+.bg-about   { --bg: url("images/bg_about_IMG_6009.jpg"); }
+.bg-events  { --bg: url("images/bg_events_IMG_8397.jpg"); }
+.bg-live    { --bg: url("images/bg_live_IMG_1654.jpg"); }
+.bg-video   { --bg: url("images/bg_video_20250914_TectonicLoinsVideoShoot.jpg"); }
+.bg-music   { --bg: url("images/bg_music_SDIM7112.jpg"); }
+.bg-shop    { --bg: url("images/bg_shop_IMG_6362.jpg"); }
+.bg-booking { --bg: url("images/bg_booking_IMG_0335.jpg"); }
 
 .section-intro {
   max-width: 62ch;
@@ -553,10 +565,9 @@ h2::after {
 
 .video.featured { grid-column: 1 / -1; }
 
+/* No rounded clipping around live players: some browsers draw them blank */
 .video {
   aspect-ratio: 16 / 9;
-  border-radius: 10px;
-  overflow: hidden;
   background: #000;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
 }
@@ -566,6 +577,70 @@ h2::after {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* Video thumbnail with a play button; the YouTube player loads when tapped */
+.yt {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+}
+
+.yt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.yt:hover img { opacity: 1; }
+
+.yt .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 76px;
+  height: 54px;
+  margin: -27px 0 0 -38px;
+  border-radius: 14px;
+  background: var(--accent);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.yt .play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -8px;
+  border-style: solid;
+  border-width: 12px 0 12px 21px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.yt:hover .play {
+  transform: scale(1.1) rotate(-4deg);
+  background: #6577ff;
+}
+
+.yt-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 28px 16px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.3;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.85));
 }
 
 @media (max-width: 700px) {
@@ -589,7 +664,6 @@ h2::after {
   max-width: 400px;
   height: 439px;
   border: 0;
-  border-radius: 10px;
 }
 
 

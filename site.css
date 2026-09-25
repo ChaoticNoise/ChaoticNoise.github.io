@@ -208,16 +208,33 @@ h2::after {
 /* Sections with photo backgrounds */
 .section {
   position: relative;
+  isolation: isolate;
+  overflow: hidden;
   padding: 100px 20px;
-  background-size: cover;
-  background-position: center;
   scroll-margin-top: calc(var(--nav-h) - 1px);
 }
 
+/* Background photo layer. site.js slides it (--shift) a little slower than
+   the page scrolls for a parallax effect; it's 120px taller at each end so
+   no edge ever shows. */
 .section::before {
   content: "";
   position: absolute;
+  inset: -120px 0;
+  z-index: -2;
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center;
+  transform: translate3d(0, var(--shift, 0px), 0);
+  will-change: transform;
+}
+
+/* Dark gradient over the photo so text stays readable */
+.section::after {
+  content: "";
+  position: absolute;
   inset: 0;
+  z-index: -1;
   background: linear-gradient(180deg, rgba(7, 7, 12, 0.72) 0%, rgba(7, 7, 12, 0.55) 45%, rgba(7, 7, 12, 0.8) 100%);
 }
 
@@ -228,18 +245,13 @@ h2::after {
   text-align: center;
 }
 
-.bg-about   { background-image: url("images/bg_about_IMG_6009.jpg"); }
-.bg-events  { background-image: url("images/bg_events_IMG_8397.jpg"); }
-.bg-live    { background-image: url("images/bg_live_IMG_1654.jpg"); }
-.bg-video   { background-image: url("images/bg_video_20250914_TectonicLoinsVideoShoot.jpg"); }
-.bg-music   { background-image: url("images/bg_music_SDIM7112.jpg"); }
-.bg-shop    { background-image: url("images/bg_shop_IMG_6362.jpg"); }
-.bg-booking { background-image: url("images/bg_booking_IMG_0335.jpg"); }
-
-/* Parallax: photos stay put while the page scrolls (desktop only; phones handle this badly) */
-@media (min-width: 900px) and (hover: hover) and (prefers-reduced-motion: no-preference) {
-  .section { background-attachment: fixed; }
-}
+.bg-about   { --bg: url("images/bg_about_IMG_6009.jpg"); }
+.bg-events  { --bg: url("images/bg_events_IMG_8397.jpg"); }
+.bg-live    { --bg: url("images/bg_live_IMG_1654.jpg"); }
+.bg-video   { --bg: url("images/bg_video_20250914_TectonicLoinsVideoShoot.jpg"); }
+.bg-music   { --bg: url("images/bg_music_SDIM7112.jpg"); }
+.bg-shop    { --bg: url("images/bg_shop_IMG_6362.jpg"); }
+.bg-booking { --bg: url("images/bg_booking_IMG_0335.jpg"); }
 
 .section-intro {
   max-width: 62ch;

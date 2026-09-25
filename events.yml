@@ -410,10 +410,19 @@
   flier: 20260912_UHeights_Plaza.webp
   id: "20260912"
 
-- title: Burien ArtsA-Glow - Illuminated Art Festival
+- title: Burien Arts-A-Glow - Illuminated Art Festival
   date: 2026-09-12
   time: 8:00 PM
   url: https://www.burienwa.gov/news_events/featured_events/arts-a-_glow_2026
-  location: Burien
+  location: Burien, WA
   map: https://maps.app.goo.gl/Uv3XT2S9jH95BB8r8
   flier: 20260912-Burien-Arts-A-Glow.png
+
+- title: Tacoma Honk!
+  date: 2026-10-03
+  time: 12:00 PM
+  url: https://tacomahonk.org
+  location: Tacoma, WA
+  map: https://maps.app.goo.gl/uLPHCWerZYSPvMjC9
+  flier: 20261003_tacoma-honk.webp
+  

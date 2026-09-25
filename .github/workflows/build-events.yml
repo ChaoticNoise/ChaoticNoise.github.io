@@ -1,5 +1,6 @@
-# Regenerates events.json and feed.xml from events.yml and commits them,
-# so the only file anyone edits to add a gig is events.yml.
+# Regenerates thumbs/, events.json and feed.xml from events.yml and the
+# images, and commits them, so the only file anyone edits to add a gig is
+# events.yml (plus dropping the flier into event_fliers/).
 name: Build events
 
 on:
@@ -7,8 +8,9 @@ on:
     branches: [master]
     paths:
       - events.yml
-      - scripts/build_events.py
+      - scripts/**
       - event_fliers/**
+      - images/**
       - .github/workflows/build-events.yml
   workflow_dispatch:
 
@@ -30,8 +32,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install PyYAML
-        run: pip install pyyaml
+      # Pinned so thumbnails come out byte-identical run to run
+      - name: Install PyYAML and Pillow
+        run: pip install pyyaml==6.0.1 pillow==12.3.0
+
+      - name: Generate thumbnails
+        run: python scripts/build_thumbnails.py
 
       - name: Generate events.json and feed.xml
         run: python scripts/build_events.py
@@ -39,15 +45,15 @@ jobs:
       - name: Commit generated files
         id: commit
         run: |
-          if git diff --quiet -- events.json feed.xml; then
+          git add -A thumbs events.json feed.xml
+          if git diff --cached --quiet; then
             echo "Nothing changed."
             echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add events.json feed.xml
-          git commit -m "Regenerate events.json and feed.xml from events.yml"
+          git commit -m "Regenerate thumbnails, events.json and feed.xml"
           git push
           echo "pushed=true" >> "$GITHUB_OUTPUT"
 

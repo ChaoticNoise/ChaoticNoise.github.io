@@ -6,7 +6,8 @@
     "map": "https://maps.app.goo.gl/EGMf7qbZAK9Nem1r9",
     "start": "2024-08-30T23:00:00-07:00",
     "time_display": "August 30, 2024, 11:00 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Great Pumpkin Beer Fest 2024",
@@ -15,7 +16,8 @@
     "map": "https://maps.google.com/?q=Seattle%20Center",
     "start": "2024-10-05T19:40:00-07:00",
     "time_display": "October 5, 2024, 7:40 PM",
-    "image": "event_fliers/20240612_Elysian-Pumpkin-Beer-Fest.jpg"
+    "image": "event_fliers/20240612_Elysian-Pumpkin-Beer-Fest.jpg",
+    "thumb": "thumbs/event_fliers/20240612_Elysian-Pumpkin-Beer-Fest.webp"
   },
   {
     "title": "The LAST EVER Hoodstock",
@@ -24,7 +26,8 @@
     "map": "https://maps.google.com/?q=918%20Martin%20Luther%20King%20Jr%20Way",
     "start": "2024-10-12T15:30:00-07:00",
     "time_display": "October 12, 2024, 3:30 PM",
-    "image": "event_fliers/20241012_Hoodstock.jpg"
+    "image": "event_fliers/20241012_Hoodstock.jpg",
+    "thumb": "thumbs/event_fliers/20241012_Hoodstock.webp"
   },
   {
     "title": "Boulderfest competition",
@@ -33,7 +36,8 @@
     "map": "https://maps.google.com/?q=900%20Poplar%20Pl%20S%20Seattle,%20WA%2098144",
     "start": "2024-10-12T18:00:00-07:00",
     "time_display": "October 12, 2024, 6:00 PM",
-    "image": "event_fliers/20241012_Boulderfest.jpg"
+    "image": "event_fliers/20241012_Boulderfest.jpg",
+    "thumb": "thumbs/event_fliers/20241012_Boulderfest.webp"
   },
   {
     "title": "Georgetown Halloween Parade & Marauding",
@@ -42,7 +46,8 @@
     "map": "https://maps.google.com/?q=6525%20Ellis%20Ave%20S",
     "start": "2024-10-31T18:30:00-07:00",
     "time_display": "October 31, 2024, 6:30 PM",
-    "image": "event_fliers/20241013_Georgetown_Halloween_Parade.jpg"
+    "image": "event_fliers/20241013_Georgetown_Halloween_Parade.jpg",
+    "thumb": "thumbs/event_fliers/20241013_Georgetown_Halloween_Parade.webp"
   },
   {
     "title": "The Bad Things Vaudeville Show",
@@ -51,7 +56,8 @@
     "map": "https://maps.app.goo.gl/u5J3nPrZEdc6SAga6",
     "start": "2024-11-08T20:00:00-08:00",
     "time_display": "November 8, 2024, 8:00 PM",
-    "image": "event_fliers/20241108_Bad_Things_Vaudeville_Show.jpg"
+    "image": "event_fliers/20241108_Bad_Things_Vaudeville_Show.jpg",
+    "thumb": "thumbs/event_fliers/20241108_Bad_Things_Vaudeville_Show.webp"
   },
   {
     "title": "Pun Slam",
@@ -60,7 +66,8 @@
     "map": "https://maps.app.goo.gl/69YvGQpNynpnJqnTA",
     "start": "2024-11-27T19:00:00-08:00",
     "time_display": "November 27, 2024, 7:00 PM",
-    "image": "event_fliers/20241127_Pun_Slam.jpg"
+    "image": "event_fliers/20241127_Pun_Slam.jpg",
+    "thumb": "thumbs/event_fliers/20241127_Pun_Slam.webp"
   },
   {
     "title": "Port Angeles Wintertide Festival of Lights",
@@ -69,7 +76,8 @@
     "map": "https://maps.app.goo.gl/2rAiAaNYwRL7ZNhB8",
     "start": "2024-12-07T16:00:00-08:00",
     "time_display": "December 7, 2024, 4:00 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Equinox Very Open House",
@@ -78,7 +86,8 @@
     "map": "https://maps.app.goo.gl/ZA1E8ZcNFWpvpRc36",
     "start": "2024-12-14T15:00:00-08:00",
     "time_display": "December 14, 2024, 3:00 PM",
-    "image": "event_fliers/20241214_Equinox_Open_House.jpg"
+    "image": "event_fliers/20241214_Equinox_Open_House.jpg",
+    "thumb": "thumbs/event_fliers/20241214_Equinox_Open_House.webp"
   },
   {
     "title": "Breakfast Club",
@@ -87,7 +96,8 @@
     "map": "https://maps.app.goo.gl/As4qEJ64C7HnXFiT6",
     "start": "2025-01-01T10:00:00-08:00",
     "time_display": "January 1, 2025, 10:00 AM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Big Brass Extravaganza #11 feat: This Much Brass, Chaotic Noise Marching Corps, VamoLá, AGAB, Analog Brass",
@@ -96,7 +106,8 @@
     "map": "https://maps.app.goo.gl/HVsYnea9D6iVrdDz9",
     "start": "2025-01-16T19:00:00-08:00",
     "time_display": "January 16, 2025, 7:00 PM",
-    "image": "event_fliers/20250116_Big_Brass_Extravaganza_promo.jpg"
+    "image": "event_fliers/20250116_Big_Brass_Extravaganza_promo.jpg",
+    "thumb": "thumbs/event_fliers/20250116_Big_Brass_Extravaganza_promo.webp"
   },
   {
     "title": "Goodbye Lucille House",
@@ -105,7 +116,8 @@
     "map": "https://maps.app.goo.gl/cJUBW4vvp5N1VHKm9",
     "start": "2025-04-11T18:30:00-07:00",
     "time_display": "April 11, 2025, 6:30 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "University District Street Fair",
@@ -114,7 +126,8 @@
     "map": "https://maps.app.goo.gl/ffyJQFUAttbPiRmNA",
     "start": "2025-05-17T13:30:00-07:00",
     "time_display": "May 17, 2025, 1:30 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "HONK! Showcase at Northwest Folklife Festival at Seattle Center! (4 Bands! Neon Brass Party, Filthy Femcorps, Chaotic Noise, and This Much Brass)",
@@ -123,7 +136,8 @@
     "map": "https://maps.app.goo.gl/zo1pWFZREFasRGKC9",
     "start": "2025-05-25T13:15:00-07:00",
     "time_display": "May 25, 2025, 1:15 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Honk! Fest West 6-10pm - Chaotic Noise Plays at the Underpass Stage at 8pm",
@@ -132,7 +146,8 @@
     "map": "http://maps.google.com/?q=Georgetown",
     "start": "2025-05-30T20:00:00-07:00",
     "time_display": "May 30, 2025, 8:00 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Honk! Fest West 12-8pm - Chaotic Noise Plays at the North Park Stage in Columbia City at 3pm",
@@ -141,7 +156,8 @@
     "map": "https://maps.app.goo.gl/qJRdfP68mqwphpQf6",
     "start": "2025-05-31T15:00:00-07:00",
     "time_display": "May 31, 2025, 3:00 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Honk! Fest West 12-8pm - Chaotic Noise Plays at the South Park Stage in Columbia City at 7pm",
@@ -150,7 +166,8 @@
     "map": "https://maps.app.goo.gl/qJRdfP68mqwphpQf6",
     "start": "2025-05-31T19:00:00-07:00",
     "time_display": "May 31, 2025, 7:00 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Honk! Fest West 12-6:30pm - Chaotic Noise Plays at the South Field Stage in Pratt Park at 4:30pm",
@@ -159,7 +176,8 @@
     "map": "https://maps.app.goo.gl/HFvStXRwm8soYQJD7",
     "start": "2025-06-01T16:30:00-07:00",
     "time_display": "June 1, 2025, 4:30 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Georgetown Carnival",
@@ -168,7 +186,8 @@
     "map": "https://maps.app.goo.gl/RVrS9C7Aeb4AtgxY9",
     "start": "2025-06-14T12:00:00-07:00",
     "time_display": "June 14, 2025, 12:00 PM",
-    "image": "event_fliers/20250614_Georgetown-Carnival.jpg"
+    "image": "event_fliers/20250614_Georgetown-Carnival.jpg",
+    "thumb": "thumbs/event_fliers/20250614_Georgetown-Carnival.webp"
   },
   {
     "title": "The Bad Things Vaudeville Show, Feat: The Bad Things, Chaotic Noise Marching Corps, Blackhearts Society, Leslie Rosen, J9 Fierce",
@@ -177,7 +196,8 @@
     "map": "https://maps.app.goo.gl/5bgBVNwpA4sqRcrx8",
     "start": "2025-06-14T20:00:00-07:00",
     "time_display": "June 14, 2025, 8:00 PM",
-    "image": "event_fliers/20250614_The_Bad_Things_Vaudeville_Show.jpg"
+    "image": "event_fliers/20250614_The_Bad_Things_Vaudeville_Show.jpg",
+    "thumb": "thumbs/event_fliers/20250614_The_Bad_Things_Vaudeville_Show.webp"
   },
   {
     "title": "Death by Brass at The High Water Mark with Brassless Chaps, Couch Brass, and Chaotic Noise Marching Corps",
@@ -186,7 +206,8 @@
     "map": "https://maps.app.goo.gl/AP9kQP8VkCbQmKfE9",
     "start": "2025-06-19T20:30:00-07:00",
     "time_display": "June 19, 2025, 8:30 PM",
-    "image": "event_fliers/20250619_Death_by_Brass_with_Brassless_Chaps,_Couch_Brass,_and_Chaotic_Noise_at_The_High_Water_Mark_in_Portland.jpg"
+    "image": "event_fliers/20250619_Death_by_Brass_with_Brassless_Chaps,_Couch_Brass,_and_Chaotic_Noise_at_The_High_Water_Mark_in_Portland.jpg",
+    "thumb": "thumbs/event_fliers/20250619_Death_by_Brass_with_Brassless_Chaps,_Couch_Brass,_and_Chaotic_Noise_at_The_High_Water_Mark_in_Portland.webp"
   },
   {
     "title": "All-City Band Jam",
@@ -195,7 +216,8 @@
     "map": "https://maps.app.goo.gl/S5gaMThRVdWqrbTQA",
     "start": "2025-07-25T18:00:00-07:00",
     "time_display": "July 25, 2025, 6:00 PM",
-    "image": "event_fliers/all-city_band.png"
+    "image": "event_fliers/all-city_band.png",
+    "thumb": "thumbs/event_fliers/all-city_band.webp"
   },
   {
     "title": "Dead Baby Downhill",
@@ -204,7 +226,8 @@
     "map": "https://www.facebook.com/events/3446831982123572",
     "start": "2025-08-02T18:00:00-07:00",
     "time_display": "August 2, 2025, 6:00 PM",
-    "image": "event_fliers/20250802_Dead_Baby_Downhill.jpg"
+    "image": "event_fliers/20250802_Dead_Baby_Downhill.jpg",
+    "thumb": "thumbs/event_fliers/20250802_Dead_Baby_Downhill.webp"
   },
   {
     "title": "Equinox Very Open House",
@@ -213,7 +236,8 @@
     "map": "https://maps.app.goo.gl/WduHy3G4Sszd141g7",
     "start": "2025-08-09T18:00:00-07:00",
     "time_display": "August 9, 2025, 6:00 PM",
-    "image": "event_fliers/20250809_Equinox_Open_House.jpg"
+    "image": "event_fliers/20250809_Equinox_Open_House.jpg",
+    "thumb": "thumbs/event_fliers/20250809_Equinox_Open_House.webp"
   },
   {
     "title": "Nectar Big Brass Extravaganza with @vamolaseattle @thismuchbrass @filthyfemcorps and @8bitbrassband!",
@@ -222,7 +246,8 @@
     "map": "https://maps.app.goo.gl/oQAM7oJXoYzM3ZhRA",
     "start": "2025-08-14T19:00:00-07:00",
     "time_display": "August 14, 2025, 7:00 PM",
-    "image": "event_fliers/20250814_Nectar_Big_Brass_Extravaganza.jpg"
+    "image": "event_fliers/20250814_Nectar_Big_Brass_Extravaganza.jpg",
+    "thumb": "thumbs/event_fliers/20250814_Nectar_Big_Brass_Extravaganza.webp"
   },
   {
     "title": "Miller's Carnation with the Bad Things, Eva Jinx, Rue Thaday, Jenny Penny, and MC J9 Fierce",
@@ -231,7 +256,8 @@
     "map": "https://maps.app.goo.gl/anFTVTWjN1QLY6Lg7",
     "start": "2025-09-06T19:30:00-07:00",
     "time_display": "September 6, 2025, 7:30 PM",
-    "image": "event_fliers/20250906_bad-things-millers-vaudville-poster-090625.jpg"
+    "image": "event_fliers/20250906_bad-things-millers-vaudville-poster-090625.jpg",
+    "thumb": "thumbs/event_fliers/20250906_bad-things-millers-vaudville-poster-090625.webp"
   },
   {
     "title": "Tacoma Honk Fest",
@@ -240,7 +266,8 @@
     "map": "https://maps.app.goo.gl/1ApWVrbNCeXHfRVP9",
     "start": "2025-09-20T12:00:00-07:00",
     "time_display": "September 20, 2025, 12:00 PM",
-    "image": "event_fliers/20250920_Tacoma_Honk_Schedule.jpg"
+    "image": "event_fliers/20250920_Tacoma_Honk_Schedule.jpg",
+    "thumb": "thumbs/event_fliers/20250920_Tacoma_Honk_Schedule.webp"
   },
   {
     "title": "Georgetown Halloween Parade",
@@ -249,7 +276,8 @@
     "map": "https://maps.app.goo.gl/kXgjxeTM7upHVTM28",
     "start": "2025-10-31T20:00:00-07:00",
     "time_display": "October 31, 2025, 8:00 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Capitol Hill Busking",
@@ -258,7 +286,8 @@
     "map": "https://maps.app.goo.gl/FXNuVP96twHfhBW48",
     "start": "2025-11-07T21:00:00-08:00",
     "time_display": "November 7, 2025, 9:00 PM",
-    "image": null
+    "image": null,
+    "thumb": null
   },
   {
     "title": "Seacompression",
@@ -267,7 +296,8 @@
     "map": "https://maps.app.goo.gl/EhqEN3viVmZmPpZW8",
     "start": "2025-11-08T21:00:00-08:00",
     "time_display": "November 8, 2025, 9:00 PM",
-    "image": "event_fliers/20251108_Seacompression.jpg"
+    "image": "event_fliers/20251108_Seacompression.jpg",
+    "thumb": "thumbs/event_fliers/20251108_Seacompression.webp"
   },
   {
     "title": "Black Friday Local Market at Tim's Tavern (Noon-6 Market with Live Music, and Live Music Afterwards Inside)",
@@ -276,7 +306,8 @@
     "map": "https://maps.app.goo.gl/TbSk3riGtV2FcdNo8",
     "start": "2025-11-28T20:00:00-08:00",
     "time_display": "November 28, 2025, 8:00 PM",
-    "image": "event_fliers/20251128_BlackFridayLocalMarket-TimsTavern.jpg"
+    "image": "event_fliers/20251128_BlackFridayLocalMarket-TimsTavern.jpg",
+    "thumb": "thumbs/event_fliers/20251128_BlackFridayLocalMarket-TimsTavern.webp"
   },
   {
     "title": "Equinox Very Open House (Buy Your Xmas Presents Here & Now!)",
@@ -285,7 +316,8 @@
     "map": "https://maps.app.goo.gl/d3jrnMuv8WcicJQz7",
     "start": "2025-12-13T15:00:00-08:00",
     "time_display": "December 13, 2025, 3:00 PM",
-    "image": "event_fliers/20251213_EquinoxOpenHouse.jpg"
+    "image": "event_fliers/20251213_EquinoxOpenHouse.jpg",
+    "thumb": "thumbs/event_fliers/20251213_EquinoxOpenHouse.webp"
   },
   {
     "title": "Big Brass Extravaganza feat: Filthy Femcorps, Chaotic Noise Marching Corps, This Much Brass, VamoLá, 8-Bit Brass Band",
@@ -294,7 +326,8 @@
     "map": "https://maps.app.goo.gl/jY9h5vfo7GJZ25xQ7",
     "start": "2026-01-29T19:00:00-08:00",
     "time_display": "January 29, 2026, 7:00 PM",
-    "image": "event_fliers/20260129_Nectar_Big_Brass_Extravaganza.jpg"
+    "image": "event_fliers/20260129_Nectar_Big_Brass_Extravaganza.jpg",
+    "thumb": "thumbs/event_fliers/20260129_Nectar_Big_Brass_Extravaganza.webp"
   },
   {
     "title": "Mardi Gras in New Orleans",
@@ -303,7 +336,8 @@
     "map": "http://maps.google.com/?q=New%20Orleans",
     "start": "2026-02-13T12:00:00-08:00",
     "time_display": "February 13, 2026, 12:00 PM",
-    "image": "event_fliers/20250213_mardi_gras.jpg"
+    "image": "event_fliers/20250213_mardi_gras.jpg",
+    "thumb": "thumbs/event_fliers/20250213_mardi_gras.webp"
   },
   {
     "title": "Mardi Gras: No Dice - Marigny with PABB, MM, CNMC, FYO",
@@ -312,7 +346,8 @@
     "map": "https://maps.app.goo.gl/iCW86aoRkSExcQcS8",
     "start": "2026-02-15T00:00:00-08:00",
     "time_display": "February 15, 2026, 12:00 AM",
-    "image": "event_fliers/20250213_mardi_gras.jpg"
+    "image": "event_fliers/20250213_mardi_gras.jpg",
+    "thumb": "thumbs/event_fliers/20250213_mardi_gras.webp"
   },
   {
     "title": "Mardi Gras: Bacchus, Starting at Second Line Brewing",
@@ -321,7 +356,8 @@
     "map": "https://maps.app.goo.gl/L4tkizJd2WDGxBsq5",
     "start": "2026-02-15T16:00:00-08:00",
     "time_display": "February 15, 2026, 4:00 PM",
-    "image": "event_fliers/20250213_mardi_gras.jpg"
+    "image": "event_fliers/20250213_mardi_gras.jpg",
+    "thumb": "thumbs/event_fliers/20250213_mardi_gras.webp"
   },
   {
     "title": "Lundi Gras: Busking - Marigny at St Claude & St Roche with MM, FYO, CNMC",
@@ -330,7 +366,8 @@
     "map": "https://maps.app.goo.gl/Je87To9Hkrj7Z1U47",
     "start": "2026-02-16T12:00:00-08:00",
     "time_display": "February 16, 2026, 12:00 PM",
-    "image": "event_fliers/20250213_mardi_gras.jpg"
+    "image": "event_fliers/20250213_mardi_gras.jpg",
+    "thumb": "thumbs/event_fliers/20250213_mardi_gras.webp"
   },
   {
     "title": "University District Street Fair",
@@ -339,7 +376,8 @@
     "map": "https://maps.app.goo.gl/CiAjuxYY3HesDKeX8",
     "start": "2026-05-17T14:00:00-07:00",
     "time_display": "May 17, 2026, 2:00 PM",
-    "image": "event_fliers/20260516_UDistrictStreetFair.jpg"
+    "image": "event_fliers/20260516_UDistrictStreetFair.jpg",
+    "thumb": "thumbs/event_fliers/20260516_UDistrictStreetFair.webp"
   },
   {
     "title": "HonkFest West",
@@ -348,7 +386,8 @@
     "map": "https://maps.app.goo.gl/9JVUeLCf4DFrHvvA7",
     "start": "2026-05-29T21:00:00-07:00",
     "time_display": "May 29, 2026, 9:00 PM",
-    "image": "event_fliers/20260529_HonkFestWest.webp"
+    "image": "event_fliers/20260529_HonkFestWest.webp",
+    "thumb": "thumbs/event_fliers/20260529_HonkFestWest.webp"
   },
   {
     "title": "HonkFest West",
@@ -357,7 +396,8 @@
     "map": "https://maps.app.goo.gl/iHifgyB4grEVT79J8",
     "start": "2026-05-30T15:00:00-07:00",
     "time_display": "May 30, 2026, 3:00 PM",
-    "image": "event_fliers/20260529_HonkFestWest.webp"
+    "image": "event_fliers/20260529_HonkFestWest.webp",
+    "thumb": "thumbs/event_fliers/20260529_HonkFestWest.webp"
   },
   {
     "title": "HonkFest West",
@@ -366,7 +406,8 @@
     "map": "https://maps.app.goo.gl/iHifgyB4grEVT79J8",
     "start": "2026-05-30T17:30:00-07:00",
     "time_display": "May 30, 2026, 5:30 PM",
-    "image": "event_fliers/20260529_HonkFestWest.webp"
+    "image": "event_fliers/20260529_HonkFestWest.webp",
+    "thumb": "thumbs/event_fliers/20260529_HonkFestWest.webp"
   },
   {
     "title": "HonkFest West - Natty Dagger Memorial",
@@ -375,7 +416,8 @@
     "map": "https://maps.app.goo.gl/iHifgyB4grEVT79J8",
     "start": "2026-05-30T19:00:00-07:00",
     "time_display": "May 30, 2026, 7:00 PM",
-    "image": "event_fliers/20260529_HonkFestWest.webp"
+    "image": "event_fliers/20260529_HonkFestWest.webp",
+    "thumb": "thumbs/event_fliers/20260529_HonkFestWest.webp"
   },
   {
     "title": "HonkFest West",
@@ -384,7 +426,8 @@
     "map": "https://maps.app.goo.gl/d8Y9mhRDBTYC28jv6",
     "start": "2026-05-31T13:00:00-07:00",
     "time_display": "May 31, 2026, 1:00 PM",
-    "image": "event_fliers/20260529_HonkFestWest.webp"
+    "image": "event_fliers/20260529_HonkFestWest.webp",
+    "thumb": "thumbs/event_fliers/20260529_HonkFestWest.webp"
   },
   {
     "title": "Georgetown Carnival",
@@ -393,7 +436,8 @@
     "map": "https://maps.app.goo.gl/CHz9WGvkcYV8Qf256",
     "start": "2026-06-13T13:00:00-07:00",
     "time_display": "June 13, 2026, 1:00 PM",
-    "image": "event_fliers/20260613_Georgetown_Carnival.jpg"
+    "image": "event_fliers/20260613_Georgetown_Carnival.jpg",
+    "thumb": "thumbs/event_fliers/20260613_Georgetown_Carnival.webp"
   },
   {
     "title": "Busking: Pride & Egypt vs Iran",
@@ -402,7 +446,8 @@
     "map": "https://maps.app.goo.gl/4XgxLgiHVRLyPQkf8",
     "start": "2026-06-26T17:30:00-07:00",
     "time_display": "June 26, 2026, 5:30 PM",
-    "image": "event_fliers/20260626_Pride&Iran_vs_Egypt.jpg"
+    "image": "event_fliers/20260626_Pride&Iran_vs_Egypt.jpg",
+    "thumb": "thumbs/event_fliers/20260626_Pride&Iran_vs_Egypt.webp"
   },
   {
     "title": "Fremont Fridays",
@@ -411,7 +456,8 @@
     "map": "https://maps.app.goo.gl/tkX1MAXeFT2tJfAeA",
     "start": "2026-07-03T20:00:00-07:00",
     "time_display": "July 3, 2026, 8:00 PM",
-    "image": "event_fliers/20260703_Fremont_Fridays.jpg"
+    "image": "event_fliers/20260703_Fremont_Fridays.jpg",
+    "thumb": "thumbs/event_fliers/20260703_Fremont_Fridays.webp"
   },
   {
     "title": "Waterland Festival and Parade (Part of Seafair)",
@@ -420,7 +466,8 @@
     "map": "https://maps.app.goo.gl/L2YrYvBPGKhDCCkU7",
     "start": "2026-07-18T18:00:00-07:00",
     "time_display": "July 18, 2026, 6:00 PM",
-    "image": "event_fliers/20260718_Waterland_Festival_and_Parade.jpg"
+    "image": "event_fliers/20260718_Waterland_Festival_and_Parade.jpg",
+    "thumb": "thumbs/event_fliers/20260718_Waterland_Festival_and_Parade.webp"
   },
   {
     "title": "Honk PDX, July 25 & 26",
@@ -429,7 +476,8 @@
     "map": "https://maps.app.goo.gl/ijSDZ67PFKQThF6x8",
     "start": "2026-07-25T12:00:00-07:00",
     "time_display": "July 25, 2026, 12:00 PM",
-    "image": "event_fliers/HonkPDX.png"
+    "image": "event_fliers/HonkPDX.png",
+    "thumb": "thumbs/event_fliers/HonkPDX.webp"
   },
   {
     "title": "Big Brass Extravaganza #14 Feat: This Much Brass, Chaotic Noise Marching Corps, AGAB, 8-Bit Brass Band",
@@ -438,7 +486,8 @@
     "map": "https://maps.app.goo.gl/eoHiotEfkTCACq3F7",
     "start": "2026-07-30T19:00:00-07:00",
     "time_display": "July 30, 2026, 7:00 PM",
-    "image": "event_fliers/20260730_Nectar_Big_Brass_Extravaganza.jpg"
+    "image": "event_fliers/20260730_Nectar_Big_Brass_Extravaganza.jpg",
+    "thumb": "thumbs/event_fliers/20260730_Nectar_Big_Brass_Extravaganza.webp"
   },
   {
     "title": "UHeights Park Pop Up",
@@ -447,7 +496,8 @@
     "map": "https://maps.app.goo.gl/mp9pDepn5F2sp7vs8",
     "start": "2026-09-12T12:00:00-07:00",
     "time_display": "September 12, 2026, 12:00 PM",
-    "image": "event_fliers/20260912_UHeights_Plaza.webp"
+    "image": "event_fliers/20260912_UHeights_Plaza.webp",
+    "thumb": "thumbs/event_fliers/20260912_UHeights_Plaza.webp"
   },
   {
     "title": "Burien Arts-A-Glow - Illuminated Art Festival",
@@ -456,7 +506,8 @@
     "map": "https://maps.app.goo.gl/Uv3XT2S9jH95BB8r8",
     "start": "2026-09-12T20:00:00-07:00",
     "time_display": "September 12, 2026, 8:00 PM",
-    "image": "event_fliers/20260912-Burien-Arts-A-Glow.png"
+    "image": "event_fliers/20260912-Burien-Arts-A-Glow.png",
+    "thumb": "thumbs/event_fliers/20260912-Burien-Arts-A-Glow.webp"
   },
   {
     "title": "Tacoma Honk!",
@@ -465,6 +516,7 @@
     "map": "https://maps.app.goo.gl/uLPHCWerZYSPvMjC9",
     "start": "2026-10-03T12:00:00-07:00",
     "time_display": "October 3, 2026, 12:00 PM",
-    "image": "event_fliers/20261003_tacoma-honk.webp"
+    "image": "event_fliers/20261003_tacoma-honk.webp",
+    "thumb": "thumbs/event_fliers/20261003_tacoma-honk.webp"
   }
 ]

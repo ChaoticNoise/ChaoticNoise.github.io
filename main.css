@@ -2,7 +2,8 @@
 body {
     margin: 0;
     color: #e6f7ff;
-    background-color: #000;}
+    background-color: #000;
+    overflow-x: hidden;}
 
 
 
@@ -28,82 +29,6 @@ body {
 
 
 
-/* Caret */
-.caret {
-  display: inline-block;
-  transition: transform 0.2s ease;
-}
-
-.caret.expanded {
-  transform: rotate(90deg);
-}
-
-
-
-#toggle-past-events:hover {
-  color: #296bd6; /* Blue hover color */
-}
-
-#toggle-past-events:hover .caret {
-  color: #296bd6; /* Match caret color on hover */
-}
-
-.booking-page .content {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 0;
-  text-align: left;
-}
-
-.booking-page iframe {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto 20px auto;
-  display: block;
-}
-
-.booking-page section {
-  background-image: none !important;
-}
-
-.booking-page {
-  background-color: #fff;
-  color: #000;
-}
-
-.booking-page a {
-  color: #0055cc;
-}
-
-.booking-page a:hover {
-  color: #000;
-  text-decoration: underline;
-}
-
-/* Optional: override headings if you want to keep contrast bold */
-.booking-page h1,
-.booking-page h2,
-.booking-page h3 {
-  color: #111;
-}
-
-/* Optional: remove shadows or weird styles that look odd on white */
-.booking-page img,
-.booking-page iframe {
-  box-shadow: none;
-}
-
-.booking-page .logo-image.booking-logo {
-  display: block;
-  margin: 40px auto 20px auto;
-  max-width: 200px;
-}
-
-
-
-
-
 /* Section Styles */
 .section {
     position: relative;
@@ -125,43 +50,10 @@ body {
 .section .content {
   position: relative;
   z-index: 2;
-  width: 80%;         /* ← Add this line */
+  width: 80%;
   max-width: 1200px;
   margin: 0 auto;
 }
-
-
-.media-grid > * {
-  margin-bottom: 20px;
-}
-
-.booking-page #promo-media .media-grid > * {
-  display: block;
-  margin-bottom: 20px;
-}
-
-
-
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.photo-grid img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-
-
-
-
 
 
 
@@ -170,11 +62,8 @@ body {
     padding-top: 0;}
 
 #chaoticnoise .content {
-    width: 80%;					/* Set content width to 80% */
-    max-width: 1200px;			/* Set a max width for larger screens */
-    margin: 0 auto;				/* Center the content */
-    padding-top: 80px;			/* Padding for better readability */
-    text-align: center;			/* Center-align text within the container */}
+    padding-top: 80px;			/* Clear the fixed navbar */
+    text-align: center;}
 
 #events {background-image: url('images/bg_events_IMG_8397.jpg');}
 #live {background-image: url('images/bg_live_IMG_1654.jpg');}
@@ -185,53 +74,33 @@ body {
 
 
 
-
-
-/* Header css for promo image */
-
-.promo-quote {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.promo-quote img {
-  max-width: 90%;
-  height: auto;
-  border: none;
-}
-
-
-
 /* Event Section Styles */
-#events .content, 
-#contact .content {
-    width: 80%;					/* Set content width to 80% of the full page */
-    max-width: 1200px;			/* Optionally set a max width for larger screens */
-    margin: 0 auto;				/* Center the content */
-    padding: 20px;				/* Optional padding for spacing */
-    text-align: center; 		/* Center-align text within the container */}
+#events .content {
+    padding: 20px;
+    text-align: center;}
 
-.event img {
-  width: 100px;
-  height: auto;
-  margin-right: 10px;
-  vertical-align: middle;
+#upcoming-events > h1,
+#past-events > h1 {
+  margin-bottom: 1em;
 }
 
-.event-image {
-    cursor: zoom-in;
+#toggle-past-events:hover,
+#toggle-past-events:hover .caret {
+  color: #296bd6;
 }
 
-.event-image:hover {
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
-    transition: box-shadow 0.2s ease;
+/* Past Events caret */
+.caret {
+  display: inline-block;
+  transition: transform 0.2s ease;
 }
 
-.event-text {
-    text-align: left;
+.caret.expanded {
+  transform: rotate(90deg);
 }
 
-
+.event {
+    margin-bottom: 30px;}
 
 .event-content {
     display: flex;
@@ -241,11 +110,17 @@ body {
 }
 
 .event-image {
-    width: 33%;
-    max-width: 200px;
+    width: 100px;
     height: auto;
+    margin-right: 10px;
     object-fit: cover;
     border-radius: 4px;
+    cursor: zoom-in;
+}
+
+.event-image:hover {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    transition: box-shadow 0.2s ease;
 }
 
 .event-text {
@@ -253,24 +128,20 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.eventName, .location, .time {
-    margin-bottom: 5px;
     text-align: left;
 }
 
-
-
-
-
 /* Event typography hierarchy (title = blue) */
+.eventName { margin-bottom: 6px; }
+.location { margin-bottom: 4px; }
+.time { margin-bottom: 5px; }
+
 .eventName a {
   font-size: 1.4rem;
   font-weight: 800;
   line-height: 1.15;
   text-decoration: none;
-  color: #296bd6; /* your site blue */
+  color: #296bd6;
   display: inline-block;
 }
 
@@ -282,7 +153,7 @@ body {
 .location a {
   font-size: 1.05rem;
   font-weight: 600;
-  color: #e6f7ff; /* keep location white */
+  color: #e6f7ff;
   text-decoration: none;
 }
 
@@ -295,23 +166,13 @@ body {
   opacity: 0.85;
 }
 
-.eventName { margin-bottom: 6px; }
-.location { margin-bottom: 4px; }
-
 @media (max-width: 600px) {
   .eventName a { font-size: 1.2rem; }
   .location a { font-size: 1rem; }
   .time { font-size: 0.9rem; }
 }
 
-
-
-
-
-.event {
-    margin-bottom: 30px; 		/* Adjust spacing as needed */}
-
-/* Lightbox styles */
+/* Lightbox (click a flier or photo to see it full size) */
 #lightbox-overlay {
   position: fixed;
   top: 0;
@@ -333,13 +194,23 @@ body {
 }
 
 
-.past-event {
-/*    color: #999; /* Light grey text color */
-/*    opacity: 0.6; /* Make it slightly transparent */}
+
+/* Live Section */
+.credit-container {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.credit-container img {
+  width: 100%;
+  display: block;
+}
 
 
 
-/* Music Section Styles */
+/* Music Section */
 .bandcamp-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -355,57 +226,9 @@ body {
   display: block;
 }
 
-.bandcamp-embed {
-  width: 100%;
-  max-width: 420px; /* keeps them from getting absurdly wide */
-}
-
-.bandcamp-embed iframe {
-  width: 100%;
-  border: 0;
-  display: block;
-}
-
-/* Bandcamp's "large" players have fixed heights, keep them consistent */
-.bandcamp-embed:first-child iframe {
-  height: 406px;
-}
-
-.bandcamp-embed:last-child iframe {
-  height: 439px;
-}
-    
-    
-/* Media Section Styles */
-.video-wrapper {
-    width: 100%;				/* Container width */
-    max-width: 1400px;			/* Maximum width */
-    margin: 20px auto;			/* Center video with spacing */}
-
-.video-wrapper iframe {
-    width: 100%;				/* Full width of container */
-    aspect-ratio: 16 / 9;		/* Enforce 16:9 aspect ratio */
-    height: auto;				/* Automatically adjust height */
-    border: none;}
 
 
-
-/* Shop Section Styles */
-.shop-item {
-    width: 90%;                /* Set close to full width of container */
-    max-width: 600px;          /* Limit the width for larger displays */
-    margin: 20px auto;         /* Center the music items */}
-
-.shop-item iframe {
-    width: 100%;               /* Full width of music item container */
-    height: auto;              /* Adjust height to maintain aspect ratio */
-    border: none;              /* Remove border */
-    outline: none;             /* Remove any default outline */
-    box-shadow: none;          /* Remove any shadow effect */}
-
-
-
-
+/* Shop Section */
 .shop-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -441,22 +264,7 @@ body {
 
 
 
-
-body {
-  overflow-x: hidden;
-}
-
-
-
-#upcoming-events > h1,
-#past-events > h1 {
-  margin-bottom: 1em;
-}
-
-
-
-
-
+/* Booking Section */
 .booking-email {
   word-break: break-word;
   overflow-wrap: anywhere;
@@ -465,13 +273,12 @@ body {
 
 
 
-
-
+/* Links Section (main page and links.html) */
 .links .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw; /* ← full screen width */
+  width: 100vw;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 0;
@@ -486,21 +293,9 @@ body {
   text-align: center;
 }
 
-.link-tile:hover {
-  background-color: rgb(245, 245, 245);
-  color: #296bd6;
-}
-
-.links-block {
-  background: rgba(0, 0, 0, 0.5); /* Dark translucent background */
-  padding: 40px 20px;
-  border-radius: 8px;
-  margin-top: 40px;
-}
-
 .link-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* ← same as shop-grid */
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /* same as shop-grid */
   gap: 6px;
   justify-items: center;
   width: 100%;
@@ -540,39 +335,156 @@ body {
   hyphens: auto;
 }
 
+.link-tile:hover {
+  background-color: rgb(245, 245, 245);
+  color: #296bd6;
+}
 
 
 
+/* Booking page (booking.html): a plain, light page for bookers */
+.booking-page {
+  background-color: #fff;
+  color: #111;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
 
+.booking-page .content {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0 40px;
+}
 
+.booking-page h1,
+.booking-page h2 {
+  color: #111;
+  line-height: 1.2;
+}
 
+.booking-page h2 {
+  margin-top: 2em;
+  font-size: 1.5rem;
+}
 
+.booking-page a {
+  color: #0055cc;
+}
 
-/* Contact Section Styles */
-.contact-sections {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px 0;}
+.booking-page a:hover {
+  color: #000;
+  text-decoration: underline;
+}
 
-.socials {
-    flex: 0 0 20%;				/* 30% width */
-    padding-left: 10px;
-    text-align: left;			/* Left-align links */}
+.booking-page .booking-logo {
+  display: block;
+  width: 200px;
+  max-width: 50%;
+  margin: 20px auto;
+}
 
-/* Form Styles */
-.form-control {
-    background: #444;
-    border: none;
-    color: #ebebeb;}
+.booking-page #band-header {
+  text-align: center;
+}
 
-.btn-secondary {
-    background-color: #185cc9;
-    border-color: #000;}
+.booking-page .tagline {
+  font-size: 1.15rem;
+}
 
-.btn-secondary:hover {
-    background-color: #333;
-    border-color: #333;}
+.booking-page .book-us {
+  border: 2px solid #296bd6;
+  border-radius: 8px;
+  padding: 4px 20px;
+  margin: 30px 0;
+  background: #f3f7fd;
+}
+
+.booking-page .book-us h2 {
+  margin-top: 0.6em;
+}
+
+.booking-page .video {
+  margin: 0 auto 20px;
+}
+
+.booking-page .video iframe {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+
+.booking-page iframe.bandcamp {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: 439px;
+  border: 0;
+}
+
+.booking-page .details dt {
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.booking-page .details dd {
+  margin-left: 0;
+}
+
+.booking-page .highlights {
+  columns: 2;
+  column-gap: 40px;
+}
+
+.booking-page .highlights li {
+  break-inside: avoid;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 30px auto 0;
+}
+
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+  cursor: zoom-in;
+}
+
+.print-only {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .booking-page .content { width: auto; padding: 10px 16px 30px; }
+  .booking-page .highlights { columns: 1; }
+  .photo-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Printing booking.html gives a clean one-sheet */
+@media print {
+  .booking-page { font-size: 10pt; line-height: 1.35; }
+  .booking-page p { margin: 0 0 0.5em; }
+  .booking-page .tagline { font-size: 11pt; }
+  .booking-page h1 { font-size: 20pt; margin-bottom: 4px; }
+  .booking-page .book-us { margin: 12px 0; }
+  .booking-page .details dt { margin-top: 5px; }
+  .booking-page #contact p { margin: 0; }
+  .booking-page .content { width: auto; max-width: none; padding: 0; }
+  .booking-page .booking-logo { width: 110px; margin: 0 auto 8px; }
+  .booking-page h2 { margin: 1em 0 0.4em; font-size: 13pt; }
+  .booking-page a { color: #111; text-decoration: none; }
+  .booking-page .book-us { background: none; border: 1.5pt solid #111; }
+  .booking-page section { break-inside: avoid; }
+  .no-print, #lightbox-overlay { display: none !important; }
+  .print-only { display: block; }
+  .photo-grid { gap: 6px; }
+  .photo-grid a:nth-child(n+5) { display: none; }
+}

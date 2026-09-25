@@ -20,6 +20,8 @@ from xml.sax.saxutils import escape
 import yaml
 from zoneinfo import ZoneInfo
 
+from build_thumbnails import thumb_path
+
 ROOT = Path(__file__).resolve().parent.parent
 EVENTS_YML = ROOT / "events.yml"
 EVENTS_JSON = ROOT / "events.json"
@@ -148,6 +150,10 @@ def assign_ids(events):
         seen.add(e["id"])
 
 
+def is_local(url):
+    return bool(url) and not url.startswith(("http://", "https://"))
+
+
 def absolute(url):
     return url if url.startswith(("http://", "https://")) else f"{SITE}/{url}"
 
@@ -162,6 +168,7 @@ def build_json(events):
             "start": e["start"].isoformat(),
             "time_display": display_time(e["start"]),
             "image": e["flier"],
+            "thumb": thumb_path(e["flier"]) if is_local(e["flier"]) else e["flier"],
         }
         for e in events
     ]

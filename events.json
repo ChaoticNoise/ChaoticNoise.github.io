@@ -450,12 +450,21 @@
     "image": "event_fliers/20260912_UHeights_Plaza.webp"
   },
   {
-    "title": "Burien ArtsA-Glow - Illuminated Art Festival",
+    "title": "Burien Arts-A-Glow - Illuminated Art Festival",
     "url": "https://www.burienwa.gov/news_events/featured_events/arts-a-_glow_2026",
-    "location": "Burien",
+    "location": "Burien, WA",
     "map": "https://maps.app.goo.gl/Uv3XT2S9jH95BB8r8",
     "start": "2026-09-12T20:00:00-07:00",
     "time_display": "September 12, 2026, 8:00 PM",
     "image": "event_fliers/20260912-Burien-Arts-A-Glow.png"
+  },
+  {
+    "title": "Tacoma Honk!",
+    "url": "https://tacomahonk.org",
+    "location": "Tacoma, WA",
+    "map": "https://maps.app.goo.gl/uLPHCWerZYSPvMjC9",
+    "start": "2026-10-03T12:00:00-07:00",
+    "time_display": "October 3, 2026, 12:00 PM",
+    "image": "event_fliers/20261003_tacoma-honk.webp"
   }
 ]

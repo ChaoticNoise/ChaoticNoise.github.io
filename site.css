@@ -154,7 +154,8 @@ h2::after {
 
 .nav-links a.nav-cta::after { display: none; }
 
-.nav-links a.nav-cta:hover { background: #6577ff; }
+.nav-links a.nav-cta:hover,
+.nav-links a.nav-cta:focus-visible { color: #fff; background: #3a4de0; }
 
 .nav-toggle {
   display: none;
@@ -222,7 +223,7 @@ h2::after {
   position: absolute;
   inset: -120px 0;
   z-index: -2;
-  background-image: var(--bg);
+  background-image: var(--photo);
   background-size: cover;
   background-position: center;
   transform: translate3d(0, var(--shift, 0px), 0);
@@ -245,13 +246,13 @@ h2::after {
   text-align: center;
 }
 
-.bg-about   { --bg: url("images/bg_about_IMG_6009.jpg"); }
-.bg-events  { --bg: url("images/bg_events_IMG_8397.jpg"); }
-.bg-live    { --bg: url("images/bg_live_IMG_1654.jpg"); }
-.bg-video   { --bg: url("images/bg_video_20250914_TectonicLoinsVideoShoot.jpg"); }
-.bg-music   { --bg: url("images/bg_music_SDIM7112.jpg"); }
-.bg-shop    { --bg: url("images/bg_shop_IMG_6362.jpg"); }
-.bg-booking { --bg: url("images/bg_booking_IMG_0335.jpg"); }
+.bg-about   { --photo: url("images/bg_about_IMG_6009.jpg"); }
+.bg-events  { --photo: url("images/bg_events_IMG_8397.jpg"); }
+.bg-live    { --photo: url("images/bg_live_IMG_1654.jpg"); }
+.bg-video   { --photo: url("images/bg_video_20250914_TectonicLoinsVideoShoot.jpg"); }
+.bg-music   { --photo: url("images/bg_music_SDIM7112.jpg"); }
+.bg-shop    { --photo: url("images/bg_shop_IMG_6362.jpg"); }
+.bg-booking { --photo: url("images/bg_booking_IMG_0335.jpg"); }
 
 .section-intro {
   max-width: 62ch;
@@ -294,28 +295,54 @@ h2::after {
 
 .btn:hover { transform: translateY(-2px); }
 
+.btn:active { transform: translateY(1px); }
+
+/* Keyboard focus: a clear ring that shows on any background */
+.btn:focus-visible,
+.nav-links a:focus-visible,
+.next-up:focus-visible,
+.socials a:focus-visible,
+.yt:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px var(--accent);
+}
+
 .btn-primary {
   background: var(--accent);
   color: #fff;
   box-shadow: 0 6px 20px rgba(79, 99, 255, 0.35);
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus-visible {
   color: #fff;
-  background: #6577ff;
+  background: #3a4de0;
   box-shadow: 0 10px 28px rgba(79, 99, 255, 0.5);
 }
 
+.btn-primary:active {
+  color: #fff;
+  background: #2f40c4;
+}
+
+/* Outlined button: fills white with dark text when hovered or pressed */
 .btn-ghost {
   background: rgba(7, 7, 12, 0.35);
   color: #fff;
   border-color: rgba(255, 255, 255, 0.8);
 }
 
-.btn-ghost:hover {
-  color: var(--bg);
+.btn-ghost:hover,
+.btn-ghost:focus-visible,
+.btn-ghost:active,
+.btn-ghost[aria-expanded="true"] {
+  color: #07070c;
   background: #fff;
+  border-color: #fff;
 }
+
+.btn-ghost:active { background: #d9deff; border-color: #d9deff; }
 
 .btn-small {
   font-size: 1.25rem;
@@ -627,7 +654,7 @@ h2::after {
 
 .yt:hover .play {
   transform: scale(1.1) rotate(-4deg);
-  background: #6577ff;
+  background: #3a4de0;
 }
 
 .yt-title {

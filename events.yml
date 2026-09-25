@@ -1,0 +1,419 @@
+# Chaotic Noise events — the ONE place to add or change a gig.
+#
+# The website's event list (events.json) and the RSS feed (feed.xml) are
+# generated from this file automatically by a GitHub Action whenever it
+# changes. Don't edit events.json or feed.xml by hand.
+#
+# To add a gig, copy this block to the bottom of the list and fill it in:
+#
+# - title: Name of the Event
+#   date: 2026-10-31           # YYYY-MM-DD
+#   time: 8:00 PM
+#   url: https://link-to-event-page
+#   location: Venue, Seattle, WA
+#   map: https://maps.app.goo.gl/...
+#   flier: 20261031_Event_Name.jpg   # a file in the event_fliers/ folder (optional)
+#
+# Order doesn't matter; events are sorted by date. Upcoming vs. past is
+# worked out automatically. If a title contains ": " or starts with a
+# special character, wrap it in "double quotes".
+#
+# "id" only appears on old events whose RSS id predates this file; leave it
+# off new events.
+
+- title: Wally's House of Booze
+  date: 2024-08-30
+  time: 11:00 PM
+  url: https://www.instagram.com/explore/locations/461700087651361/wallys-house-of-booze/
+  location: Wally's Tavern
+  map: https://maps.app.goo.gl/EGMf7qbZAK9Nem1r9
+
+- title: Great Pumpkin Beer Fest 2024
+  date: 2024-10-05
+  time: 7:40 PM
+  url: https://www.elysianbrewing.com/gpbf2024
+  location: Seattle Center
+  map: https://maps.google.com/?q=Seattle%20Center
+  flier: 20240612_Elysian-Pumpkin-Beer-Fest.jpg
+
+- title: The LAST EVER Hoodstock
+  date: 2024-10-12
+  time: 3:30 PM
+  url: https://www.instagram.com/hotlegsdorsey/p/DA1pi_ezsmU/
+  location: MLK, Seattle, WA
+  map: https://maps.google.com/?q=918%20Martin%20Luther%20King%20Jr%20Way
+  flier: 20241012_Hoodstock.jpg
+
+- title: Boulderfest competition
+  date: 2024-10-12
+  time: 6:00 PM
+  url: https://boulderingproject.com/seattle-boulderfest2024/
+  location: Seattle Bouldering Project
+  map: https://maps.google.com/?q=900%20Poplar%20Pl%20S%20Seattle,%20WA%2098144
+  flier: 20241012_Boulderfest.jpg
+
+- title: Georgetown Halloween Parade & Marauding
+  date: 2024-10-31
+  time: 6:30 PM
+  url: https://www.georgetowncommunitycouncil.com/post/spooky-parade-to-haunt-georgetown-on-halloween
+  location: Georgetown, Seattle, WA
+  map: https://maps.google.com/?q=6525%20Ellis%20Ave%20S
+  flier: 20241013_Georgetown_Halloween_Parade.jpg
+
+- title: The Bad Things Vaudeville Show
+  date: 2024-11-08
+  time: 8:00 PM
+  url: https://millerscarnation.com/event/the-bad-things-vaudeville-show/
+  location: Miller's Carnation
+  map: https://maps.app.goo.gl/u5J3nPrZEdc6SAga6
+  flier: 20241108_Bad_Things_Vaudeville_Show.jpg
+
+- title: Pun Slam
+  date: 2024-11-27
+  time: 7:00 PM
+  url: https://www.eventbrite.com/e/all-stars-one-wild-card-fun-intended-punslam-comedy-wordplay-show-tickets-1045396056747?aff=erelexpmlt
+  location: Capitol Hill Comedy / Bar
+  map: https://maps.app.goo.gl/69YvGQpNynpnJqnTA
+  flier: 20241127_Pun_Slam.jpg
+
+- title: Port Angeles Wintertide Festival of Lights
+  date: 2024-12-07
+  time: 4:00 PM
+  url: http://pafac.kindful.com/e/wintertide-2024
+  location: Port Angeles Fine Arts Center
+  map: https://maps.app.goo.gl/2rAiAaNYwRL7ZNhB8
+
+- title: Equinox Very Open House
+  date: 2024-12-14
+  time: 3:00 PM
+  url: https://www.facebook.com/profile.php?id=100063803760373
+  location: Equinox Studios
+  map: https://maps.app.goo.gl/ZA1E8ZcNFWpvpRc36
+  flier: 20241214_Equinox_Open_House.jpg
+
+- title: Breakfast Club
+  date: 2025-01-01
+  time: 10:00 AM
+  url: https://www.facebook.com/share/p/15KfXeY5cn/
+  location: Monkey Loft
+  map: https://maps.app.goo.gl/As4qEJ64C7HnXFiT6
+
+- title: "Big Brass Extravaganza #11 feat: This Much Brass, Chaotic Noise Marching Corps, VamoLá, AGAB, Analog Brass"
+  date: 2025-01-16
+  time: 7:00 PM
+  url: https://www.tixr.com/groups/nectarlounge/events/big-brass-extravaganza-11-feat-this-much-brass-chaotic-noise-marching-corps-vamol-agab-analog-brass-124702
+  location: Nectar Lounge
+  map: https://maps.app.goo.gl/HVsYnea9D6iVrdDz9
+  flier: 20250116_Big_Brass_Extravaganza_promo.jpg
+
+- title: Goodbye Lucille House
+  date: 2025-04-11
+  time: 6:30 PM
+  url: https://www.seattle.gov/dpd/AppDocs/GroupMeetings/DRProposal3039114AgendaID15528.pdf
+  location: Lucille House
+  map: https://maps.app.goo.gl/cJUBW4vvp5N1VHKm9
+
+- title: University District Street Fair
+  date: 2025-05-17
+  time: 1:30 PM
+  url: https://udistrictseattle.com/streetfair
+  location: University District
+  map: https://maps.app.goo.gl/ffyJQFUAttbPiRmNA
+
+- title: HONK! Showcase at Northwest Folklife Festival at Seattle Center! (4 Bands! Neon Brass Party, Filthy Femcorps, Chaotic Noise, and This Much Brass)
+  date: 2025-05-25
+  time: 1:15 PM
+  url: https://nwfolklife.org/festival/home.html
+  location: Seattle Center, Seattle, WA
+  map: https://maps.app.goo.gl/zo1pWFZREFasRGKC9
+
+- title: Honk! Fest West 6-10pm - Chaotic Noise Plays at the Underpass Stage at 8pm
+  date: 2025-05-30
+  time: 8:00 PM
+  url: https://honkfestwest.org
+  location: Georgetown in Seattle, WA
+  map: http://maps.google.com/?q=Georgetown
+
+- title: Honk! Fest West 12-8pm - Chaotic Noise Plays at the North Park Stage in Columbia City at 3pm
+  date: 2025-05-31
+  time: 3:00 PM
+  url: https://honkfestwest.org
+  location: Columbia Park in Seattle, WA
+  map: https://maps.app.goo.gl/qJRdfP68mqwphpQf6
+
+- title: Honk! Fest West 12-8pm - Chaotic Noise Plays at the South Park Stage in Columbia City at 7pm
+  date: 2025-05-31
+  time: 7:00 PM
+  url: https://honkfestwest.org
+  location: Columbia Park in Seattle, WA
+  map: https://maps.app.goo.gl/qJRdfP68mqwphpQf6
+
+- title: Honk! Fest West 12-6:30pm - Chaotic Noise Plays at the South Field Stage in Pratt Park at 4:30pm
+  date: 2025-06-01
+  time: 4:30 PM
+  url: https://honkfestwest.org
+  location: Pratt Park in Seattle, WA
+  map: https://maps.app.goo.gl/HFvStXRwm8soYQJD7
+
+- title: Georgetown Carnival
+  date: 2025-06-14
+  time: 12:00 PM
+  url: https://georgetownseattle.org/georgetown-carnival-2025/
+  location: Georgetown, Seattle, WA
+  map: https://maps.app.goo.gl/RVrS9C7Aeb4AtgxY9
+  flier: 20250614_Georgetown-Carnival.jpg
+
+- title: "The Bad Things Vaudeville Show, Feat: The Bad Things, Chaotic Noise Marching Corps, Blackhearts Society, Leslie Rosen, J9 Fierce"
+  date: 2025-06-14
+  time: 8:00 PM
+  url: https://clockoutlounge.com
+  location: Clock-Out Lounge
+  map: https://maps.app.goo.gl/5bgBVNwpA4sqRcrx8
+  flier: 20250614_The_Bad_Things_Vaudeville_Show.jpg
+
+- title: Death by Brass at The High Water Mark with Brassless Chaps, Couch Brass, and Chaotic Noise Marching Corps
+  date: 2025-06-19
+  time: 8:30 PM
+  url: https://maps.app.goo.gl/AP9kQP8VkCbQmKfE9
+  location: The High Water Mark
+  map: https://maps.app.goo.gl/AP9kQP8VkCbQmKfE9
+  flier: 20250619_Death_by_Brass_with_Brassless_Chaps,_Couch_Brass,_and_Chaotic_Noise_at_The_High_Water_Mark_in_Portland.jpg
+
+- title: All-City Band Jam
+  date: 2025-07-25
+  time: 6:00 PM
+  url: https://www.allcityband.org/bandjam
+  location: Nino Cantu Southwest Athletic Complex
+  map: https://maps.app.goo.gl/S5gaMThRVdWqrbTQA
+  flier: all-city_band.png
+
+- title: Dead Baby Downhill
+  date: 2025-08-02
+  time: 6:00 PM
+  url: https://www.facebook.com/events/3446831982123572
+  location: Flight Path
+  map: https://www.facebook.com/events/3446831982123572
+  flier: 20250802_Dead_Baby_Downhill.jpg
+
+- title: Equinox Very Open House
+  date: 2025-08-09
+  time: 6:00 PM
+  url: https://www.instagram.com/p/DLiiOgJB5-E
+  location: Equinox Studios, Georgetown, Seattle, WA
+  map: https://maps.app.goo.gl/WduHy3G4Sszd141g7
+  flier: 20250809_Equinox_Open_House.jpg
+
+- title: Nectar Big Brass Extravaganza with @vamolaseattle @thismuchbrass @filthyfemcorps and @8bitbrassband!
+  date: 2025-08-14
+  time: 7:00 PM
+  url: https://www.tixr.com/e/150210
+  location: Nectar Lounge, Fremont, Seattle, WA
+  map: https://maps.app.goo.gl/oQAM7oJXoYzM3ZhRA
+  flier: 20250814_Nectar_Big_Brass_Extravaganza.jpg
+
+- title: Miller's Carnation with the Bad Things, Eva Jinx, Rue Thaday, Jenny Penny, and MC J9 Fierce
+  date: 2025-09-06
+  time: 7:30 PM
+  url: https://millerscarnation.com/event/the-bad-things-vaudeville-show-with-chaotic-noise-marching-corps-eva-jinx-rue-thaday-jenny-penny-mc-j9-fierce-outdoor-stage/
+  location: Miller's Carnation
+  map: https://maps.app.goo.gl/anFTVTWjN1QLY6Lg7
+  flier: 20250906_bad-things-millers-vaudville-poster-090625.jpg
+
+- title: Tacoma Honk Fest
+  date: 2025-09-20
+  time: 12:00 PM
+  url: https://tacomahonk.org
+  location: Tacoma, WA
+  map: https://maps.app.goo.gl/1ApWVrbNCeXHfRVP9
+  flier: 20250920_Tacoma_Honk_Schedule.jpg
+
+- title: Georgetown Halloween Parade
+  date: 2025-10-31
+  time: 8:00 PM
+  url: https://www.georgetown-arts-culture.org/halloween-parade-2025/
+  location: Mini Mart City Park, Georgetown, Seattle, WA
+  map: https://maps.app.goo.gl/kXgjxeTM7upHVTM28
+
+- title: Capitol Hill Busking
+  date: 2025-11-07
+  time: 9:00 PM
+  url: https://chaoticnoise.com
+  location: Seattle, WA
+  map: https://maps.app.goo.gl/FXNuVP96twHfhBW48
+
+- title: Seacompression
+  date: 2025-11-08
+  time: 9:00 PM
+  url: https://www.seacompression.org
+  location: Seattle Design Center
+  map: https://maps.app.goo.gl/EhqEN3viVmZmPpZW8
+  flier: 20251108_Seacompression.jpg
+
+- title: Black Friday Local Market at Tim's Tavern (Noon-6 Market with Live Music, and Live Music Afterwards Inside)
+  date: 2025-11-28
+  time: 8:00 PM
+  url: https://dice.fm/event/92xx5o-black-friday-local-market-28th-nov-tims-tavern-seattle-tickets
+  location: Tim's Tavern, White Center, Seattle, WA
+  map: https://maps.app.goo.gl/TbSk3riGtV2FcdNo8
+  flier: 20251128_BlackFridayLocalMarket-TimsTavern.jpg
+
+- title: Equinox Very Open House (Buy Your Xmas Presents Here & Now!)
+  date: 2025-12-13
+  time: 3:00 PM
+  url: https://equinoxstudios.org/event/very-open-house-2025/
+  location: Equinox Studios, Georgetown, Seattle, WA
+  map: https://maps.app.goo.gl/d3jrnMuv8WcicJQz7
+  flier: 20251213_EquinoxOpenHouse.jpg
+
+- title: "Big Brass Extravaganza feat: Filthy Femcorps, Chaotic Noise Marching Corps, This Much Brass, VamoLá, 8-Bit Brass Band"
+  date: 2026-01-29
+  time: 7:00 PM
+  url: https://facebook.com/events/s/big-brass-extravaganza-ft-filt/1913034029598386/
+  location: Nectar Lounge
+  map: https://maps.app.goo.gl/jY9h5vfo7GJZ25xQ7
+  flier: 20260129_Nectar_Big_Brass_Extravaganza.jpg
+
+- title: Mardi Gras in New Orleans
+  date: 2026-02-13
+  time: 12:00 PM
+  url: https://www.mardigrasneworleans.com
+  location: New Orleans
+  map: http://maps.google.com/?q=New%20Orleans
+  flier: 20250213_mardi_gras.jpg
+
+- title: "Mardi Gras: No Dice - Marigny with PABB, MM, CNMC, FYO"
+  date: 2026-02-15
+  time: 12:00 AM
+  url: https://www.mardigrasneworleans.com
+  location: No Dice, New Orleans
+  map: https://maps.app.goo.gl/iCW86aoRkSExcQcS8
+  flier: 20250213_mardi_gras.jpg
+
+- title: "Mardi Gras: Bacchus, Starting at Second Line Brewing"
+  date: 2026-02-15
+  time: 4:00 PM
+  url: https://www.mardigrasneworleans.com
+  location: Second Line Brewing, New Orleans
+  map: https://maps.app.goo.gl/L4tkizJd2WDGxBsq5
+  flier: 20250213_mardi_gras.jpg
+
+- title: "Lundi Gras: Busking - Marigny at St Claude & St Roche with MM, FYO, CNMC"
+  date: 2026-02-16
+  time: 12:00 PM
+  url: https://www.mardigrasneworleans.com
+  location: Marigny, New Orleans
+  map: https://maps.app.goo.gl/Je87To9Hkrj7Z1U47
+  flier: 20250213_mardi_gras.jpg
+
+- title: University District Street Fair
+  date: 2026-05-17
+  time: 2:00 PM
+  url: https://udistrictseattle.com/streetfair
+  location: University District, Seattle, WA
+  map: https://maps.app.goo.gl/CiAjuxYY3HesDKeX8
+  flier: 20260516_UDistrictStreetFair.jpg
+
+- title: HonkFest West
+  date: 2026-05-29
+  time: 9:00 PM
+  url: https://honkfestwest.org
+  location: Underpass Stage - Georgetown, Seattle, WA
+  map: https://maps.app.goo.gl/9JVUeLCf4DFrHvvA7
+  flier: 20260529_HonkFestWest.webp
+
+- title: HonkFest West
+  date: 2026-05-30
+  time: 3:00 PM
+  url: https://honkfestwest.org
+  location: 37th Ave Stage - Columbia City, Seattle, WA
+  map: https://maps.app.goo.gl/iHifgyB4grEVT79J8
+  flier: 20260529_HonkFestWest.webp
+
+- title: HonkFest West
+  date: 2026-05-30
+  time: 5:30 PM
+  url: https://honkfestwest.org
+  location: North Park Stage - Columbia City, Seattle, WA
+  map: https://maps.app.goo.gl/iHifgyB4grEVT79J8
+  flier: 20260529_HonkFestWest.webp
+
+- title: HonkFest West - Natty Dagger Memorial
+  date: 2026-05-30
+  time: 7:00 PM
+  url: https://honkfestwest.org
+  location: Columbia City, Seattle, WA
+  map: https://maps.app.goo.gl/iHifgyB4grEVT79J8
+  flier: 20260529_HonkFestWest.webp
+
+- title: HonkFest West
+  date: 2026-05-31
+  time: 1:00 PM
+  url: https://honkfestwest.org
+  location: Pratt Park, Seattle, WA
+  map: https://maps.app.goo.gl/d8Y9mhRDBTYC28jv6
+  flier: 20260529_HonkFestWest.webp
+
+- title: Georgetown Carnival
+  date: 2026-06-13
+  time: 1:00 PM
+  url: https://www.instagram.com/georgetowncarnival/
+  location: Georgetown, Seattle, WA
+  map: https://maps.app.goo.gl/CHz9WGvkcYV8Qf256
+  flier: 20260613_Georgetown_Carnival.jpg
+
+- title: "Busking: Pride & Egypt vs Iran"
+  date: 2026-06-26
+  time: 5:30 PM
+  url: https://seattlepride.org
+  location: Meeting Near Baba Yaga, Seattle, WA
+  map: https://maps.app.goo.gl/4XgxLgiHVRLyPQkf8
+  flier: 20260626_Pride&Iran_vs_Egypt.jpg
+
+- title: Fremont Fridays
+  date: 2026-07-03
+  time: 8:00 PM
+  url: https://www.fremontfridaysseattle.com/
+  location: Fremont, Seattle, WA
+  map: https://maps.app.goo.gl/tkX1MAXeFT2tJfAeA
+  flier: 20260703_Fremont_Fridays.jpg
+
+- title: Waterland Festival and Parade (Part of Seafair)
+  date: 2026-07-18
+  time: 6:00 PM
+  url: https://www.waterlandfestival.org
+  location: Des Moines, WA
+  map: https://maps.app.goo.gl/L2YrYvBPGKhDCCkU7
+  flier: 20260718_Waterland_Festival_and_Parade.jpg
+
+- title: Honk PDX, July 25 & 26
+  date: 2026-07-25
+  time: 12:00 PM
+  url: https://honkpdx.org
+  location: Alberta and Montavilla Neighborhoods, Portland, OR
+  map: https://maps.app.goo.gl/ijSDZ67PFKQThF6x8
+  flier: HonkPDX.png
+
+- title: "Big Brass Extravaganza #14 Feat: This Much Brass, Chaotic Noise Marching Corps, AGAB, 8-Bit Brass Band"
+  date: 2026-07-30
+  time: 7:00 PM
+  url: https://do206.com/events/2026/7/30/big-brass-extravaganza-14-feat-this-much-brass-chaotic-noise-marching-corps-agab-8-bit-brass-band-tickets
+  location: Nectar Lounge, Seattle, WA
+  map: https://maps.app.goo.gl/eoHiotEfkTCACq3F7
+  flier: 20260730_Nectar_Big_Brass_Extravaganza.jpg
+
+- title: UHeights Park Pop Up
+  date: 2026-09-12
+  time: 12:00 PM
+  url: https://www.uheightscenter.org/sppu
+  location: UHeights Plaza
+  map: https://maps.app.goo.gl/mp9pDepn5F2sp7vs8
+  flier: 20260912_UHeights_Plaza.webp
+  id: "20260912"
+
+- title: Burien ArtsA-Glow - Illuminated Art Festival
+  date: 2026-09-12
+  time: 8:00 PM
+  url: https://www.burienwa.gov/news_events/featured_events/arts-a-_glow_2026
+  location: Burien
+  map: https://maps.app.goo.gl/Uv3XT2S9jH95BB8r8
+  flier: 20260912-Burien-Arts-A-Glow.png

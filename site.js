@@ -139,8 +139,24 @@ function setUpLightbox() {
   });
 }
 
+// Videos show a thumbnail; the YouTube player only loads (and starts) when tapped
+function setUpVideos() {
+  document.querySelectorAll(".yt").forEach(thumb => {
+    thumb.addEventListener("click", e => {
+      e.preventDefault();
+      const player = document.createElement("iframe");
+      player.src = `https://www.youtube.com/embed/${thumb.dataset.id}?autoplay=1&rel=0`;
+      player.title = thumb.querySelector(".yt-title").textContent;
+      player.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+      player.allowFullscreen = true;
+      thumb.replaceWith(player);
+    });
+  });
+}
+
 document.getElementById("current-year").textContent = new Date().getFullYear();
 setUpNav();
+setUpVideos();
 setUpLightbox();
 fetch("events.json")
   .then(response => response.json())

@@ -40,6 +40,9 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* Anything marked hidden stays hidden, even if a rule below gives it a display */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; }
 
 body {
@@ -100,9 +103,6 @@ h2::after {
 }
 
 .nav-brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
   color: var(--text);
   text-decoration: none;
   font-family: var(--display);
@@ -553,10 +553,9 @@ h2::after {
 
 .video.featured { grid-column: 1 / -1; }
 
+/* No rounded clipping around live players: some browsers draw them blank */
 .video {
   aspect-ratio: 16 / 9;
-  border-radius: 10px;
-  overflow: hidden;
   background: #000;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
 }
@@ -566,6 +565,70 @@ h2::after {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+/* Video thumbnail with a play button; the YouTube player loads when tapped */
+.yt {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+}
+
+.yt img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.yt:hover img { opacity: 1; }
+
+.yt .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 76px;
+  height: 54px;
+  margin: -27px 0 0 -38px;
+  border-radius: 14px;
+  background: var(--accent);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.yt .play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -8px;
+  border-style: solid;
+  border-width: 12px 0 12px 21px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.yt:hover .play {
+  transform: scale(1.1) rotate(-4deg);
+  background: #6577ff;
+}
+
+.yt-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 28px 16px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.3;
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.85));
 }
 
 @media (max-width: 700px) {
@@ -589,7 +652,6 @@ h2::after {
   max-width: 400px;
   height: 439px;
   border: 0;
-  border-radius: 10px;
 }
 
 
